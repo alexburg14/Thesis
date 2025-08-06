@@ -77,17 +77,25 @@ The corner that was exposed for 10 minutes was still intact after the acetone ba
 \end{figure}
 
 \subsection{MLA} 
-After the several attempts with the EBL, our focus shifted to the MLA. We used the same $\textit{AR-N 7520.17 new}$ photresist, spincoated it onto a silicon sample and exposed different spots with different doses, similar to the procedure with the EBL machine. We have tested doses from 800-2300 $mJ/cm^2$ to pinpoint the sweet spot between time taken and the dose needed. 
+After the several attempts with the EBL, our focus shifted to the MLA. We used the same $\textit{AR-N 7520.17 new}$ photresist, spincoated it onto a silicon sample and exposed different spots with different doses, similar to the procedure with the EBL machine. We have tested doses from 800-2300 µC/cm$^2$ to pinpoint the sweet spot between time taken and the dose needed. 
 After the exposure, the sample underwent the same stress test procedure as the samples exposed with the EBL to investigate its chemical tolerance against the steps that the actual isolation layer will need to withstand. The ultra sonic bath was omitted, however. 
 After the acetone stream, some spots were visible on some dose. The acetone bath seemed to have some effect, especially on the lower doses, but the sample was still intact for the higher doses.
 
-This method showed great durability and seemed to be able to withstand the stress test, even at a dose of 1000 $mJ/cm^2$. However, there were multiple stripes visible on the sample at all doses, which pointed to a high variance in thickness. To test this, we used an atomic force microscope (AFM) to investigate the thickness of the photoresist, which is shown in figure \ref{AFM_1}.
+This method showed great durability and seemed to be able to withstand the stress test, even at a dose of 1000 µC/cm$^2$. However, there were multiple stripes visible on the sample at all doses, which pointed to a high variance in thickness. To test this, we used an atomic force microscope (AFM) to investigate the thickness of the photoresist, which is shown in figure \ref{AFM_1}.
+
+ENTER AFM EXPLANATION 
+
+After the AFM measurement, we tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripes. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface for the CPW. (MAYBE WRITE DIFFERENTLY). Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of my work that that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way cross-linking is now done at the chair.
 \subsection{Microscope}
+We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
+
 \subsection{Overbaking}
+Finally, we investigated whether overbaking the photoresist, as in doing the pre-baking process significantly longer than recommended, would lead to a durable isolation layer.
+For this, we have spincoated samples with both the $\textit{AR-N 7520.17 new}$ and the $\textit{MA-N 1407}$ photoresist onto silicon samples at their respective recommended RPM settings which are detailed in the sections above. The samples were then put onto a hotplate at 100C$^\circ$ for 20 minutes to overbake them.
 
+Both samples then underwent stress tests which included pressurized acetone streams, submersion in their respective developer, and acetone baths. The overbaked sample with the $\textit{AR-N 7520.17 new}$ photoresist was damaged AFTER WHAT?
+The sample with the $\textit{MA-N 1407}$ photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes AT WHAT TEMP?, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
 
-
-    
 \section{Fabrication of samples}
 
     - lithography of gold-plates

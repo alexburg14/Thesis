@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1754424966 "main.bcf" "main.bbl" "main" 1754432245
+["biber main"] 1754424966 "main.bcf" "main.bbl" "main" 1754513162
   "literature.bib" 1754424929 3767 a6a36d5486a10b95547c9a9e71eae4b1 ""
-  "main.bcf" 1754432244 108795 a722aca2ffe4f315ef111c218e1c84a4 "pdflatex"
+  "main.bcf" 1754513162 108795 a722aca2ffe4f315ef111c218e1c84a4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1754432236 "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" "main.pdf" "main" 1754432245
+["pdflatex"] 1754513155 "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" "main.pdf" "main" 1754513162
   "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" 1754335568 1144 18ad6d0215587a653cb120b13814e889 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -388,7 +388,7 @@
   "chapters/04_Methods.tex" 1754335568 273 ba9a4f1776f22781ed8b670e420419a2 ""
   "chapters/05_Results.tex" 1754335568 182 2887f2bd9316a804362afd538311e839 ""
   "chapters/06_Discussion.tex" 1754335568 73 00ed0bc8e7f53426ff5ad00ee4ceebbd ""
-  "chapters/07_Microfabrication.tex" 1754432235 9864 bf23ae8930de5ee6c8986564ce6e92d5 ""
+  "chapters/07_Microfabrication.tex" 1754513146 12252 70f00c3783f6812558712fe4f702b566 ""
   "chapters/08_Conclusion.tex" 1754335568 20 62fe8ebce78c4d50a9606c96530c0c05 ""
   "chapters/99_Appendix.tex" 1754335568 749 ea6b382baaa31394c4b98a0a064bd62c ""
   "chapters/Photos/Microfabrication/10min_looking_ebeam.png" 1752246727 3484400 090cd1a6f41f4611a557cf20baf0ca62 ""
@@ -401,14 +401,14 @@
   "chapters/Photos/Theory/Landau-Lifschitz Precession.png" 1754335568 22187 67a4faa8bbf7ea68231766328c55c2e7 ""
   "chapters/Photos/Theory/spin pumping.png" 1754335568 58653 6fc6b04b085552a10828a5479be3f7b8 ""
   "chapters/Photos/Theory/vortices.png" 1754335568 34737 53728bc2bf39cc41525d2b4a4dbb0ac6 ""
-  "main.aux" 1754432244 21585 492152b6ef9a67e30718a5df6f84f3e4 "pdflatex"
+  "main.aux" 1754513162 21586 d8ece1f7f41e972628a7fdec9b2f5754 "pdflatex"
   "main.bbl" 1754424973 12593 6cd63407a33ba4c37e6fecf5cd470ae5 "biber main"
-  "main.lof" 1754432244 2491 ddaa16ad6b118149c4619fb5163ef6b2 "pdflatex"
-  "main.lot" 1754432244 225 1478e8ddddc6df5f39dd1750bd05f985 "pdflatex"
+  "main.lof" 1754513162 2491 d326dfcbfbeba556daf68423ce494796 "pdflatex"
+  "main.lot" 1754513162 225 181b7a90a26edc3b1277616722c3f67a "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.run.xml" 1754432244 2433 365cd64aea7313589594236a4a2cec3c "pdflatex"
+  "main.run.xml" 1754513162 2433 365cd64aea7313589594236a4a2cec3c "pdflatex"
   "main.tex" 1754335568 1144 18ad6d0215587a653cb120b13814e889 ""
-  "main.toc" 1754432244 2461 8697c8d0f9b90a64827db4e6bc6eb9c7 "pdflatex"
+  "main.toc" 1754513162 2461 2ce880e362bdc342b2c6fb6142226a6e "pdflatex"
   "tum-base-text.sty" 1754335568 2358 b4663ed270219c7d13a766ea619f51af ""
   "tum-base.sty" 1754335568 3472 374626e54c2bb2fc2ad718454b18cfc7 ""
   "tum-book.cls" 1754335568 8917 8a586bd58db50adab939153cf9cd2a0c ""
