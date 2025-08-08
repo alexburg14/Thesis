@@ -75,6 +75,7 @@ which is also known as the Kittel equation. If the magnetic field $H_{\text{ext}
 Additionally, the Kittel formula gives us an equation for the resonance line width $\Delta H$, as a function of the driving-frequency and the damping coefficient \cite{Mueller2023}:
 \begin{equation}
     \Delta H_{FWHM} = 2 \frac{\alpha \omega}{\mu_0 \gamma}
+    \label{linewidth equation}
 \end{equation}
 where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_{FWHM}$ the line width defined as the full-width at half-maximum.
 \begin{figure}[htbp] % [htbp] for flexible placement
@@ -106,7 +107,7 @@ where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_{FWHM}$ the line
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/spin pumping.png}
-    \caption{Example illustration of spin pumping between a ferromagnet (green) and a normal metal (red). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\boldsymbol{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively.}
+    \caption{Example illustration of spin pumping between a ferromagnet (green) and a normal metal (red). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\boldsymbol{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. Taken from \cite{obstbaum2014}.}
     \label{fig:enter-label}
 \end{figure}
 
@@ -141,6 +142,7 @@ Not all superconductors have the same properties, however. Superconductors can b
 \begin{equation}
     \kappa = \frac{\lambda_{L}}{\xi_{GL}}
 \end{equation}
+
 where $\xi_{GL}$ is the Ginzburg-Landau coherence length, which determines how quickly the cooper-pair density increases near the surface than deep in the material. When $\kappa < \frac{1}{\sqrt{2}}$, the superconductor behaves like a type-$\RNum{1}$ superconductor, and if $\kappa > \frac{1}{\sqrt{2}}$, the superconductor behaves like a type-$\RNum{2}$ superconductor. \\ \\
 Intuitively, this can be understood as a fight between two opposing effects: A superconductor wants to maximize its surface to minimize the amount of energy needed to block magnetic flux from going into the material. At the same type, surfaces reduce the condensation energy, since there are less Cooper-pairs near the surface. For type-$\RNum{2}$ superconductors, it is more favorable to create small vortices and lose the condensation energy from Cooper-pairs, but save on the expulsion energy against the magnetic field \cite{Hunklinger2018}.
 \begin{figure}

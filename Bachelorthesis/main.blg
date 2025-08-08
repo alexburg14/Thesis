@@ -1,18 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[313] biber-darwin:340> INFO - === Tue Aug  5, 2025, 22:16:12
-[423] Biber.pm:418> INFO - Reading 'main.bcf'
-[825] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
-[875] Biber.pm:4383> INFO - Processing section 0
-[967] Biber.pm:4574> INFO - Looking for bibtex file 'literature.bib' for section 0
-[1132] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1241] bibtex.pm:1518> INFO - Found BibTeX data source 'literature.bib'
-[1544] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1544] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1545] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1546] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[1592] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1604] bbl.pm:757> INFO - Output to main.bbl
-[1605] Biber.pm:130> WARN - legacy month field 'February' in entry 'Allresist_ARN7520' is not an integer - this will probably not sort properly.
-[1605] Biber.pm:130> WARN - I didn't find a database entry for 'IRGENDWAS WAS DC-BIAS macht' (section 0)
-[1605] Biber.pm:132> INFO - WARNINGS: 2
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[124] biber-darwin:340> INFO - === Fri Aug  8, 2025, 18:29:51
+[160] Biber.pm:418> INFO - Reading 'main.bcf'
+[320] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[344] Biber.pm:4383> INFO - Processing section 0
+[374] Biber.pm:4574> INFO - Looking for bibtex file 'literature.bib' for section 0
+[388] bibtex.pm:1713> INFO - LaTeX decoding ...
+[426] bibtex.pm:1518> INFO - Found BibTeX data source 'literature.bib'
+[745] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[745] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[745] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[745] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[775] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[780] bbl.pm:757> INFO - Output to main.bbl
+[781] Biber.pm:130> WARN - legacy month field 'February' in entry 'Allresist_ARN7520' is not an integer - this will probably not sort properly.
+[781] Biber.pm:130> WARN - I didn't find a database entry for 'IRGENDWAS WAS DC-BIAS macht' (section 0)
+[781] Biber.pm:132> INFO - WARNINGS: 2

@@ -9,4 +9,29 @@ picture of comparison
 
 \section{Optimizing the modulation current}
 - time constant
-- 
+-
+
+\section{Measurement procedure}
+In the following, we outline the measurement procedure from which the data presented in the results section was obtained. 
+
+As a first step, FMR measurements were performed on the sample at a constant frequency of the external RF signal and constant temperature. The external magnetic field was swept in a certain range, depending on the frequency of the RF signal. From this, a single FMR resonance curve was obtained. A sample FMR resonance curve is shown in figure \ref{Messung_FMR_Beispiel}. This procedure was then repeated for a range of 6 GHz to 20 GHz. After this was done for a single temperature, the temperature was changed and the procedure was repeated. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG}
+\caption{Example of FMR resonance curves at a frequency of 6.67 GHz for various temperatures.}
+\label{Messung_FMR_Beispiel}
+\end{figure}
+
+Each resonance curve for a specific RF signal frequency and temperature was fitted with a Lorentzian function to extract the parameters of the resonance curve. For our measurements, the resonance field $H_{res}$, the linewidth $\Delta H$ was of most interest. For a single temperature, these two parameters were then plotted against the frequency of the RF signal. This resulted in a resonance field and linewidth curve for each temperature. A example of such a curve is shown in figure \ref{Kittel_fit_Beispiel}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/Kittel_fit_6K.png}
+\caption{Example of a resonance field and linewidth curve at a temperature of 6 K. The resonance field is fitted with the Kittel formula (eq. \ref{Kittel equation}) and the linewidth is fitted with a linear function (eq. \ref{linewidth equation}).}
+\label{Kittel_fit_Beispiel}
+\end{figure}
+
+To obtain the parameters we are interested in, the resonance field and linewidth curves were fitted with the Kittel formula (eq. \ref{Kittel equation}) and a linear function (eq. \ref{linewidth equation}), respectively. The resonance field fit is used to extract $M_{\text{shift}}$, which is the shift of the resonance field from the expected value, and $M_{\text{eff}}$, the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter and the RESONANCE MAGNTEIC FIELD AT 0 FREQUENCY???
+
+Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence.
