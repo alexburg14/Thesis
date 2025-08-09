@@ -1931,12 +1931,12 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxbsy.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txbsys.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txbex-bar.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
-OUTPUT main.lof
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+OUTPUT main.lof
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
@@ -2111,6 +2111,16 @@ INPUT ./chapters/Photos/Methods/Kittel_fit_6K.png
 INPUT chapters/Photos/Methods/Kittel_fit_6K.png
 INPUT ./chapters/Photos/Methods/Kittel_fit_6K.png
 INPUT ./chapters/Photos/Methods/Kittel_fit_6K.png
+INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG
+INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG
+INPUT chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG
+INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG
+INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG
+INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
+INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
+INPUT chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
+INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
+INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
@@ -2118,6 +2128,16 @@ INPUT chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT chapters/05_Results.tex
+INPUT ./chapters/Photos/Results/45nm params.png
+INPUT ./chapters/Photos/Results/45nm params.png
+INPUT chapters/Photos/Results/45nm params.png
+INPUT ./chapters/Photos/Results/45nm params.png
+INPUT ./chapters/Photos/Results/45nm params.png
+INPUT ./chapters/Photos/Results/30nm params.png
+INPUT ./chapters/Photos/Results/30nm params.png
+INPUT chapters/Photos/Results/30nm params.png
+INPUT ./chapters/Photos/Results/30nm params.png
+INPUT ./chapters/Photos/Results/30nm params.png
 INPUT ./chapters/06_Discussion.tex
 INPUT ./chapters/06_Discussion.tex
 INPUT ./chapters/06_Discussion.tex
@@ -2173,16 +2193,16 @@ INPUT ./chapters/Photos/Microfabrication/MaN_holes.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
+INPUT ./chapters/08_Conclusion.tex
+INPUT ./chapters/08_Conclusion.tex
+INPUT ./chapters/08_Conclusion.tex
+INPUT chapters/08_Conclusion.tex
+INPUT ./chapters/08_Conclusion.tex
+INPUT ./chapters/08_Conclusion.tex
+INPUT chapters/08_Conclusion.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT chapters/08_Conclusion.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd

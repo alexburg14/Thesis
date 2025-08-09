@@ -1,20 +1,10 @@
 \chapter{Methods}
-
-\section{Optimizing the RF signal amplitude}
-
-- multiple signals were compared 
-- the one used where the signal broadening is still minimal 
-    - talk about broadening
-picture of comparison
-
-\section{Optimizing the modulation current}
-- time constant
--
+In the following, we outline the methods used to obtain the results presented in the results section as well as the optimization steps taken to ensure accurate measurements. 
 
 \section{Measurement procedure}
 In the following, we outline the measurement procedure from which the data presented in the results section was obtained. 
 
-As a first step, FMR measurements were performed on the sample at a constant frequency of the external RF signal and constant temperature. The external magnetic field was swept in a certain range, depending on the frequency of the RF signal. From this, a single FMR resonance curve was obtained. A sample FMR resonance curve is shown in figure \ref{Messung_FMR_Beispiel}. This procedure was then repeated for a range of 6 GHz to 20 GHz. After this was done for a single temperature, the temperature was changed and the procedure was repeated. 
+As a first step, FMR measurements were performed on the sample at a constant frequency of the external RF signal and constant temperature. The external magnetic field was swept in a certain range, depending on the frequency of the RF signal. From this, a single FMR resonance curve was obtained. A sample FMR resonance curve is shown in figure \ref{Messung_FMR_Beispiel}. This procedure was then repeated for a range of 6 GHz to 24 GHz. After this was done for a single temperature, the temperature was changed and the procedure was repeated. 
 
 \begin{figure}
 \centering
@@ -32,6 +22,33 @@ Each resonance curve for a specific RF signal frequency and temperature was fitt
 \label{Kittel_fit_Beispiel}
 \end{figure}
 
-To obtain the parameters we are interested in, the resonance field and linewidth curves were fitted with the Kittel formula (eq. \ref{Kittel equation}) and a linear function (eq. \ref{linewidth equation}), respectively. The resonance field fit is used to extract $M_{\text{shift}}$, which is the shift of the resonance field from the expected value, and $M_{\text{eff}}$, the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter and the RESONANCE MAGNTEIC FIELD AT 0 FREQUENCY???
+To obtain the parameters we are interested in, the resonance field and linewidth curves were fitted with the Kittel formula (eq. \ref{Kittel equation}) and a linear function (eq. \ref{linewidth equation}), respectively. The resonance field fit is used to extract $M_{\text{shift}}$, ????which is the shift of the resonance field from the expected value????, and $M_{\text{eff}}$, the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter and the RESONANCE MAGNTEIC FIELD AT 0 FREQUENCY???
 
-Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence.
+Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence. These plots are shown in the results section below.
+
+
+\section{Optimizing the RF signal amplitude}
+In order to obtain accurate measurements, the effect of the RF signal amplitude on the FMR resonance curves, especially on the linewidth and the signal to noise ratio (SNR), was investigated. The RF signal amplitude was varied, and the resonance curves were compared to find the optimal amplitude that minimizes SNR while still having almost no broadening of the resonance curve. For this purpose the RF signal amplitude was varied from 0dBm to 10dBm in steps of 5dBm for a sample with a Niobium layer thickness of 45nm at a temperature of 7K and a frequency of 10 GHz. The results are shown in figure \ref{comparison_0dBmto10dBm_7K10Ghz}. From this comparison, we concluded that WHAT DID WE CONCLUDE?
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG}
+\caption{Comparison of FMR resonance curves for a Niobium layer thickness of 45nm at a temperature of 7K and a frequency of 10GHz for different RF signal amplitudes. The amplitude is given in dBm. REPLACE FOR BETTER PICTURE!}
+\label{comparison_0dBmto10dBm_7K10Ghz}
+\end{figure}
+
+\section{Optimizing the modulation current}
+Similar to the RF signal amplitude, the effect of the modulation current on the FMR resonance curves was also investigated. The modulation current was varied from 0.01A to 0.05A in steps of 0.01A for a sample with a Niobium layer thickness of 30nm at a temperature of 5.6 K and a frequency of 8 GHz. The results are shown in figure \ref{comparison_0.01to0.05Ain30nm}. From this comparison, we concluded that an amplitude of 0.03A is optimal, as it provides a good SNR while having minimal linewidth broadening.
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG}
+\caption{Comparison of FMR resonance curves for a Niobium layer thickness of 30nm at a temperature of 5.6K and a frequency of 8GHz for different RF signal amplitudes. REPLACE FOR BETTER PICTURE!}
+\label{comparison_0.01to0.05Ain30nm}
+\end{figure}
+
+\section{Optimizing the Lock-in settings}
+
+
+- time constant
+-
+

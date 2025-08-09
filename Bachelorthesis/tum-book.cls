@@ -225,6 +225,8 @@ This paper was not previously presented to another examination board and has not
   
 \usepackage{chngcntr}
 \counterwithout{footnote}{chapter}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
 \usepackage[onehalfspacing]{setspace}
 \makeatletter
 \makeatother
