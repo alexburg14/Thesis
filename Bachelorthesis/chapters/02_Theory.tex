@@ -2,22 +2,16 @@
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 \section{Fundamentals of Magnetism}
 \subsection{Macrospin Model}
-The magnetic properties of a ferromagnet can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\boldsymbol{M}$, can then be calculated by the sum of all dipole moments $\mu$ of a sample:
+The magnetic properties of a ferromagnet without anisotropy can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\boldsymbol{M}$, can then be calculated by the sum of all dipole moments $\mu$ of a sample:
 \begin{equation} 
 \boldsymbol{M} = \frac{1}{V}\sum_{i\in V}{\boldsymbol{\mu_i}}
 \end{equation}
-In a magnetized medium, the magnetic flux density takes on the following form \cite{obstbaum2014}:
-\begin{equation} 
-\textbf{B} = \mu_0(\textbf{H+M})
-\end{equation}
-where $\textbf{H}$ is the magnetic field applied.
-
-From classical electrodynamics, we know that the magnetic dipoles are related to the angular momentum $\textbf{L}$ by the gyromagnetic ratio $\gamma$, due to the electron creating a current through its orbital path:
+From classical electrodynamics, we know that the magnetic dipoles $\mu$ are related to the angular momentum $\textbf{L}$ by the gyromagnetic ratio $\gamma$, due to the electron creating a current through its orbital path:
 \begin{equation}
    \boldsymbol{\mu} = \gamma \textbf{L} 
    \label{Drehimpulsgleichung}
 \end{equation}
-Furthermore, when an external field is applied to the medium, it causes a torque $\textbf{T}$ on the medium:
+Furthermore, when an external field is applied to a magnetic dipole moment $\mu$, it causes a torque $\textbf{T}$ on the magnetic moment:
 \begin{equation}
     \textbf{T} = \boldsymbol{\mu} \times \textbf{B}
     \label{Drehmoment von dipolmoment}
@@ -27,35 +21,38 @@ By using equations \ref{Drehimpulsgleichung} and \ref{Drehmoment von dipolmoment
     \diff{\boldsymbol{\mu}}{t} = \gamma \boldsymbol{\mu} \times \textbf{B} 
     \label{EOM fuer dipolmoment}
 \end{equation}
-To transfer this result to the dynamics of the magnetization of a medium, equation (\ref{EOM fuer dipolmoment}) has to be reformulated in such a way that that accounts for the effective field $\boldsymbol{{H_{\text{eff}}}}$ inside the medium. Doing this, we get the Landau-Lifschitz equation \cite{obstbaum2014}:
+Inside a magnetized medium, the magnetic flux density takes on the following form \cite{obstbaum2014}:
+\begin{equation} 
+\textbf{B} = \mu_0(\textbf{H+M}),
+\end{equation}
+where $\textbf{H}$ is the magnetic field applied.
+To transfer this result to the dynamics of the magnetization of a medium, equation (\ref{EOM fuer dipolmoment}) has to be reformulated in such a way that it accounts for the effective field $\boldsymbol{{H_{\text{eff}}}}$ inside the medium. Doing this, we get the Landau-Lifschitz equation \cite{obstbaum2014}:
 \begin{equation}
     \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \boldsymbol{{H_{\text{eff}}}}
     \label{Landau-Lifschitz}
 \end{equation}
-Here, $\boldsymbol{{H_{\text{eff}}}}$ combines all possible field terms inside the medium, like anisotropy, exchange interaction, and the demagnetizing field \cite{obstbaum2014}.
+Here, $\boldsymbol{{H_{\text{eff}}}}$ combines all possible field terms inside the medium, like anisotropy $\boldsymbol{H_{\text{ani}}}$, exchange interaction $\boldsymbol{H_{\text{ex}}}$, and the demagnetizing field $\boldsymbol{H_{\text{dem}}}$ \cite{obstbaum2014}.
 Solving this differential equation leads to a magnetization undergoing precession around the effective field with the frequency $ \omega = \gamma \mu_0 H_{\text{eff}}$ \cite{Mueller2019}, as shown in figure \ref{fig:precession picture}.
 
-The Landau-Lifschitz equation describes a perpetual precession around the effective magnetic field. In a real physical system, the precession amplitude declines due to various dissipation effects such as magnon-phonon relaxation or radiative damping. Gilbert therefore introduced a damping term with the coefficient $\alpha$ that is material-dependent, with which we get the Landau-Lifschitz-Gilbert (LLG) equation \cite{Liensberger2021}
+As stated above, the Landau-Lifschitz equation (\ref{Landau-Lifschitz}) describes a perpetual precession around the effective magnetic field. In a real physical system, however, the precession amplitude declines due to various dissipation effects such as magnon-phonon relaxation or radiative damping. Gilbert therefore introduced a damping term with the material-dependent coefficient $\alpha$ with which we get the Landau-Lifschitz-Gilbert (LLG) equation \cite{Liensberger2021}
 \begin{equation}
-    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \boldsymbol{{H_{\text{eff}}}} + \frac{\alpha}{M_s}\boldsymbol{M} \times\diff{\textbf{M}}{t}
+    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \boldsymbol{{H_{\text{eff}}}} + \frac{\alpha}{M_s}\boldsymbol{M} \times\diff{\textbf{M}}{t},
 \end{equation}
 where $M_s$ refers to the saturation magnetization. 
 
 \subsection{Ferromagnetic Resonance}
-In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic field $\boldsymbol{h_{rf}}$ that is perpendicular to $\boldsymbol{{H_{\text{eff}}}}$. This oscillating magnetic field can generate a torque that can compensate the damping of the precession when the frequencies match, which can be compared to a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
-
-
-The following derivation will closely follow the derivations done in \cite{Mueller2019} and \cite{Liensberger2017}. We choose our coordinate system so that $\boldsymbol{{H_{\text{eff}}}}$ lies in the z-axis and $\boldsymbol{h_{rf}}$ to be in the x-y plane. We split $\textbf{H}$ and $\textbf{M}$ into their respective time-independent and time-dependent parts,
+In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic field $\boldsymbol{h_{\text{rf}}}$ that is perpendicular to $\boldsymbol{{H_{\text{eff}}}}$. $\boldsymbol{h_{\text{rf}}}$ can generate a torque that can compensate the damping of the precession when the frequency of the precession of the magnetization and the frequency of the oscillating field match, which can be compared to a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
+The following derivation will closely follow references \cite{Mueller2019} and \cite{Liensberger2017}. We choose our coordinate system so that the external magnetic field $\boldsymbol{{H_{\text{ext}}}}$ is applied in the z-axis and $\boldsymbol{h_{\text{rf}}}$ rotates in the xy-plane. We split $\textbf{H}$ and $\textbf{M}$ into their respective time-independent and time-dependent parts
 \begin{equation}
     \begin{aligned}
-        \mathbf{H}_{\text{eff}} &= \mathbf{H}_{\text{ext}} - \mathbf{H}_{\text{de}} + \mathbf{h}_{\text{rf}}(t) \\
-        &= (H_{\text{ext}} - N_z M_0) \mathbf{\hat{e}}_z - N_x m_x(t) \mathbf{\hat{e}}_x - N_y m_y(t) \mathbf{\hat{e}}_y + \mathbf{h}_{\text{rf}}(t) \\
-        \mathbf{M} &= \mathbf{M}_0 + \mathbf{m}(t) = M_0 \mathbf{\hat{e}}_z + \mathbf{m}(t)
+        \mathbf{M} &= \mathbf{M}_0 + \mathbf{m}(t) = M_0 \mathbf{\hat{e}}_z + \mathbf{m}(t) \\
+        \mathbf{H}_{\text{eff}} &= \mathbf{H}_{\text{ext}} - \mathbf{H}_{\text{dem}} + \mathbf{h}_{\text{rf}}(t) \\
+        &= (H_{\text{ext}} - N_z M_0) \mathbf{\hat{e}}_z - N_x m_x(t) \mathbf{\hat{e}}_x - N_y m_y(t) \mathbf{\hat{e}}_y + \mathbf{h}_{\text{rf}}(t) 
     \end{aligned}
     \label{time-dependent and independent}
 \end{equation}
-where $N_{x/y/z}$ denote the terms from the demagnetization tensor. For simplicity, the anisotropy field is neglected.
-For the oscillating magnetic field $\boldsymbol{h_{rf}}$ and $\textbf{m}(t)$, we use a harmonic ansatz:
+where $N_{x/y/z}$ denote the terms from the demagnetization tensor. For simplicity, the anisotropy field is neglected. 
+WHY CAN WE IGNORE EXCHANGE INTERACTION? During the course of this thesis, only samples with Permalloy were studied, which does not have a structural anisotropy. For the oscillating magnetic field $\boldsymbol{h_{\text{rf}}}$ and $\textbf{m}(t)$, we use a harmonic ansatz:METION SMALL ANGLE APPROXIMATION?
 \begin{equation}
 \begin{aligned}
 \mathbf{h}_{\text{rf}}(t) &= (h_{\text{rf},x}, h_{\text{rf},y}, 0)^{\text{T}} \cdot e^{i\omega t} \\
@@ -63,21 +60,22 @@ For the oscillating magnetic field $\boldsymbol{h_{rf}}$ and $\textbf{m}(t)$, we
 \label{harmonic ansatz}
 \end{aligned}
 \end{equation}
-By plugging in equations \ref{time-dependent and independent} and \ref{harmonic ansatz} into the LLG-equation, and through various steps, we can derive the formula for the resonance frequency $\omega_\text{res}$
+
+By plugging in equations \ref{time-dependent and independent} and \ref{harmonic ansatz} into the LLG-equation, we can derive the resonance condition $\omega_\text{res}$
 \begin{equation}
 \omega_\text{res} = \gamma\mu_0 \sqrt{\left[H_{\text{ext}} + (N_x - N_z) \cdot M_s\right]\left[H_{\text{ext}} + (N_y - N_z) \cdot M_s\right]}
 \label{Kittel equation}
 \end{equation}
-which is also known as the Kittel equation. If the magnetic field $H_{\text{ext}}$ is applied in the plane of the sample (ip), the equation can be further simplified to:
+which is known as the Kittel equation. If the magnetic field $H_{\text{ext}}$ is applied in the plane of the sample, the equation can be further simplified to:
 \begin{equation}
 \omega_\text{res} = \gamma \mu_0 \sqrt{H_{\text{ext}}(H_{\text{ext}}+M_\text{s})}
 \end{equation}
-Additionally, the Kittel formula gives us an equation for the resonance line width $\Delta H$, as a function of the driving-frequency and the damping coefficient \cite{Mueller2023}:
+Additionally, the derivation gives us an equation for the resonance line width $\Delta H_{FWHM}$, as a function of the driving-frequency and the damping coefficient \cite{Mueller2023}:
 \begin{equation}
     \Delta H_{FWHM} = 2 \frac{\alpha \omega}{\mu_0 \gamma}
     \label{linewidth equation}
 \end{equation}
-where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_{FWHM}$ the line width defined as the full-width at half-maximum.
+where $\alpha$ is the Gilbert-zdamping coefficient and $\Delta H_{FWHM}$ the line width defined as the full-width at half-maximum.
 \begin{figure}[htbp] % [htbp] for flexible placement
     \centering % Center the entire figure
     \begin{subfigure}[c]{0.48\textwidth} % Adjust width for 3 subfigures
@@ -94,7 +92,7 @@ where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_{FWHM}$ the line
         \label{fig:fmr_example_label}
     \end{subfigure}
     \hfill % Flexible horizontal space
-    \caption{Figure (a): Schematic model showing the precession of the magnetization $\textbf{M}$ of the medium around the effective field $\boldsymbol{{H_{\text{eff}}}}$. Figure (b) : Example plot of an FMR curve, where $\chi$' is the real part showing dispersion and $\chi$'' the imaginary part showing absorption. The perpendicular magnetization $\textbf{m}$ in (a) is related to $\boldsymbol{h_{rf}}$ by the equation $\textbf{m} = \chi \boldsymbol{h_{rf}}$. The images were taken from \cite{Liensberger2017}.}
+    \caption{Figure (a): Schematic model showing the precession of the magnetization $\textbf{M}$ of the medium around the effective field $\boldsymbol{{H_{\text{eff}}}}$. Figure (b) : Example plot of an FMR curve, where $\chi$' is the real part showing dispersion and $\chi$'' the imaginary part showing absorption. The perpendicular magnetization $\textbf{m}$ in (a) is related to $\boldsymbol{h_{\text{rf}}}$ by the equation $\textbf{m} = \chi \boldsymbol{h_{\text{rf}}}$. The images were taken from \cite{Liensberger2017}.}
     \label{fig:ferromagnetic_resonance} % Main label for the entire figure
 \end{figure}
 
@@ -107,26 +105,29 @@ where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_{FWHM}$ the line
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/spin pumping.png}
-    \caption{Example illustration of spin pumping between a ferromagnet (green) and a normal metal (red). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\boldsymbol{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. Taken from \cite{obstbaum2014}.}
+    \caption{Example illustration of spin pumping between a ferromagnet (FM) and a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\boldsymbol{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. WAS MEINST DU HIER MIT GLEICH? Taken from \cite{obstbaum2014}.}
     \label{fig:enter-label}
 \end{figure}
 
-When a ferromagnetic film comes in contact with a normal metal, an increase in damping is observed, which is known as spin pumping. Theoretically, this can be explained by a pure spin current $\boldsymbol{J_\textbf{s}}$ that gets sent across the ferromagnet/metal interface which transports angular momentum from the ferromagnet to the normal metal, hence increasing the damping. The spin current density is given by 
+When a ferromagnetic film comes in contact with a normal metal, an increase in damping is observed, which is known as spin pumping. Theoretically, this can be explained by a pure spin current $\boldsymbol{J_\textbf{s}}$ that gets sent across the ferromagnet/metal interface which transports angular momentum from the ferromagnet to the normal metal, hence increasing the damping. The spin current density is given by  \cite{Mueller2023}
 \begin{equation}
 \mathbf{J}_{\mathbf{s}}=\frac{\hbar}{4 \pi}\left(\operatorname{Re}\left(G_{\uparrow \downarrow}\right) \mathbf{M} \times \frac{d \mathbf{M}}{d t}-\operatorname{Im}\left(G_{\uparrow \downarrow}\right) \frac{d \mathbf{M}}{d t}\right)
 \end{equation}
-where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes the transport of spins that are not collinear to the magnetization of the sample \cite{Mueller2023}. The first term corresponds to a damping-like behavior, and the second term gives a field-like contribution. The imaginary part of the spin-mixing conductance is typically very small to be negligible ~\cite{obstbaum2014}. The additional contribution in damping is then given by 
+where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes the transport of spins that are not collinear to the magnetization of the sample. WAS GENAU FRAGST DU HIER?The first term corresponds to a damping-like behavior, and the second term gives a field-like contribution. The imaginary part of the spin-mixing conductance is typically negligible ~\cite{obstbaum2014}. The additional contribution in damping is then given by \cite{Mueller2023}
 \begin{align*}
-    \alpha_{sp} =& \ \frac{g\mu_0}{4 \pi M_S}\frac{G_{\uparrow \downarrow}}{d_{\text{FM}}} \\
+    \alpha_{\textrm{sp}} =& \ \frac{g\mu_0}{4 \pi M_S}\frac{G_{\uparrow \downarrow}}{d_{\text{FM}}} \\
     \alpha =& \ \alpha_0 + \alpha_{sp}
 \end{align*}
-where $\alpha_0$ is the Gilbert-damping coefficient with just the ferromagnet and $g$ is the Landé-Factor. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to study its effects on the Gilbert-damping. =>>> WHY DID WE LOOK AT DIFFERENT THICKNESSES OF Nb? 
+where $\alpha_0$ is the Gilbert-damping coefficient with just the ferromagnet, $g$ the Landé-Factor, and $d_\textrm{FM}$ the thickness of the ferromagnet. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to study its effects on the Gilbert-damping. =>>> WHY DID WE LOOK AT DIFFERENT THICKNESSES OF Nb?
 
 \section{Fundamentals of Superconductivity}
-In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter 5-6. 
+In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter 5 and 6. 
 
-Superconductors are materials that exhibit two distinct properties below a certain temperature: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a positive dipole moment, which in turns attracts another electron. These so-called Cooper-pairs have opposite momentum $\boldsymbol{k}$ and $\textbf{-k}$ \cite{Hunklinger2018}. 
-In 1935, two brothers developed the London-equations that attempted to explain the behavior of superconductors:
+Superconductors are materials that exhibit two distinct properties below a certain temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a positive dipole moment, which in turns attracts another electron. These so-called Cooper-pairs have opposite momentum $\textbf{k}$ and $\textbf{-k}$  WAS GENAU MEINST DU HIER?\cite{Hunklinger2018}. 
+
+\subsection{The London Equations}
+In 1935, two brothers developed the London-equations in an attempt to phenomenologically explain the behavior of superconductors:
+HERLEITUNG
 \begin{align}
     \frac{\partial\boldsymbol{j_s}}{\partial t} \ =& \  \frac{ne^2}{m}\textbf{E} \\
     \nabla \times \boldsymbol{j_s} \ =& \ -\frac{ne^2}{m}\textbf{B}
@@ -134,17 +135,17 @@ In 1935, two brothers developed the London-equations that attempted to explain t
 where $n$ represents the Cooper-pair density and $m$ the mass of a Cooper-pair.
 Solving these equations yields 
 \begin{align}
-    \textbf{B(}\textbf{r}) =& \boldsymbol{B_0}e^{-\frac{|r|}{\lambda_L}}
+    \textbf{B(}\textbf{r}) =& \boldsymbol{B_0}e^{-\frac{|r|}{\lambda_L}},
 \end{align}
-, where $\lambda_L$ = $\frac{m}{\mu_0 ne^2}$ is the London penetration depth \cite{Mueller2019}. It defines how deep the magnetic field will penetrate into the superconductor. 
+where $\lambda_L$ = $\frac{m}{\mu_0 ne^2}$ is the London penetration depth \cite{Mueller2019}. It measures how deep an magnetic field will penetrate into the superconductor. 
 \subsection{Types of superconductors}
-Not all superconductors have the same properties, however. Superconductors can be divided into type-$\RNum{1}$ and type-$\RNum{2}$ superconductors. Type-$\RNum{1}$ superconductors are  superconductors that exhibit the Meißner effect until its critical field $B_c$. Comparatively, a type-$\RNum{2}$ superconductor has 2 critical fields, $B_{c1}$ and $B_{c2}$. Until reaching the first critical field $B_{c1}$, a type-$\RNum{2}$ superconductor display the same properties as a type-$\RNum{1}$ superconductor. Between $B_{c1}$ and $B_{c2}$, however, type-$\RNum{2}$ superconductors create canals that let flux penetrate into the material. Each canal, also called vortices, allows exactly one quantum flux $\Phi$. The vortices arrange themselves in a triangular lattice, called the Abrikosov-lattice \cite{Mueller2019}. The different behavior between type-$\RNum{1}$ and type-$\RNum{2}$ superconductors can be understood when taking a look at the Ginzburg-Landau parameter $\kappa$:
+Not all superconductors(SCs) have the same properties, however. SCs can be divided into type-$\RNum{1}$ and type-$\RNum{2}$ SCs. Type-$\RNum{1}$ SCs are  SCs that exhibit the Meißner effect below their critical field $B_\textrm{C}$. Comparatively, a type-$\RNum{2}$ SC has two critical fields, $B_{\textrm{C1}}$ and $B_{\textrm{C2}}$ . Until reaching the first critical field $B_{\textrm{C1}}$, a type-$\RNum{2}$ SC displays the same properties as a type-$\RNum{1}$ SC. Between $B_{\textrm{C1}}$  and $B_{\textrm{C2}}$, however, type-$\RNum{2}$ SCs create canals that let flux penetrate into the material. Each canal, also called vortex, allows exactly one quantum flux $\Phi$. The vortices arrange themselves in a triangular lattice, called the Abrikosov-lattice \cite{Mueller2019}. The different behavior between type-$\RNum{1}$ and type-$\RNum{2}$ SCs can be understood when taking a look at the Ginzburg-Landau parameter $\kappa$:
 \begin{equation}
     \kappa = \frac{\lambda_{L}}{\xi_{GL}}
 \end{equation}
 
-where $\xi_{GL}$ is the Ginzburg-Landau coherence length, which determines how quickly the cooper-pair density increases near the surface than deep in the material. When $\kappa < \frac{1}{\sqrt{2}}$, the superconductor behaves like a type-$\RNum{1}$ superconductor, and if $\kappa > \frac{1}{\sqrt{2}}$, the superconductor behaves like a type-$\RNum{2}$ superconductor. \\ \\
-Intuitively, this can be understood as a fight between two opposing effects: A superconductor wants to maximize its surface to minimize the amount of energy needed to block magnetic flux from going into the material. At the same type, surfaces reduce the condensation energy, since there are less Cooper-pairs near the surface. For type-$\RNum{2}$ superconductors, it is more favorable to create small vortices and lose the condensation energy from Cooper-pairs, but save on the expulsion energy against the magnetic field \cite{Hunklinger2018}.
+where $\xi_{GL}$ is the Ginzburg-Landau coherence length, which determines how quickly the cooper-pair density increases near the surface. When $\kappa < \frac{1}{\sqrt{2}}$, the superconductor behaves like a type-$\RNum{1}$ superconductor, and if $\kappa > \frac{1}{\sqrt{2}}$, the superconductor is a type-$\RNum{2}$ superconductor. 
+Intuitively, this can be understood as a fight between two opposing effects: Maximizing surface area minimizes the amount of energy needed to expel magnetic flux from going into the material. At the same time, surfaces reduce the gain of condensation energy, since there are less Cooper-pairs near the surface. For type-$\RNum{2}$ superconductors, it is more favorable to create small vortices and which costs condensation energy from Cooper-pairs, but save on the expulsion energy against the magnetic field \cite{Hunklinger2018}.
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/vortices.png}
@@ -153,6 +154,18 @@ Intuitively, this can be understood as a fight between two opposing effects: A s
 \end{figure}
 
 \section{Photolithography}
-Photolithography or optical lithography refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist onto it and exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. Typically, a lithography process involves applying the photoresist onto the sample via spin coating, heating it (also called prebake), applying a mask, and exposing the sample to UV light. Masks can be omitted by using maskless aligners (MLA), which are used in our lab as well. The exposed parts of the photoresist either become more soluble (positive photoresist) or less soluble (negative photoresist) to a solution called developer, which is applied after the light exposure \cite{AllresistPhotoresistOnline}. Developing the sample washes the soluble part off, creating structure on the sample.  
+Photolithography, or optical lithography, refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist and then exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. In this thesis, optical lithography is used to form structure on the sample and to create an unremovable isolation layer.
+
+\subsection{Typical photolithography process}
+Typically, a lithography process involves applying the photoresist onto the sample via spin coating, heating it (also called prebake), applying a mask, and exposing the photoresist to UV light. Masks can be omitted by using maskless aligners (MLA), which exposes the photoresist locally by a focused laser. Light exposure changes the solubility of the photoresist: exposed regions of a positive photoresist become more soluble in the developer, while those of a negative photoresist become less soluble \cite{AllresistPhotoresistOnline}. Developing the sample washes the soluble part off, creating a pattern on the sample that can be used to etch away specific parts of the sample, thus fabricating structures. Finally, the remaining photoresist can be washed away with a remover. A sample illustration can be seen in figure \ref{fig:photolithography}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth]{chapters/Photos/Theory/Photolithography.jpg}
+    \caption{Sample illustration of the photolithography process. (a) A metal layer is deposited onto the substrate. (b) A photoresist is then applied onto the sample via spincoating. (c) The photoresist is exposed to UV light through a mask. (d) The sample is developed and hard-baked, after which the areas not covered by the photoresist are etched away. (e) The remaining photoresist is removed, leaving the metal structure on the substrate (f). Taken from \cite{sciencedirect_photolithography}.}
+    \label{fig:photolithography}
+\end{figure}
+
 \subsection{Cross-linking}
-Negative photoresists achieve high chemical resistance upon exposure by a process called cross-linking. Cross-linking refers to the reaction where individual polymers chain together to build a single, large polymer, changing the property of the material. In the $\textit{AR-N 1407.17 new}$ negative photoresist, which was used in our experiments, this is done by radical starters that form reactive radicals upon exposure to UV light which starts a chain reaction connecting individual polymers together.
+Negative photoresists achieve high chemical resistance upon exposure by a process called cross-linking. Cross-linking refers to the reaction where individual polymers chain together to build a single, large polymer, changing the property of the material \cite{AllresistPhotoresistOnline}. In the $\textit{AR-N 1407.17 new}$ (AR-N) negative photoresist, which was used in our experiments, this is done by radical starters that form reactive radicals upon exposure to UV light or high energy electrons, which starts a chain reaction connecting individual polymers together.
+

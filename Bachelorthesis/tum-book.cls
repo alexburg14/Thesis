@@ -13,7 +13,7 @@
 % process options
 \DeclareOption{a4paper}{%
   \PassOptionsToPackage{a4paper}{tum-base-text}
-  \PassOptionsToClass{a4paper,fontsize=13pt}{scrbook}
+  \PassOptionsToClass{a4paper,fontsize=12pt}{scrbook}
 }
 \DeclareOption{a5paper}{%
   \PassOptionsToPackage{a5paper}{tum-base-text}
@@ -256,7 +256,7 @@ This paper was not previously presented to another examination board and has not
 \usepackage{titlesec}
 \titleclass{\chapter}{straight}
 \titleformat{\chapter}
-  {\normalfont\huge\bfseries\centering}
+  {\normalfont\LARGE\bfseries\centering}
   {\thechapter}
   {1em}
   {}

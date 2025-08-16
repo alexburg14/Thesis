@@ -310,6 +310,26 @@
       \verb https://epub.uni-regensburg.de/33381/1/Doktorarbeit%20Martin%20Obstbaum.pdf
       \endverb
     \endentry
+    \entry{sciencedirect_photolithography}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f78740cb4220393c3860d7ee74089560}{%
+           family={{ScienceDirect (Elsevier)}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f78740cb4220393c3860d7ee74089560}
+      \strng{fullhash}{f78740cb4220393c3860d7ee74089560}
+      \strng{bibnamehash}{f78740cb4220393c3860d7ee74089560}
+      \strng{authorbibnamehash}{f78740cb4220393c3860d7ee74089560}
+      \strng{authornamehash}{f78740cb4220393c3860d7ee74089560}
+      \strng{authorfullhash}{f78740cb4220393c3860d7ee74089560}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.sciencedirect.com/topics/physics-and-astronomy/photolithography}}
+      \field{note}{Accessed: 2025-08-16}
+      \field{title}{Photolithography — Physics and Astronomy Overview}
+    \endentry
   \enddatalist
   \missing{IRGENDWAS WAS DC-BIAS macht}
 \endrefsection
