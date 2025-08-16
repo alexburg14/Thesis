@@ -126,13 +126,26 @@ In this section, the fundamental theory behind superconductivity is discussed th
 Superconductors are materials that exhibit two distinct properties below a certain temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a positive dipole moment, which in turns attracts another electron. These so-called Cooper-pairs have opposite momentum $\textbf{k}$ and $\textbf{-k}$  WAS GENAU MEINST DU HIER?\cite{Hunklinger2018}. 
 
 \subsection{The London Equations}
-In 1935, two brothers developed the London-equations in an attempt to phenomenologically explain the behavior of superconductors:
-HERLEITUNG
-\begin{align}
-    \frac{\partial\boldsymbol{j_s}}{\partial t} \ =& \  \frac{ne^2}{m}\textbf{E} \\
-    \nabla \times \boldsymbol{j_s} \ =& \ -\frac{ne^2}{m}\textbf{B}
-\end{align}
+In 1935, the London brothers developed the London-equations in an attempt to phenomenologically explain the behavior of superconductors. To derive these equations, one needs to start with the Drude-model and the relation 
+\begin{equation}
+    m\diff{\textbf{v}}{t} = -e\textbf{E} - m\frac{d\boldsymbol{v_{\textrm{d}}}}{dt}.
+\end{equation}
+Since there is no electrical resistance during superconductance, the second term vanishes. By using $\boldsymbol{j_s} = n e \textbf{v}$, one can derive the first London equation
+\begin{equation}
+    \frac{\partial\boldsymbol{j_s}}{\partial t} \ = \  \frac{ne^2}{m}\textbf{E} 
+    \label{first London equation}
+\end{equation}
 where $n$ represents the Cooper-pair density and $m$ the mass of a Cooper-pair.
+Inserting \ref{first London equation} into the Maxwell-equation $\nabla \times \boldsymbol{E} = -\frac{\partial \boldsymbol{B}}{\partial t}$ yields
+\begin{equation}
+    \diff{}{t}(\nabla \times \boldsymbol{j_s} \ = \ -\frac{ne^2}{m})\textbf{B}
+    \label{d/dt of second london equation}
+\end{equation}
+Since not only the time derivative of the magnetic flux, but the magnetic flux itself vanishes in a superconductor, the London brothers argued that the equation inside the derivative must also vanish, leading to the second London equation
+\begin{equation}
+    \nabla \times \boldsymbol{j_s} = -\frac{ne^2}{m}\textbf{B}
+    \label{second London equation}
+\end{equation}
 Solving these equations yields 
 \begin{align}
     \textbf{B(}\textbf{r}) =& \boldsymbol{B_0}e^{-\frac{|r|}{\lambda_L}},
