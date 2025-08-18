@@ -2,23 +2,23 @@
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 \section{Fundamentals of Magnetism}
 \subsection{Macrospin Model}
-The magnetic properties of a ferromagnet without anisotropy can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\boldsymbol{M}$, can then be calculated by the sum of all dipole moments $\mu$ of a sample:
+The magnetic properties of a ferromagnet without anisotropy can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\mathbf{M}$, can then be calculated by the sum of all dipole moments $\mu$ of a sample:
 \begin{equation} 
-\boldsymbol{M} = \frac{1}{V}\sum_{i\in V}{\boldsymbol{\mu_i}}
+\mathbf{M} = \frac{1}{V}\sum_{i\in V}{\mathbf{\mu_i}}
 \end{equation}
 From classical electrodynamics, we know that the magnetic dipoles $\mu$ are related to the angular momentum $\textbf{L}$ by the gyromagnetic ratio $\gamma$, due to the electron creating a current through its orbital path:
 \begin{equation}
-   \boldsymbol{\mu} = \gamma \textbf{L} 
+   \mathbf{\mu} = \gamma \textbf{L} 
    \label{Drehimpulsgleichung}
 \end{equation}
 Furthermore, when an external field is applied to a magnetic dipole moment $\mu$, it causes a torque $\textbf{T}$ on the magnetic moment:
 \begin{equation}
-    \textbf{T} = \boldsymbol{\mu} \times \textbf{B}
+    \textbf{T} = \mathbf{\mu} \times \textbf{B}
     \label{Drehmoment von dipolmoment}
 \end{equation}
-By using equations \ref{Drehimpulsgleichung} and \ref{Drehmoment von dipolmoment}, as well as the fact that $\textbf{T} = \diff{\textbf{L}}{t}$, we get the following equation of motion for a dipole moment $\boldsymbol{\mu}$:
+By using equations \ref{Drehimpulsgleichung} and \ref{Drehmoment von dipolmoment}, as well as the fact that $\textbf{T} = \diff{\textbf{L}}{t}$, we get the following equation of motion for a dipole moment $\mathbf{\mu}$:
 \begin{equation}
-    \diff{\boldsymbol{\mu}}{t} = \gamma \boldsymbol{\mu} \times \textbf{B} 
+    \diff{\mathbf{\mu}}{t} = \gamma \mathbf{\mu} \times \textbf{B} 
     \label{EOM fuer dipolmoment}
 \end{equation}
 Inside a magnetized medium, the magnetic flux density takes on the following form \cite{obstbaum2014}:
@@ -26,23 +26,23 @@ Inside a magnetized medium, the magnetic flux density takes on the following for
 \textbf{B} = \mu_0(\textbf{H+M}),
 \end{equation}
 where $\textbf{H}$ is the magnetic field applied.
-To transfer this result to the dynamics of the magnetization of a medium, equation (\ref{EOM fuer dipolmoment}) has to be reformulated in such a way that it accounts for the effective field $\boldsymbol{{H_{\text{eff}}}}$ inside the medium. Doing this, we get the Landau-Lifschitz equation \cite{obstbaum2014}:
+To transfer this result to the dynamics of the magnetization of a medium, equation (\ref{EOM fuer dipolmoment}) has to be reformulated in such a way that it accounts for the effective field $\mathbf{{H_{\text{eff}}}}$ inside the medium. Doing this, we get the Landau-Lifschitz equation \cite{obstbaum2014}:
 \begin{equation}
-    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \boldsymbol{{H_{\text{eff}}}}
+    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \mathbf{{H_{\text{eff}}}}
     \label{Landau-Lifschitz}
 \end{equation}
-Here, $\boldsymbol{{H_{\text{eff}}}}$ combines all possible field terms inside the medium, like anisotropy $\boldsymbol{H_{\text{ani}}}$, exchange interaction $\boldsymbol{H_{\text{ex}}}$, and the demagnetizing field $\boldsymbol{H_{\text{dem}}}$ \cite{obstbaum2014}.
+Here, $\mathbf{{H_{\text{eff}}}}$ combines all possible field terms inside the medium, like anisotropy $\mathbf{H_{\text{ani}}}$ and the demagnetizing field $\mathbf{H_{\text{dem}}}$ \cite{obstbaum2014}.
 Solving this differential equation leads to a magnetization undergoing precession around the effective field with the frequency $ \omega = \gamma \mu_0 H_{\text{eff}}$ \cite{Mueller2019}, as shown in figure \ref{fig:precession picture}.
 
 As stated above, the Landau-Lifschitz equation (\ref{Landau-Lifschitz}) describes a perpetual precession around the effective magnetic field. In a real physical system, however, the precession amplitude declines due to various dissipation effects such as magnon-phonon relaxation or radiative damping. Gilbert therefore introduced a damping term with the material-dependent coefficient $\alpha$ with which we get the Landau-Lifschitz-Gilbert (LLG) equation \cite{Liensberger2021}
 \begin{equation}
-    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \boldsymbol{{H_{\text{eff}}}} + \frac{\alpha}{M_s}\boldsymbol{M} \times\diff{\textbf{M}}{t},
+    \diff{\textbf{M}}{t} = - \gamma \textbf{M} \times \mu_0 \mathbf{{H_{\text{eff}}}} + \frac{\alpha}{M_s}\mathbf{M} \times\diff{\textbf{M}}{t},
 \end{equation}
 where $M_s$ refers to the saturation magnetization. 
 
 \subsection{Ferromagnetic Resonance}
-In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic field $\boldsymbol{h_{\text{rf}}}$ that is perpendicular to $\boldsymbol{{H_{\text{eff}}}}$. $\boldsymbol{h_{\text{rf}}}$ can generate a torque that can compensate the damping of the precession when the frequency of the precession of the magnetization and the frequency of the oscillating field match, which can be compared to a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
-The following derivation will closely follow references \cite{Mueller2019} and \cite{Liensberger2017}. We choose our coordinate system so that the external magnetic field $\boldsymbol{{H_{\text{ext}}}}$ is applied in the z-axis and $\boldsymbol{h_{\text{rf}}}$ rotates in the xy-plane. We split $\textbf{H}$ and $\textbf{M}$ into their respective time-independent and time-dependent parts
+In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic field $\mathbf{h_{\text{rf}}}$ that is perpendicular to $\mathbf{{H_{\text{eff}}}}$. $\mathbf{h_{\text{rf}}}$ can generate a torque that can compensate the damping of the precession when the frequency of the precession of the magnetization and the frequency of the oscillating field match, which can be compared to a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
+The following derivation will closely follow references \cite{Mueller2019} and \cite{Liensberger2017}. We choose our coordinate system so that the external magnetic field $\mathbf{{H_{\text{ext}}}}$ is applied in the z-axis and $\mathbf{h_{\text{rf}}}$ rotates in the xy-plane. We split $\textbf{H}$ and $\textbf{M}$ into their respective time-independent and time-dependent parts (note that this only is applicable if the precession angle is small)
 \begin{equation}
     \begin{aligned}
         \mathbf{M} &= \mathbf{M}_0 + \mathbf{m}(t) = M_0 \mathbf{\hat{e}}_z + \mathbf{m}(t) \\
@@ -51,8 +51,7 @@ The following derivation will closely follow references \cite{Mueller2019} and \
     \end{aligned}
     \label{time-dependent and independent}
 \end{equation}
-where $N_{x/y/z}$ denote the terms from the demagnetization tensor. For simplicity, the anisotropy field is neglected. 
-WHY CAN WE IGNORE EXCHANGE INTERACTION? During the course of this thesis, only samples with Permalloy were studied, which does not have a structural anisotropy. For the oscillating magnetic field $\boldsymbol{h_{\text{rf}}}$ and $\textbf{m}(t)$, we use a harmonic ansatz:METION SMALL ANGLE APPROXIMATION?
+where $N_{x/y/z}$ denote the terms from the demagnetization tensor. For simplicity, the anisotropy field is neglected, since during the course of this thesis, only samples with Permalloy were studied, which does not have a structural anisotropy. For the oscillating magnetic field $\mathbf{h_{\text{rf}}}$ and $\textbf{m}(t)$, we use a harmonic ansatz:
 \begin{equation}
 \begin{aligned}
 \mathbf{h}_{\text{rf}}(t) &= (h_{\text{rf},x}, h_{\text{rf},y}, 0)^{\text{T}} \cdot e^{i\omega t} \\
@@ -72,10 +71,10 @@ which is known as the Kittel equation. If the magnetic field $H_{\text{ext}}$ is
 \end{equation}
 Additionally, the derivation gives us an equation for the resonance line width $\Delta H_{FWHM}$, as a function of the driving-frequency and the damping coefficient \cite{Mueller2023}:
 \begin{equation}
-    \Delta H_{FWHM} = 2 \frac{\alpha \omega}{\mu_0 \gamma}
+    \Delta H_{FWHM} = \Delta H_0 + \frac{\alpha \omega}{\mu_0 \gamma}
     \label{linewidth equation}
 \end{equation}
-where $\alpha$ is the Gilbert-zdamping coefficient and $\Delta H_{FWHM}$ the line width defined as the full-width at half-maximum.
+where $\alpha$ is the Gilbert-damping coefficient and $\Delta H_0$ the line width offset that comes from extrinsic mechanisms.
 \begin{figure}[htbp] % [htbp] for flexible placement
     \centering % Center the entire figure
     \begin{subfigure}[c]{0.48\textwidth} % Adjust width for 3 subfigures
@@ -92,7 +91,7 @@ where $\alpha$ is the Gilbert-zdamping coefficient and $\Delta H_{FWHM}$ the lin
         \label{fig:fmr_example_label}
     \end{subfigure}
     \hfill % Flexible horizontal space
-    \caption{Figure (a): Schematic model showing the precession of the magnetization $\textbf{M}$ of the medium around the effective field $\boldsymbol{{H_{\text{eff}}}}$. Figure (b) : Example plot of an FMR curve, where $\chi$' is the real part showing dispersion and $\chi$'' the imaginary part showing absorption. The perpendicular magnetization $\textbf{m}$ in (a) is related to $\boldsymbol{h_{\text{rf}}}$ by the equation $\textbf{m} = \chi \boldsymbol{h_{\text{rf}}}$. The images were taken from \cite{Liensberger2017}.}
+    \caption{Figure (a): Schematic model showing the precession of the magnetization $\textbf{M}$ of the medium around the effective field $\mathbf{{H_{\text{eff}}}}$. Figure (b) : Example plot of an FMR curve, where $\chi$' is the real part showing dispersion and $\chi$'' the imaginary part showing absorption. The perpendicular magnetization $\textbf{m}$ in (a) is related to $\mathbf{h_{\text{rf}}}$ by the equation $\textbf{m} = \chi \mathbf{h_{\text{rf}}}$. The images were taken from \cite{Liensberger2017}.}
     \label{fig:ferromagnetic_resonance} % Main label for the entire figure
 \end{figure}
 
@@ -105,11 +104,11 @@ where $\alpha$ is the Gilbert-zdamping coefficient and $\Delta H_{FWHM}$ the lin
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/spin pumping.png}
-    \caption{Example illustration of spin pumping between a ferromagnet (FM) and a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\boldsymbol{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. WAS MEINST DU HIER MIT GLEICH? Taken from \cite{obstbaum2014}.}
+    \caption{Example illustration of spin pumping between a ferromagnet (FM) and a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\mathbf{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. WAS MEINST DU HIER MIT GLEICH? Taken from \cite{obstbaum2014}.}
     \label{fig:enter-label}
 \end{figure}
 
-When a ferromagnetic film comes in contact with a normal metal, an increase in damping is observed, which is known as spin pumping. Theoretically, this can be explained by a pure spin current $\boldsymbol{J_\textbf{s}}$ that gets sent across the ferromagnet/metal interface which transports angular momentum from the ferromagnet to the normal metal, hence increasing the damping. The spin current density is given by  \cite{Mueller2023}
+When a ferromagnetic film comes in contact with a normal metal, an increase in damping is observed, which is known as spin pumping. Theoretically, this can be explained by a pure spin current $\mathbf{J_\textbf{s}}$ that gets sent across the ferromagnet/metal interface which transports angular momentum from the ferromagnet to the normal metal, hence increasing the damping. The spin current density is given by  \cite{Mueller2023}
 \begin{equation}
 \mathbf{J}_{\mathbf{s}}=\frac{\hbar}{4 \pi}\left(\operatorname{Re}\left(G_{\uparrow \downarrow}\right) \mathbf{M} \times \frac{d \mathbf{M}}{d t}-\operatorname{Im}\left(G_{\uparrow \downarrow}\right) \frac{d \mathbf{M}}{d t}\right)
 \end{equation}
@@ -118,37 +117,39 @@ where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes th
     \alpha_{\textrm{sp}} =& \ \frac{g\mu_0}{4 \pi M_S}\frac{G_{\uparrow \downarrow}}{d_{\text{FM}}} \\
     \alpha =& \ \alpha_0 + \alpha_{sp}
 \end{align*}
-where $\alpha_0$ is the Gilbert-damping coefficient with just the ferromagnet, $g$ the Landé-Factor, and $d_\textrm{FM}$ the thickness of the ferromagnet. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to study its effects on the Gilbert-damping. =>>> WHY DID WE LOOK AT DIFFERENT THICKNESSES OF Nb?
+where $\alpha_0$ is the Gilbert-damping coefficient with just the ferromagnet, $g$ the Landé-Factor, and $d_\textrm{FM}$ the thickness of the ferromagnet. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to examine its effects on the Gilbert-damping. 
+
+The main objective of this bachelor thesis, however, was to investigate how the thickness of the superconductor influences the spin-transport through it, which is why the nothing except the thickness of the superconductor was altered between samples.
 
 \section{Fundamentals of Superconductivity}
 In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter 5 and 6. 
 
-Superconductors are materials that exhibit two distinct properties below a certain temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a positive dipole moment, which in turns attracts another electron. These so-called Cooper-pairs have opposite momentum $\textbf{k}$ and $\textbf{-k}$  WAS GENAU MEINST DU HIER?\cite{Hunklinger2018}. 
+Superconductors are materials that exhibit two distinct properties below a certain temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a positive dipole moment, which in turns attracts another electron. These so-called Cooper-pairs have opposite momentum $\mathbf{k}$ and $\mathbf{-k}$ \cite{Hunklinger2018}. 
 
 \subsection{The London Equations}
 In 1935, the London brothers developed the London-equations in an attempt to phenomenologically explain the behavior of superconductors. To derive these equations, one needs to start with the Drude-model and the relation 
 \begin{equation}
-    m\diff{\textbf{v}}{t} = -e\textbf{E} - m\frac{d\boldsymbol{v_{\textrm{d}}}}{dt}.
+    m\diff{\textbf{v}}{t} = -e\textbf{E} - m\frac{d\mathbf{v_{\textrm{d}}}}{dt}.
 \end{equation}
-Since there is no electrical resistance during superconductance, the second term vanishes. By using $\boldsymbol{j_s} = n e \textbf{v}$, one can derive the first London equation
+Since there is no electrical resistance during superconductance, the second term vanishes. By using $\mathbf{j_s} = n e \textbf{v}$, one can derive the first London equation \cite{Hunklinger2018}
 \begin{equation}
-    \frac{\partial\boldsymbol{j_s}}{\partial t} \ = \  \frac{ne^2}{m}\textbf{E} 
+    \frac{\partial\mathbf{j_s}}{\partial t} \ = \  \frac{ne^2}{m}\textbf{E} 
     \label{first London equation}
 \end{equation}
 where $n$ represents the Cooper-pair density and $m$ the mass of a Cooper-pair.
-Inserting \ref{first London equation} into the Maxwell-equation $\nabla \times \boldsymbol{E} = -\frac{\partial \boldsymbol{B}}{\partial t}$ yields
+Inserting \ref{first London equation} into the Maxwell-equation $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ yields
 \begin{equation}
-    \diff{}{t}(\nabla \times \boldsymbol{j_s} \ = \ -\frac{ne^2}{m})\textbf{B}
+    \diff{}{t}(\nabla \times \mathbf{j_s} + \frac{ne^2}{m}\textbf{B}) = 0
     \label{d/dt of second london equation}
 \end{equation}
-Since not only the time derivative of the magnetic flux, but the magnetic flux itself vanishes in a superconductor, the London brothers argued that the equation inside the derivative must also vanish, leading to the second London equation
-\begin{equation}
-    \nabla \times \boldsymbol{j_s} = -\frac{ne^2}{m}\textbf{B}
+Since not only the time derivative of the magnetic flux, but the magnetic flux itself vanishes in a superconductor, the London brothers argued that the equation inside the derivative must also vanish, leading to the second London equation \cite{Hunklinger2018}
+\begin{equation} 
+    \nabla \times \mathbf{j_s} = -\frac{ne^2}{m}\textbf{B}
     \label{second London equation}
 \end{equation}
 Solving these equations yields 
 \begin{align}
-    \textbf{B(}\textbf{r}) =& \boldsymbol{B_0}e^{-\frac{|r|}{\lambda_L}},
+    \mathbf{B(}\textbf{r}) =& \mathbf{B_\textrm{0}}e^{-\frac{|r|}{\lambda_L}},
 \end{align}
 where $\lambda_L$ = $\frac{m}{\mu_0 ne^2}$ is the London penetration depth \cite{Mueller2019}. It measures how deep an magnetic field will penetrate into the superconductor. 
 \subsection{Types of superconductors}

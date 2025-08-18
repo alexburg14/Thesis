@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  16 AUG 2025 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  18 AUG 2025 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1824,7 +1824,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
  [4]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
-(textcomp)             Default family used instead on input line 15.
+(textcomp)             Default family used instead on input line 16.
  [5])
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -1843,88 +1843,94 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 4.
 [7] [8]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 82.
+(Font)              scaled to size 10.95pt on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 82.
-<chapters/Photos/Theory/Landau-Lifschitz Precession.png, id=275, 76.6062pt x 56.1297pt>
+(Font)              scaled to size 10.95pt on input line 81.
+<chapters/Photos/Theory/Landau-Lifschitz Precession.png, id=278, 76.6062pt x 56.1297pt>
 File: chapters/Photos/Theory/Landau-Lifschitz Precession.png Graphic file (type png)
 <use chapters/Photos/Theory/Landau-Lifschitz Precession.png>
-Package pdftex.def Info: chapters/Photos/Theory/Landau-Lifschitz Precession.png  used on input line 84.
+Package pdftex.def Info: chapters/Photos/Theory/Landau-Lifschitz Precession.png  used on input line 83.
 (pdftex.def)             Requested size: 232.20844pt x 170.73022pt.
-<chapters/Photos/Theory/FMR_example.png, id=276, 263.7855pt x 173.2071pt>
+<chapters/Photos/Theory/FMR_example.png, id=279, 263.7855pt x 173.2071pt>
 File: chapters/Photos/Theory/FMR_example.png Graphic file (type png)
 <use chapters/Photos/Theory/FMR_example.png>
-Package pdftex.def Info: chapters/Photos/Theory/FMR_example.png  used on input line 91.
+Package pdftex.def Info: chapters/Photos/Theory/FMR_example.png  used on input line 90.
 (pdftex.def)             Requested size: 232.1722pt x 170.71968pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 95.
+(Font)              scaled to size 8.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 95.
-<chapters/Photos/Theory/spin pumping.png, id=278, 121.8954pt x 73.9563pt>
+(Font)              scaled to size 6.1pt on input line 94.
+<chapters/Photos/Theory/spin pumping.png, id=281, 121.8954pt x 73.9563pt>
 File: chapters/Photos/Theory/spin pumping.png Graphic file (type png)
 <use chapters/Photos/Theory/spin pumping.png>
-Package pdftex.def Info: chapters/Photos/Theory/spin pumping.png  used on input line 107.
+Package pdftex.def Info: chapters/Photos/Theory/spin pumping.png  used on input line 106.
 (pdftex.def)             Requested size: 241.84845pt x 146.73857pt.
  [9 <./chapters/Photos/Theory/Landau-Lifschitz Precession.png> <./chapters/Photos/Theory/FMR_example.png>] [10 <./chapters/Photos/Theory/spin pumping.png>] [11]
-<chapters/Photos/Theory/vortices.png, id=311, 102.6234pt x 61.6704pt>
+<chapters/Photos/Theory/vortices.png, id=317, 102.6234pt x 61.6704pt>
 File: chapters/Photos/Theory/vortices.png Graphic file (type png)
 <use chapters/Photos/Theory/vortices.png>
-Package pdftex.def Info: chapters/Photos/Theory/vortices.png  used on input line 164.
+Package pdftex.def Info: chapters/Photos/Theory/vortices.png  used on input line 165.
 (pdftex.def)             Requested size: 241.84845pt x 145.35544pt.
  [12]
-<chapters/Photos/Theory/Photolithography.jpg, id=325, 285.24266pt x 196.98372pt>
+<chapters/Photos/Theory/Photolithography.jpg, id=330, 285.24266pt x 196.98372pt>
 File: chapters/Photos/Theory/Photolithography.jpg Graphic file (type jpg)
 <use chapters/Photos/Theory/Photolithography.jpg>
-Package pdftex.def Info: chapters/Photos/Theory/Photolithography.jpg  used on input line 177.
+Package pdftex.def Info: chapters/Photos/Theory/Photolithography.jpg  used on input line 178.
 (pdftex.def)             Requested size: 338.58635pt x 233.83942pt.
 ) (./chapters/03_Experimental_Setup.tex
 Chapter 3.
 [13 <./chapters/Photos/Theory/vortices.png>]
-<chapters/Photos/Experimental_Setup/Sample Composition.png, id=337, 170.5572pt x 100.6962pt>
+<chapters/Photos/Experimental_Setup/Sample Composition.png, id=342, 170.5572pt x 100.6962pt>
 File: chapters/Photos/Experimental_Setup/Sample Composition.png Graphic file (type png)
 <use chapters/Photos/Experimental_Setup/Sample Composition.png>
 Package pdftex.def Info: chapters/Photos/Experimental_Setup/Sample Composition.png  used on input line 8.
 (pdftex.def)             Requested size: 386.95898pt x 228.49261pt.
-<chapters/Photos/Experimental_Setup/Insert setup.png, id=338, 64.0794pt x 50.1072pt>
+<chapters/Photos/Experimental_Setup/Insert setup.png, id=343, 64.0794pt x 50.1072pt>
 File: chapters/Photos/Experimental_Setup/Insert setup.png Graphic file (type png)
 <use chapters/Photos/Experimental_Setup/Insert setup.png>
 Package pdftex.def Info: chapters/Photos/Experimental_Setup/Insert setup.png  used on input line 15.
 (pdftex.def)             Requested size: 386.95898pt x 302.66309pt.
+ [14 <./chapters/Photos/Theory/Photolithography.jpg>] [15 <./chapters/Photos/Experimental_Setup/Sample Composition.png> <./chapters/Photos/Experimental_Setup/Insert setup.png>]
+<chapters/Photos/Experimental_Setup/Measurement_Setup.png, id=355, 155.6214pt x 96.36pt>
+File: chapters/Photos/Experimental_Setup/Measurement_Setup.png Graphic file (type png)
+<use chapters/Photos/Experimental_Setup/Measurement_Setup.png>
+Package pdftex.def Info: chapters/Photos/Experimental_Setup/Measurement_Setup.png  used on input line 27.
+(pdftex.def)             Requested size: 386.95898pt x 239.64368pt.
 ) (./chapters/04_Methods.tex
 Chapter 4.
-[14 <./chapters/Photos/Theory/Photolithography.jpg>] [15 <./chapters/Photos/Experimental_Setup/Sample Composition.png> <./chapters/Photos/Experimental_Setup/Insert setup.png>]
-<chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG, id=350, 517.935pt x 212.29312pt>
+[16 <./chapters/Photos/Experimental_Setup/Measurement_Setup.png>]
+<chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG, id=362, 517.935pt x 212.29312pt>
 File: chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG Graphic file (type png)
 <use chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG>
 Package pdftex.def Info: chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG  used on input line 11.
 (pdftex.def)             Requested size: 386.95898pt x 158.6137pt.
- [16 <./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG>]
-<chapters/Photos/Methods/Kittel_fit_6K.png, id=357, 361.35pt x 505.89pt>
+<chapters/Photos/Methods/Kittel_fit_6K.png, id=364, 361.35pt x 505.89pt>
 File: chapters/Photos/Methods/Kittel_fit_6K.png Graphic file (type png)
 <use chapters/Photos/Methods/Kittel_fit_6K.png>
 Package pdftex.def Info: chapters/Photos/Methods/Kittel_fit_6K.png  used on input line 20.
 (pdftex.def)             Requested size: 386.95898pt x 541.74466pt.
-<chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG, id=363, 2220.79688pt x 338.76563pt>
+ [17 <./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG>] [18 <./chapters/Photos/Methods/Kittel_fit_6K.png>]
+<chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG, id=380, 2220.79688pt x 338.76563pt>
 File: chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG Graphic file (type png)
 <use chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG>
 Package pdftex.def Info: chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG  used on input line 35.
 (pdftex.def)             Requested size: 386.95898pt x 59.02641pt.
-<chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG, id=365, 864.3492pt x 650.43pt>
+<chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG, id=382, 864.3492pt x 650.43pt>
 File: chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG Graphic file (type png)
 <use chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG>
 Package pdftex.def Info: chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG  used on input line 44.
 (pdftex.def)             Requested size: 386.95898pt x 291.18222pt.
-) (./chapters/05_Results.tex
+ [19 <./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG>]) (./chapters/05_Results.tex
 Chapter 5.
-[17] [18 <./chapters/Photos/Methods/Kittel_fit_6K.png> <./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz.PNG>] [19 <./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG>]
-<chapters/Photos/Results/45nm params.png, id=383, 650.43pt x 433.62pt>
+[20 <./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG>]
+<chapters/Photos/Results/45nm params.png, id=395, 650.43pt x 433.62pt>
 File: chapters/Photos/Results/45nm params.png Graphic file (type png)
 <use chapters/Photos/Results/45nm params.png>
 Package pdftex.def Info: chapters/Photos/Results/45nm params.png  used on input line 14.
 (pdftex.def)             Requested size: 386.95898pt x 257.97733pt.
-<chapters/Photos/Results/30nm params.png, id=384, 650.43pt x 433.62pt>
+<chapters/Photos/Results/30nm params.png, id=396, 650.43pt x 433.62pt>
 File: chapters/Photos/Results/30nm params.png Graphic file (type png)
 <use chapters/Photos/Results/30nm params.png>
 Package pdftex.def Info: chapters/Photos/Results/30nm params.png  used on input line 23.
@@ -1933,14 +1939,14 @@ Package pdftex.def Info: chapters/Photos/Results/30nm params.png  used on input 
 Chapter 6.
 ) (./chapters/07_Microfabrication.tex
 Chapter 7.
+[21 <./chapters/Photos/Results/45nm params.png>]
 
-LaTeX Warning: Citation 'IRGENDWAS WAS DC-BIAS macht' on page 20 undefined on input line 3.
+LaTeX Warning: Citation 'IRGENDWAS WAS DC-BIAS macht' on page 22 undefined on input line 3.
 
-[20 <./chapters/Photos/Results/45nm params.png>]
+[22 <./chapters/Photos/Results/30nm params.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 8.
- [21 <./chapters/Photos/Results/30nm params.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 10.
@@ -1956,7 +1962,7 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 16.
-<chapters/Photos/Microfabrication/E-line Dose.png, id=398, 118.5228pt x 130.3269pt>
+<chapters/Photos/Microfabrication/E-line Dose.png, id=410, 118.5228pt x 130.3269pt>
 File: chapters/Photos/Microfabrication/E-line Dose.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/E-line Dose.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/E-line Dose.png  used on input line 20.
@@ -1970,64 +1976,64 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 28.
- [22] [23 <./chapters/Photos/Microfabrication/E-line Dose.png>]
+ [23] [24 <./chapters/Photos/Microfabrication/E-line Dose.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 30.
-<chapters/Photos/Microfabrication/5min_before.png, id=411, 98.5281pt x 75.1608pt>
+<chapters/Photos/Microfabrication/5min_before.png, id=423, 98.5281pt x 75.1608pt>
 File: chapters/Photos/Microfabrication/5min_before.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_before.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_before.png  used on input line 39.
 (pdftex.def)             Requested size: 232.20103pt x 170.72612pt.
-<chapters/Photos/Microfabrication/5min_after.png, id=412, 74.679pt x 98.0463pt>
+<chapters/Photos/Microfabrication/5min_after.png, id=424, 74.679pt x 98.0463pt>
 File: chapters/Photos/Microfabrication/5min_after.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_after.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_after.png  used on input line 47.
 (pdftex.def)             Requested size: 232.193pt x 170.74126pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=414, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=426, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam.png  used on input line 61.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=415, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=427, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png  used on input line 68.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=416, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=428, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png  used on input line 75.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
- [24 <./chapters/Photos/Microfabrication/5min_before.png> <./chapters/Photos/Microfabrication/5min_after.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 84.
+ [25] [26 <./chapters/Photos/Microfabrication/5min_before.png> <./chapters/Photos/Microfabrication/5min_after.png> <./chapters/Photos/Microfabrication/10min_looking_ebeam.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png (PNG copy)>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 88.
 
 
-LaTeX Warning: Reference `AFM_1' on page 25 undefined on input line 88.
+LaTeX Warning: Reference `AFM_1' on page 27 undefined on input line 88.
 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 92.
-[25 <./chapters/Photos/Microfabrication/10min_looking_ebeam.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png (PNG copy)>]
+[27]
 Overfull \hbox (1.25426pt too wide) in paragraph at lines 100--102
 \T1/ntxtlf/m/n/12 sion in their re-spec-tive de-vel-oper, and ace-tone baths. The over-baked sam-ple with the $[]$
  []
 
-<chapters/Photos/Microfabrication/MaN_holes.png, id=431, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/MaN_holes.png, id=447, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/MaN_holes.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/MaN_holes.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/MaN_holes.png  used on input line 105.
 (pdftex.def)             Requested size: 386.95898pt x 296.69717pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 106.
-[26] [27 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)>]) (./chapters/08_Conclusion.tex
+[28 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)>]) (./chapters/08_Conclusion.tex
 Chapter 8.
-) [28]
+) [29]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 49.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 49.
@@ -2063,15 +2069,15 @@ Overfull \hbox (34.44478pt too wide) in paragraph at lines 50--50
 \T1/pcr/m/n/12 www . sciencedirect . com / topics / physics -[] and -[] astronomy / photolithography$[]\T1/ntxtlf/m/n/12 .
  []
 
-[29] [30] (./chapters/99_Appendix.tex
+[30] [31] (./chapters/99_Appendix.tex
 Appendix A.
-[31]
-<tum-resources/images/Universitaet_Flaggen.jpg, id=486, 1590.94376pt x 1131.22626pt>
+[32]
+<tum-resources/images/Universitaet_Flaggen.jpg, id=498, 1590.94376pt x 1131.22626pt>
 File: tum-resources/images/Universitaet_Flaggen.jpg Graphic file (type jpg)
 <use tum-resources/images/Universitaet_Flaggen.jpg>
 Package pdftex.def Info: tum-resources/images/Universitaet_Flaggen.jpg  used on input line 24.
 (pdftex.def)             Requested size: 338.58635pt x 240.74057pt.
-) [32 <./tum-resources/images/Universitaet_Flaggen.jpg>]
+) [33 <./tum-resources/images/Universitaet_Flaggen.jpg>]
 LaTeX Font Info:    Trying to load font information for T1+times on input line 54.
 LaTeX Font Info:    No file T1times.fd. on input line 54.
 
@@ -2083,7 +2089,7 @@ LaTeX Font Warning: Font shape `T1/times/m/n' undefined
 LaTeX Font Warning: Font shape `T1/times/b/n' undefined
 (Font)              using `T1/times/m/n' instead on input line 54.
 
-[33] (./main.aux)
+[34] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2097,18 +2103,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55857 strings out of 478268
- 1225285 string characters out of 5846346
- 2190907 words of memory out of 5000000
- 72914 multiletter control sequences out of 15000+600000
- 638010 words of font info for 236 fonts, out of 8000000 for 9000
+ 55805 strings out of 478268
+ 1224857 string characters out of 5846346
+ 2191170 words of memory out of 5000000
+ 72875 multiletter control sequences out of 15000+600000
+ 616496 words of font info for 185 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  124i,16n,145p,10702b,3287s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txbsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (33 pages, 16365004 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (34 pages, 16391407 bytes).
 PDF statistics:
- 728 PDF objects out of 1000 (max. 8388607)
- 596 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
- 440 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 734 PDF objects out of 1000 (max. 8388607)
+ 602 compressed objects within 7 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 445 words of extra memory for PDF output out of 10000 (max. 10000000)
 
