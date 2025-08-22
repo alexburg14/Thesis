@@ -91,40 +91,59 @@ ENTER AFM EXPLANATION
 
 After the AFM measurement, we tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripes. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface for the CPW. (MAYBE WRITE DIFFERENTLY). Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of this work that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way isolation layers are now fabricated at the chair.
 \subsection{Microscope}
-We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
+We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ (MA-N) photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
 
 \subsection{Overbaking}
 Finally, we investigated whether overbaking the photoresist, as in doing the pre-baking process significantly longer than recommended, would lead to a durable isolation layer.
-For this, we have spincoated samples with both the $\textit{AR-N 7520.17 new}$ and the $\textit{MA-N 1407}$ photoresist onto silicon samples at their respective recommended RPM settings which are detailed in the sections above. The samples were then put onto a hotplate at 100C$^\circ$ for 20 minutes to overbake them.
+For this, we have spincoated samples with both the AR-N and the MA-N photoresist onto silicon samples at their respective recommended RPM settings which are detailed in the sections above. The samples were then put onto a hotplate at 100C$^\circ$ for 20 minutes to overbake them.
 
 Both samples then underwent stress tests which included pressurized acetone streams, submersion in their respective developer, and acetone baths. The overbaked sample with the $\textit{AR-N 7520.17 new}$ photoresist was damaged AFTER WHAT?
-The sample with the $\textit{MA-N 1407}$ photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes AT WHAT TEMP?, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
+The sample with the MA-N photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes AT WHAT TEMP?, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{chapters/Photos/Microfabrication/MaN_holes.png}
-    \caption{Picture of the holes seen in the isolation layer of the overbaked sample with the $\textit{MA-N 1407}$ photoresist. The sample was overbaked at 100C$^\circ$ for 20 minutes, and then underwent a stress test which included an acetone bath at 60C$^\circ$ for 10 minutes. The holes were deemed acceptable, as they were not large enough to impair the performance of the device.}
-    \label{holes}
-\end{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{chapters/Photos/Microfabrication/MaN_holes.png}
+        \caption{Picture of the holes seen in the isolation layer of the overbaked sample with the $\textit{MA-N 1407}$ photoresist. The sample was overbaked at 100$^\circ$C for 20 minutes, and then underwent a stress test which included an acetone bath at 60$^\circ$C for 10 minutes. The holes were deemed acceptable, as they were not large enough to impair the performance of the device.}
+        \label{holes}
+    \end{figure}
 
 
 
 \section{Fabrication of on-chip waveguides}
 After trying out the above mentioned methods, overbaking the sample after applying the photoresist seemed to be the most durable way of creating an isolation layer via cross-linking. In the following, the entire process is explained by which we successfully fabricated a device capable of FMR measurements under a DC-bias.
 
-\subsection{Lithography of gold plates}
-\subsection{Cross-linking through overbaking}
-\subsection{Lithography of CPW}
-\subsection{etching and gold aufdampfen}
-\subsection{Soldering and bonding}
+\subsection{Device design}
+The full design can be taken from figure \ref{DESIGN SAMPLE}. 
 
+\subsection{Fabrication}
+Firstly, a full-film sample is spin-coated with the Ma-N photoresist, after which it is soft-baked at WHAT TEMP HOW LONG?. The sample is then placed into the MLA and the contact pads are exposed. After developing, the sample is then hard-baked at WHAT TEMP HOW LONG? and undergoes a pre-sputtering of 30 seconds to remove the film at the non-exposed areas. 
+After the etching, the sample is again spin-coated with the Ma-N photoresist and overbaked at 180$^\circ$C for 30 minutes to create the isolation layer we need.
+Following the cross-linking step, the sample is now spin-coated with the $\textit{AZ 2514 E}$ (AZ) photoresist, which is a positive photoresist, and then soft-baked at 110$^\circ$C for 60 seconds. The areas for the CPW are then exposed using the MLA. After exposure, the sample was etched again for 30 seconds followed by vaporization of gold onto the sample for a thickness of around 100 nm. The sample is then put into an ultrasonic acetone bath at the lowest setting (1/9) for 30 seconds to remove the photoresist and lift off the gold from the non-exposed areas. The final sample is shown in figure \ref{final_sample}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapters/Photos/Microfabrication/final_sample.png}
+    \caption{Final sample after the fabrication process. The four contacts pads are visible in the corners. It is clearly visible that the lines connecting the contact pads are below the green isolation layer. The CPW flows over the isolation layer, indicating a successful fabrication process.}
+    \label{final_sample}
+\end{figure}
+
+The holes encountered during the initial test were again to be seen after the final fabrication process. Some holes unfortunately were created exactly on the lines of the CPW, which could potentially affect the performance of the device. However, due to the redundant design of the CPW, the impact on the overall functionality was minimal. For initial test measurements, the CPW which was potentially compromised was simply not used.
+
+\subsection{Soldering and bonding}
+In order to mount the device into the insert for measurement, the signal and ground lines of the CPW are wire bonded onto the bond pads on the chip carrier - on which a PMA adapter is soldered - to establish an electrical connection needed for FMR measurements. Additionally, wire bonds are done between the contact pads and other bond pads which are connected to a DC source. An example picture of a mounted device can be seen in figure \ref{fig:mounted_device}.
+
+During the mounting process, some devices got damaged and appeared scratched, making some CPWs unusable in the process. One example can be seen in figure \ref{fig:damaged_CPW}. The damage was done during testing of the contacts to ensure that the CPW does not have a shorted circuit somewhere. During the test, some of the signal and ground lines of several devices seemed shorted. This was due to the fact that the CPW design went all the way to the edge of the sample. This caused some gold to flow over to the side during the vaporization process. The gold left from the lift-off process then shorted the signal and ground lines. This issue was resolved by manually scratching the CPW lines with the testing poles close to the edge of the sample. 
+
+\subsection{Outlook}
+- no CPW am Rand
+- dünneres Gold -> Für was?
+- dickeres AZ für besseres Liftoff
 
 
 TODO:
 AFM pictures, write explanation to it 
-holes pictures
 fabriacation of samples 
-    writing
-    photos of completion
-    issues or problems encountered
+    picure of design
+    issues or problems encountered -> sample foto where it was scratched
+    picture of mounted device
 

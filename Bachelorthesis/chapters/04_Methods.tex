@@ -48,6 +48,14 @@ Similar to the RF signal amplitude, the effect of the modulation current on the 
 
 \section{Optimizing the Lock-in amplifier settings}
 Finally, the settings of the lock-in amplifier (LIA) were optimized to achieve the best possible signal detection. For this, the time constant and the sensitivity of the LIA were adjusted. The time constant determines how quickly the LIA can respond to changes in the signal, while the sensitivity determines how small of a signal the LIA can detect. A bigger time constant results in a slower response to changes in the signal, which can be beneficial for reducing noise but may also lead to a loss of signal fidelity. Similarly, a smaller time constant allows for a faster response but can increase the noise level in the measurement. The time constant and the sweep rate are interdependent, as a longer time constant requires a slower sweep rate to maintain measurement accuracy.
-In the end, a time constant of 300 ms and a sweep rate of 0.1 A/s were chosen. The sensitivity of the LIA was set to the lowest possible setting that does not cut off any signal, depending on the frequency range of interest.
 
-HIER SLOW-AND FAST SWEEP VERWENDEN?
+To find the optimal settings, both slow and fast sweep rates were tested. The comparison can be found in figure \ref{fig:fast_and_slow}.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png}
+\caption{Comparison of FMR resonance curves for different sweep rates. The black graph corresponds CORRESPONDS TO WHAT? The slow sweep rate provides better signal quality but takes longer to acquire data, while the fast sweep rate allows for quicker measurements but may introduce more noise.}
+\label{fig:fast_and_slow}
+\end{figure}
+
+In the end, a time constant of 300 ms and a sweep rate of 0.1 A/s were chosen, as it it provided the best signal quality. The sensitivity of the LIA was set to the lowest possible setting that does not cut off any signal, depending on the frequency range of interest.

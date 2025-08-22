@@ -2101,6 +2101,11 @@ INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
 INPUT chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
 INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
 INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm.PNG
+INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
+INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
+INPUT chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
+INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
+INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
@@ -2178,6 +2183,11 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
+INPUT ./chapters/Photos/Microfabrication/final_sample.png
+INPUT ./chapters/Photos/Microfabrication/final_sample.png
+INPUT chapters/Photos/Microfabrication/final_sample.png
+INPUT ./chapters/Photos/Microfabrication/final_sample.png
+INPUT ./chapters/Photos/Microfabrication/final_sample.png
 INPUT ./chapters/08_Conclusion.tex
 INPUT ./chapters/08_Conclusion.tex
 INPUT ./chapters/08_Conclusion.tex
