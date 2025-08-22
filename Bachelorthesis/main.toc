@@ -27,15 +27,15 @@
 \contentsline {chapter}{\numberline {7}Microfabrication}{23}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Optimizing the cross-linking process}{24}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}e-Beam lithography}{24}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}MLA}{26}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.2}MLA}{27}{subsection.7.1.2}%
 \contentsline {subsection}{\numberline {7.1.3}Microscope}{28}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Overbaking}{29}{subsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.1.4}Overbaking}{28}{subsection.7.1.4}%
 \contentsline {section}{\numberline {7.2}Fabrication of on-chip waveguides}{30}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Device design}{30}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Fabrication}{30}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Soldering and bonding}{31}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Outlook}{32}{subsection.7.2.4}%
-\contentsline {chapter}{\numberline {8}Conclusion}{32}{chapter.8}%
-\contentsline {chapter}{Bibliography}{33}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Appendix}{35}{chapter.A}%
+\contentsline {subsection}{\numberline {7.2.2}Fabrication}{31}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Soldering and bonding}{32}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Outlook}{33}{subsection.7.2.4}%
+\contentsline {chapter}{\numberline {8}Conclusion}{33}{chapter.8}%
+\contentsline {chapter}{Bibliography}{34}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Appendix}{36}{chapter.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
