@@ -5,7 +5,7 @@ The next step was to fabricate a device capable of performing FMR on the samples
 \section{Optimizing the cross-linking process}
 To create the device's isolation layer, photoresist cross-linking was identified as the promising method. Several cross-linking techniques to determine the most effective approach for device fabrication were tested, which are detailed in the following.
 \subsection{e-Beam lithography}
-We first attempted cross-linking using a e-Beam lithography (EBL) machine. For this, the AR-N photoresist was spin-coated onto a silicon sample at 4000 rpm with an acceleration of 1000 rpm/s. The expected thickness was 40nm \cite{Allresist_ARN7520}. The sample was then soft-baked at 85 $^\circ$C for one minute and placed into the EBL. The electron beam was set to 20 kV and the aperture set to 20 µm, with a beam current of 112 pA.
+We first attempted cross-linking using a e-Beam lithography (EBL) machine. For this, the $\textit{AR-N 1407.17 new}$ (AR-N) photoresist was spin-coated onto a silicon sample at 4000 rpm with an acceleration of 1000 rpm/s. The expected thickness was 40nm \cite{Allresist_ARN7520}. The sample was then soft-baked at 85 $^\circ$C for one minute and placed into the EBL. The electron beam was set to 20 kV and the aperture set to 20 µm, with a beam current of 112 pA.
 
 To verify the concept, a small square on the sample with the side length of 100 µm was exposed with a dose of 10000 µC/cm$^2$, which was done by exposing the same area to 100 µC/cm$^2$ a hundred times. For reference, the dose recommended by the manufacturer is 30 µC/cm$^2$ \cite{Allresist_ARN7520}. After the exposure, the sample was developed with the $\textit{AR300-47}$ developer for around 50 seconds, and was submerged into deionized water for 30 seconds.
 
@@ -97,7 +97,7 @@ ENTER AFM EXPLANATION
 
 After the AFM measurement, we tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripes. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface for the CPW. (MAYBE WRITE DIFFERENTLY). Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of this work that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way isolation layers are now fabricated at the chair.
 \subsection{Microscope}
-We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ (MA-N) photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
+We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ (MA-N) photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequetly, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
 
 \subsection{Overbaking}
 Finally, we investigated whether overbaking the photoresist, as in doing the pre-baking process significantly longer than recommended, would lead to a durable isolation layer.
@@ -160,17 +160,19 @@ During the mounting process, some devices got damaged and appeared scratched, ma
     \caption{Example of a damaged CPW after the mounting process. The scratches to the CPW lines are visible, which completely compromised the functionality of the CPW. The damage was done during testing for shorted contacts.}
     \label{fig:damaged_CPW}
 \end{figure}
+\subsection{Testing of the device}
+The testing of the fabricated device was carried out by Max Mangold using the FMR measurement setup described in chapter 3. <- CHECK IF CORRECT BEFORE ABGABE
+
+The FMR measurement using the on-chip CPW was succesful without any issues. However, the DC-bias does not seem to have an effect on the measurements on this sample as of now, other than warming up the sample at too high currents. This is somewhat expected though, since symmetric stacks are expected to CANCEL OUT THE DC BIAS?
+
 
 \subsection{Outlook}
-- no CPW am Rand
-- dünneres Gold -> Für was?
-- dickeres AZ für besseres Liftoff
+During the course of this thesis, it was verified that cross-linking a photoresist can be done to create an isolation layer for fabricating a device capable of FMR measurements under a DC-bias. The method of overbaking seemed to be the most promising method during the investigation. However, as stated above, Sam Fülop found out that the issues with the stripes in the MLA exposure can be resolved by applying a significantly higher dose. This is now the main method used at the chair for creating isolation layers via cross-linking, as it is significantly faster than overbaking and easier to work with. 
 
+Several issues that were identified during the thesis were implemented after this thesis by Max Mangold, namely shortening the length of the on-chip CPW to ensure the signal and ground lines do not get shorted from the side during the vaporization process, as well as using a thicker layer of photoresist for the last step to ensure better liftoff.
+
+As a next step, fabrication of the same device on asymmetric stacks are planned, to investigate the DC-bias effect on the damping.
 
 TODO:
 AFM pictures, write explanation to it 
-fabriacation of samples 
-    picure of design
-    issues or problems encountered -> sample foto where it was scratched
-    picture of mounted device
 

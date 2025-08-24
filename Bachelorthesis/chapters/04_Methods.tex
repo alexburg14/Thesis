@@ -22,13 +22,12 @@ Each resonance curve for a specific RF signal frequency and temperature was fitt
 \label{Kittel_fit_Beispiel}
 \end{figure}
 
-To obtain the parameters we are interested in, the resonance field and linewidth curves were fitted with the Kittel formula (eq. \ref{Kittel equation}) and a linear function (eq. \ref{linewidth equation}), respectively. The resonance field fit is used to extract $M_{\text{shift}}$, ????which is the shift of the resonance field from the expected value????, and $M_{\text{eff}}$, the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter and the offset of the linewidth $\Delta H_0$
+To obtain the parameters we are interested in, the resonance field and linewidth curves were fitted with the Kittel formula (eq. \ref{Kittel equation}) and a linear function (eq. \ref{linewidth equation}), respectively. The resonance field fit is used to extract $M_{\text{shift}}$, which corresponds to the shift of the resonance field from the expected value - because of magnetic field lines concentrating into the ferromagnet due to the Meißner effect of the superconductors, known as flux focusing - as well as $M_{\text{eff}}$, which is the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter $\alpha$ and the offset of the linewidth $\Delta H_0$.
 
-Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence. These plots are shown in the results section below.
-
+Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence. These plots are shown in the results section below in figures \ref{fig:45nm_params} and \ref{fig:30nm_params}.
 
 \section{Optimizing the RF signal power}
-In order to obtain accurate measurements, the effect of the RF signal power on the FMR resonance curves, especially on the linewidth and the signal to noise ratio (SNR), was investigated. The RF signal power was varied, and the resonance curves were compared to find the optimal power that minimizes SNR while still having almost no broadening of the resonance curve. For this purpose, the RF signal power was varied from 0dBm to 10dBm in steps of 5dBm for a sample with a Niobium layer thickness of 45nm at a temperature of 7K and a frequency of 10 GHz. The results are shown in figure \ref{comparison_0dBmto10dBm_7K10Ghz}. From this comparison, we concluded that the 10 dBm measurement provided the best SNR without significant broadening of the resonance curve. An important thing here to note is that due to the nature of the lock-in amplifier, the linewidth of the original resonance curve is actually shown in the peak-to-peak amplitude of the resonance curve. 
+In order to obtain accurate measurements, the effect of the RF signal power on the FMR resonance curves, especially on the linewidth and the signal-to-noise ratio (SNR), was investigated. The RF signal power was varied, and the resonance curves were compared to find the optimal power that minimizes SNR while still having almost no broadening of the resonance curve. For this purpose, the RF signal power was varied from 0dBm to 10dBm in steps of 5dBm for a sample with a Niobium layer thickness of 45nm at a temperature of 7K and a frequency of 10 GHz. The results are shown in figure \ref{comparison_0dBmto10dBm_7K10Ghz}. From this comparison, we concluded that the 10 dBm measurement provided the best SNR without significant broadening of the resonance curve. An important thing here to note is that due to the nature of the lock-in amplifier, the linewidth of the original resonance curve is actually shown in the peak-to-peak amplitude of the resonance curve.
 
 \begin{figure}
 \centering
@@ -48,8 +47,8 @@ Similar to the RF signal amplitude, the effect of the modulation current on the 
 
 \section{Optimizing the Lock-in amplifier settings}
 Finally, the settings of the lock-in amplifier (LIA) were optimized to achieve the best possible signal detection. For this, the time constant and the sensitivity of the LIA were adjusted. The time constant determines how quickly the LIA can respond to changes in the signal, while the sensitivity determines how small of a signal the LIA can detect. A bigger time constant results in a slower response to changes in the signal, which can be beneficial for reducing noise but may also lead to a loss of signal fidelity. Similarly, a smaller time constant allows for a faster response but can increase the noise level in the measurement. The time constant and the sweep rate are interdependent, as a longer time constant requires a slower sweep rate to maintain measurement accuracy.
-
 To find the optimal settings, both slow and fast sweep rates were tested. The comparison can be found in figure \ref{fig:fast_and_slow}.
+In the end, a time constant of 300 ms and a sweep rate of 0.1 A/s were chosen, as it provided the best signal quality. The sensitivity of the LIA was set to the lowest possible setting that does not cut off any signal, depending on the frequency range of interest.
 
 \begin{figure}
 \centering
@@ -58,4 +57,7 @@ To find the optimal settings, both slow and fast sweep rates were tested. The co
 \label{fig:fast_and_slow}
 \end{figure}
 
-In the end, a time constant of 300 ms and a sweep rate of 0.1 A/s were chosen, as it it provided the best signal quality. The sensitivity of the LIA was set to the lowest possible setting that does not cut off any signal, depending on the frequency range of interest.
+TODO:
+
+-fix all graphs where comparing takes place
+- what corresponds to what in slow vs fast?
