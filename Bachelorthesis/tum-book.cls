@@ -236,7 +236,6 @@ This paper was not previously presented to another examination board and has not
 \renewcommand*{\chapterheadendvskip}{\vspace{0cm}}
 \usepackage{titlesec}
 
-
 %Distance between paragraphs
 \setlength{\parskip}{15pt}
 \setlength{\parindent}{1.27cm}
