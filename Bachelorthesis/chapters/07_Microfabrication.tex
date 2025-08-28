@@ -90,28 +90,28 @@ This method showed great durability and seemed to be able to withstand the stres
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\linewidth]{chapters/Photos/Microfabrication/test2.png}
-    \caption{ENTER CAPTION}
+    \includegraphics[width=\linewidth]{chapters/Photos/Microfabrication/test2.png}
+    \caption{AFM measurement of the photoresist thickness after MLA exposure. The pictures 2a and 2b correspond to the area marked as (1,2) in picture 1. Similarly, the pictures 3a and 3b correspond to the area marked as (3,4) in picture 1.}
     \label{AFM_MLA}
 \end{figure}
 
-ENTER AFM EXPLANATION
+The AFM measurements revealed a significant variance in the thickness of the photoresist across the sample. The sample had an overall thickness of around 140 nm (which can be seen from picture 2b in figure \ref{AFM_MLA}). The real issue, however, was the presence of stripes, which was more than 70nm in height. This could have lead to problems such as a non-even CPW, which would affect the performance of the device. 
 
-After the AFM measurement, we tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripes. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface for the CPW. (MAYBE WRITE DIFFERENTLY). Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of this work that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way isolation layers are now fabricated at the chair.
+After the AFM measurement, we tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripes. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface. Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of this work that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way isolation layers are now fabricated at the chair.
 \subsection{Microscope}
-We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ (MA-N) photoresist which we spin-coated onto a slilicon sample at ENTER RPM SETTING, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at ENTER MAGNIFICATION. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequetly, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
+We also investigated whether exposing the photoresist with a microscope would be a viable option. For this, we used the $\textit{MA-N 1407}$ (MA-N) photoresist which we spin-coated onto a silicon sample, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at the LOWEST MAGNIFICATION -> 20X?. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
 
 \subsection{Overbaking}
 Finally, we investigated whether overbaking the photoresist, as in doing the pre-baking process significantly longer than recommended, would lead to a durable isolation layer.
 For this, we have spincoated samples with both the AR-N and the MA-N photoresist onto silicon samples at their respective recommended RPM settings which are detailed in the sections above. The samples were then put onto a hotplate at 100C$^\circ$ for 20 minutes to overbake them.
 
-Both samples then underwent stress tests which included pressurized acetone streams, submersion in their respective developer, and acetone baths. The overbaked sample with the AR-N photoresist was damaged AFTER WHAT?
-The sample with the MA-N photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes AT WHAT TEMP?, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
+Both samples then underwent stress tests which included pressurized acetone streams, submersion in their respective developer, and acetone baths. The overbaked sample with the AR-N photoresist was damaged after the test.
+The sample with the MA-N photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
 
 \begin{figure}
         \centering
         \includegraphics[width=0.7\linewidth]{chapters/Photos/Microfabrication/MaN_holes.png}
-        \caption{Picture of the holes seen in the isolation layer of the overbaked sample with the $\textit{MA-N 1407}$ photoresist. The sample was overbaked at 100$^\circ$C for 20 minutes, and then underwent a stress test which included an acetone bath at 60$^\circ$C for 10 minutes. The holes were deemed acceptable, as they were not large enough to impair the performance of the device.}
+        \caption{Picture of the holes seen in the isolation layer of the overbaked sample with the $\textit{MA-N 1407}$ photoresist. The sample was overbaked at 100$^\circ$C for 20 minutes, and then underwent a stress test which included an acetone bath for 10 minutes. The holes were deemed acceptable, as they were not large enough to impair the performance of the device.}
         \label{holes}
     \end{figure}
 
@@ -175,6 +175,5 @@ Several issues that were identified during the thesis were implemented after thi
 
 As a next step, fabrication of the same device on asymmetric stacks are planned, to investigate the DC-bias effect on the damping.
 
-TODO:
-AFM pictures, write explanation to it 
+
 
