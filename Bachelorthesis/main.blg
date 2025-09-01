@@ -1,0 +1,20 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'main.blg'
+[130] biber-darwin:340> INFO - === Mon Sep  1, 2025, 16:52:35
+[165] Biber.pm:418> INFO - Reading 'main.bcf'
+[319] Biber.pm:972> INFO - Found 14 citekeys in bib section 0
+[340] Biber.pm:4383> INFO - Processing section 0
+[361] Biber.pm:4574> INFO - Looking for bibtex file 'literature.bib' for section 0
+[370] bibtex.pm:1713> INFO - LaTeX decoding ...
+[398] bibtex.pm:1518> INFO - Found BibTeX data source 'literature.bib'
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[591] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[591] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[592] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[631] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[641] bbl.pm:757> INFO - Output to main.bbl
+[641] Biber.pm:130> WARN - legacy month field 'December' in entry 'Meier2020FMR' is not an integer - this will probably not sort properly.
+[641] Biber.pm:130> WARN - legacy month field 'Jan' in entry 'Jeon2019' is not an integer - this will probably not sort properly.
+[641] Biber.pm:130> WARN - legacy month field 'February' in entry 'Allresist_ARN7520' is not an integer - this will probably not sort properly.
+[641] Biber.pm:130> WARN - I didn't find a database entry for 'IRGENDWAS WAS DC-BIAS macht' (section 0)
+[641] Biber.pm:132> INFO - WARNINGS: 4

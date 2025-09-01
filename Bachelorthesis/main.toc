@@ -1,0 +1,42 @@
+\babel@toc {english}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Theory}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Fundamentals of Magnetism}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Macrospin Model}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Ferromagnetic Resonance}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Spin Pumping}{8}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Fundamentals of Superconductivity}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The London Equations}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Types of superconductors}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Photolithography}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Typical photolithography process}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Cross-linking}{11}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Experimental Setup}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Sample configuration}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Measurement Setup}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Methods}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Measurement procedure}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Optimizing the RF signal power}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Optimizing the modulation current}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Optimizing the Lock-in amplifier settings}{17}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Results and Discussion}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}45nm}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}30nm}{21}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Comparison}{21}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Microfabrication}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Optimizing the cross-linking process}{23}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}e-Beam lithography}{24}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}MLA}{26}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Microscope}{28}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Overbaking}{28}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Fabrication of on-chip waveguides}{28}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Device design}{29}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Fabrication}{29}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Soldering and bonding}{30}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Testing of the device}{31}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Outlook}{33}{subsection.7.2.5}%
+\contentsline {chapter}{\numberline {8}Conclusion}{33}{chapter.8}%
+\contentsline {chapter}{Bibliography}{34}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Appendix}{36}{chapter.A}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

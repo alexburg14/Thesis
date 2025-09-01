@@ -1,17 +1,13 @@
-\chapter{Results}
+\chapter{Results and Discussion}
 The results of the measurements for the sample with a Niobium layer thickness of 45 nm are shown in figure \ref{fig:45nm_params} and the results for the 30 nm sample can be seen in figure \ref{fig:30nm_params}. The data points in red are the extracted parameters calculated from the measurements done by Alex Burg, and the blue data points are parameters from the measurements done by Max Mangold. For this bachelor thesis, the focus was put on measuring more data points near the critical temperature of the sample, which is around 7K for the 45 nm sample and around 5K for the 30 nm sample. This was done in order to get a better understanding of the sudden change in the parameters around this temperature. In the following, the two obtained graphs are explained and discussed.  
 \section{45nm}
 From figure \ref{fig:45nm_params}, we can see that measurements align well and are consistent with each other, except for measurements around 7K, where the parameters deviate significantly. It can be seen that the spikes / drops observed in the measurements done for this bachelor thesis are significantly bigger, even though the error bars overlap with the measurements by Max Mangold in some cases. SHOULD MAYBE DELETE LAST TWO SENTENCES? MOVE DISCUSSION OF SPIKE INTO DISCUSSION?
 
-The Gilbert damping parameter $\alpha$ increases with temperature until around the critical temperature $T_{\textrm{C}}$, where a significant spike is visible. The decreasing behavior can be explained by the fact that the London penetration depth is dependent on temperature: $\lambda(T) = \lambda(0) / \sqrt{1 - (T/T_C)^4}$. This means that more magnetic moment is able to transfer into the superconductor when the temperature is increased, which results in a stronger damping of the magnetization. Above $T_{\textrm{C}}$, the damping becomes constant since the supercondutor transitions into a normal state.
+The Gilbert damping parameter $\alpha$ increases with temperature until around the critical temperature $T_{\textrm{C}}$, where a significant spike is visible. This behavior can be explained by the fact that the London penetration depth is dependent on temperature: $\lambda(T) = \lambda(0) / \sqrt{1 - (T/T_C)^4}$. This means that more magnetic moment is able to transfer into the superconductor when the temperature is increased, which results in a stronger damping of the magnetization. Above $T_{\textrm{C}}$, the damping becomes constant since the supercondutor transitions into a normal state.
 
 The resonance line width offset $\Delta H_0$ decreases with increase in temperature, which can be explained by the fact that fewer extrinsic factors are present-> REALLY?. After the downward spike near $T_{\textrm{C}}$, the offset becomes close to zero, which is logical since the superconductor is in a normal state and thus no extrinsic factors are present.
 
-MEFF?
-
-warum andersum?
-
-warum der Verlauf?
+The effective magnetization $M_\textrm{eff}$ appears to exhibit two distinct constant levels: one below $T_\textrm{C}$ and one above, with the higher value occurring above $T_\textrm{C}$. Similar to the other parameters, a pronounced change is observed in the vicinity of $T_\textrm{C}$. Interestingly, the direction of this change differs between the measurement by Alex Burg and that by Max Mangold. WHY IS THIS THE CASE? DOMAIN IN DIFFERENT PLACES DOESNT MAKE SENSE IF ALL OTHER MEAUREMENTS ALIGN. UND WARUM DER VERLAUF?
 
 The resonance field shift $H_{\text{shift}}$ decreases with increasing temperature, which can be explained by the fact that the superconductor is less able to expel magnetic field lines, since the newly created vortices allow magnetic fields to penetrate into the superconductor. This results in flux focusing becoming weaker, explaining the decrease in the resonance field shift. Above $T_{\textrm{C}}$, the resonance field shift becomes zero, as expected.
 
@@ -20,10 +16,9 @@ The spiking behavior near $T_{\textrm{C}}$ for all parameters can potentially be
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{chapters/Photos/Results/45nm params.png}
-    \caption{Measured parameters for the sample with a Niobium layer thickness of 45 nm. The data points in red are the extracted parameters calculated from the measurements done by Alex Burg, and the blue data points are parameters from the measurements done by Max Mangold. The parameters include the Gilbert damping parameter $\alpha$, the effective field $M_{\text{eff}}$, the resonance field shift $H_{\text{shift}}$, and the offset $\Delta H_0$. The data is plotted against the temperature.}
+    \caption{Measured parameters for the sample with a Niobium layer thickness of 45 nm. The data points in red are the extracted parameters calculated from the measurements done by Alex Burg, and the blue data points are parameters from the measurements done by Max Mangold. The parameters include the Gilbert damping parameter $\alpha$, the effective magnetization $M_{\text{eff}}$, the resonance field shift $H_{\text{shift}}$, and the offset $\Delta H_0$. The data is plotted against the temperature.}
     \label{fig:45nm_params}
 \end{figure}
-
 
 \section{30nm}
 The measurements for the 30 nm sample show significantly more deviation compared to the 45 nm sample. 
@@ -33,12 +28,9 @@ The overall trend seems to be consistent with the measurement done on the 45 nm 
 
 The resonance line width offset $\Delta H_0$, on the contrary, shows a strong alignment between the two measurements done. The downward spike is also only visible on the measurement done by Alex Burg. Here, the trend also seems to be consistent with the 45 nm sample.
 
-The resonance field shift $H_{\text{shift}}$ also shows a strong alignment between the two measurements done, although it can be noted here that there is no significant spike visible on either of the measurements. Additionally, $H_{\text{shift}}$ seemes to settle at a non-zero constant value above $T_{\text{C}}$, which is unexpected. WIE KANN MAN ERKLAREN?
+The effective magnetization seems to exhibit the biggest discrepancy between the two measurements done by Alex Burg and that of Max Mangold. While the measurements done by Max Mangold shows an increase of the magnetization until $T_{\text{C}}$, followed by a constant value, the measurements done by Alex Burg  seem to show no constant behavior and seem to have a significant offset upwards of around 15 mT. This could potentially be caused by sample aging, where the Permalloy diffuses into the Niobium layer over time, altering the effective magnetization. WARUM DER VERLAUF BEI MAXS MESSUNGEN?
 
-MEFF?
-warum der Verlauf?
-Wie ist der Offset zu erklären?
-
+The resonance field shift $H_{\text{shift}}$ also shows a strong alignment between the two measurements done, although it can be noted here that there is no significant spike visible on either of the measurements. Additionally, $H_{\text{shift}}$ seemes to settle at a non-zero constant value above $T_{\text{C}}$, which is unexpected. WIE KANN DAS MAN ERKLAREN?
 
 \begin{figure}
     \centering

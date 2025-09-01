@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{Allresist_ARN7520}{manual}{}{}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Allresist_ARN7520}{manual}{}
       \name{author}{1}{}{%
         {{hash=7dee16bd8a3843716a208df873ba3d7e}{%
            family={{Allresist GmbH}},
@@ -33,12 +33,10 @@
       }
       \strng{namehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{fullhash}{7dee16bd8a3843716a208df873ba3d7e}
-      \strng{fullhashraw}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{bibnamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authorbibnamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authornamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authorfullhash}{7dee16bd8a3843716a208df873ba3d7e}
-      \strng{authorfullhashraw}{7dee16bd8a3843716a208df873ba3d7e}
       \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -58,7 +56,7 @@
       \verb https://www.allresist.com/wp-content/uploads/sites/2/2021/02/Allresist_Product-information-E-Beamresist-AR-N-7520new-English-web.pdf
       \endverb
     \endentry
-    \entry{AllresistPhotoresistOnline}{online}{}{}
+    \entry{AllresistPhotoresistOnline}{online}{}
       \name{author}{1}{}{%
         {{hash=7dee16bd8a3843716a208df873ba3d7e}{%
            family={{Allresist GmbH}},
@@ -66,12 +64,10 @@
       }
       \strng{namehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{fullhash}{7dee16bd8a3843716a208df873ba3d7e}
-      \strng{fullhashraw}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{bibnamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authorbibnamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authornamehash}{7dee16bd8a3843716a208df873ba3d7e}
       \strng{authorfullhash}{7dee16bd8a3843716a208df873ba3d7e}
-      \strng{authorfullhashraw}{7dee16bd8a3843716a208df873ba3d7e}
       \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -90,7 +86,7 @@
       \verb https://www.allresist.com/resist-wiki-what-are-photoresists-composed-of-and-how-do-they-work/
       \endverb
     \endentry
-    \entry{Hunklinger2018}{book}{}{}
+    \entry{Hunklinger2018}{book}{}
       \name{author}{1}{}{%
         {{hash=c9592bb4af17b965a176b10267d47259}{%
            family={Hunklinger},
@@ -103,12 +99,10 @@
       }
       \strng{namehash}{c9592bb4af17b965a176b10267d47259}
       \strng{fullhash}{c9592bb4af17b965a176b10267d47259}
-      \strng{fullhashraw}{c9592bb4af17b965a176b10267d47259}
       \strng{bibnamehash}{c9592bb4af17b965a176b10267d47259}
       \strng{authorbibnamehash}{c9592bb4af17b965a176b10267d47259}
       \strng{authornamehash}{c9592bb4af17b965a176b10267d47259}
       \strng{authorfullhash}{c9592bb4af17b965a176b10267d47259}
-      \strng{authorfullhashraw}{c9592bb4af17b965a176b10267d47259}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -126,7 +120,140 @@
       \verb https://www.degruyterbrill.com/document/doi/10.1515/9783110567755/html?lang=en
       \endverb
     \endentry
-    \entry{Liensberger2021}{thesis}{}{}
+    \entry{Jeon2018}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=f0b4aa5806e9116ccd81c8865f079d1b}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={K.R.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ad1365390872674c2f5787241f6c72e8}{%
+           family={Ciccarelli},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e45cb5040d726c369048bc55aa0e92ce}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={A.J.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{110648fa5c702b2a510fe6169ef1d411}
+      \strng{fullhash}{110648fa5c702b2a510fe6169ef1d411}
+      \strng{bibnamehash}{110648fa5c702b2a510fe6169ef1d411}
+      \strng{authorbibnamehash}{110648fa5c702b2a510fe6169ef1d411}
+      \strng{authornamehash}{110648fa5c702b2a510fe6169ef1d411}
+      \strng{authorfullhash}{110648fa5c702b2a510fe6169ef1d411}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Materials}
+      \field{number}{6}
+      \field{title}{Enhanced spin pumping into superconductors provides evidence for superconducting pure spin currents}
+      \field{volume}{17}
+      \field{year}{2018}
+      \field{pages}{499\bibrangedash 503}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41563-018-0058-9
+      \endverb
+    \endentry
+    \entry{Jeon2019}{article}{}
+      \name{author}{11}{}{%
+        {{hash=971ec2487a86e3e05f55172b592b817a}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Kun-Rok},
+           giveni={K\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=29b7342ee1e11eb320e90c41ce9c0ae9}{%
+           family={Ciccarelli},
+           familyi={C\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9c3ccff34bd452597a0a990cb0a8eec1}{%
+           family={Kurebayashi},
+           familyi={K\bibinitperiod},
+           given={Hidekazu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6f11b59f93c73dd4db74c14730c8d886}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Lesley\bibnamedelima F.},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=a7ad1e67fda45974ae9825d115e001e8}{%
+           family={Montiel},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d142b6e61e119c94e501d0d31afdd5bd}{%
+           family={Eschrig},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd24481acbb10c452488a953118cbdc4}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=002007051a0d7c110952f19acfbce32c}{%
+           family={Komori},
+           familyi={K\bibinitperiod},
+           given={Sachio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=23c322fac2c367c4886c53546f7d0bb8}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e9a2194d147bd079328dcce374a47492}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Jason\bibnamedelima W.A.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2d0d7d828f44b2c8b94c2a79034adbc5}{%
+           family={Blamire},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f5654c6646b37551673b1599aedd99d6}
+      \strng{fullhash}{5678cf1be5d3579365dacd804c6ed637}
+      \strng{bibnamehash}{f5654c6646b37551673b1599aedd99d6}
+      \strng{authorbibnamehash}{f5654c6646b37551673b1599aedd99d6}
+      \strng{authornamehash}{f5654c6646b37551673b1599aedd99d6}
+      \strng{authorfullhash}{5678cf1be5d3579365dacd804c6ed637}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Appl.}
+      \field{month}{1}
+      \field{title}{Effect of Meissner Screening and Trapped Magnetic Flux on Magnetization Dynamics in Thick $\mathrm{Nb}/{\mathrm{Ni}}_{80}{\mathrm{Fe}}_{20}/\mathrm{Nb}$ Trilayers}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{014061}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevApplied.11.014061
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevApplied.11.014061
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevApplied.11.014061
+      \endverb
+    \endentry
+    \entry{Liensberger2021}{thesis}{}
       \name{author}{1}{}{%
         {{hash=3c21576b459830c6237c15ccf2bacebb}{%
            family={Liensberger},
@@ -139,12 +266,10 @@
       }
       \strng{namehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{fullhash}{3c21576b459830c6237c15ccf2bacebb}
-      \strng{fullhashraw}{3c21576b459830c6237c15ccf2bacebb}
       \strng{bibnamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authorbibnamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authornamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authorfullhash}{3c21576b459830c6237c15ccf2bacebb}
-      \strng{authorfullhashraw}{3c21576b459830c6237c15ccf2bacebb}
       \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
@@ -160,7 +285,7 @@
       \verb https://www.wmi.badw.de/fileadmin/WMI/Publications/Liensberger_Lukas_Doktorarbeit_2021.pdf
       \endverb
     \endentry
-    \entry{Liensberger2017}{thesis}{}{}
+    \entry{Liensberger2017}{thesis}{}
       \name{author}{1}{}{%
         {{hash=3c21576b459830c6237c15ccf2bacebb}{%
            family={Liensberger},
@@ -173,12 +298,10 @@
       }
       \strng{namehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{fullhash}{3c21576b459830c6237c15ccf2bacebb}
-      \strng{fullhashraw}{3c21576b459830c6237c15ccf2bacebb}
       \strng{bibnamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authorbibnamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authornamehash}{3c21576b459830c6237c15ccf2bacebb}
       \strng{authorfullhash}{3c21576b459830c6237c15ccf2bacebb}
-      \strng{authorfullhashraw}{3c21576b459830c6237c15ccf2bacebb}
       \field{extraname}{2}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
@@ -194,7 +317,7 @@
       \verb https://www.wmi.badw.de/fileadmin/WMI/Publications/Liensberger%2CLukas_Masterarbeit_2017.pdf
       \endverb
     \endentry
-    \entry{Mack2006LithographyOnline}{online}{}{}
+    \entry{Mack2006LithographyOnline}{online}{}
       \name{author}{1}{}{%
         {{hash=5d02d5c1b3450d4c59e527c62de7a4bb}{%
            family={Mack},
@@ -204,12 +327,10 @@
       }
       \strng{namehash}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \strng{fullhash}{5d02d5c1b3450d4c59e527c62de7a4bb}
-      \strng{fullhashraw}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \strng{bibnamehash}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \strng{authorbibnamehash}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \strng{authornamehash}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \strng{authorfullhash}{5d02d5c1b3450d4c59e527c62de7a4bb}
-      \strng{authorfullhashraw}{5d02d5c1b3450d4c59e527c62de7a4bb}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -227,7 +348,7 @@
       \verb https://spie.org/publications/spie-publication-resources/optipedia-free-optics-information/fg06_p1-2_semiconductor_lithography
       \endverb
     \endentry
-    \entry{Meier2020FMR}{report}{}{}
+    \entry{Meier2020FMR}{report}{}
       \name{author}{1}{}{%
         {{hash=27032d2ad3c3ce4a9d238b7281e497df}{%
            family={Meier},
@@ -240,12 +361,10 @@
       }
       \strng{namehash}{27032d2ad3c3ce4a9d238b7281e497df}
       \strng{fullhash}{27032d2ad3c3ce4a9d238b7281e497df}
-      \strng{fullhashraw}{27032d2ad3c3ce4a9d238b7281e497df}
       \strng{bibnamehash}{27032d2ad3c3ce4a9d238b7281e497df}
       \strng{authorbibnamehash}{27032d2ad3c3ce4a9d238b7281e497df}
       \strng{authornamehash}{27032d2ad3c3ce4a9d238b7281e497df}
       \strng{authorfullhash}{27032d2ad3c3ce4a9d238b7281e497df}
-      \strng{authorfullhashraw}{27032d2ad3c3ce4a9d238b7281e497df}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
@@ -256,7 +375,7 @@
       \field{type}{Fortgeschrittenenpraktikum (FOPRA)}
       \field{year}{2020}
     \endentry
-    \entry{Mueller2023}{thesis}{}{}
+    \entry{Mueller2023}{thesis}{}
       \name{author}{1}{}{%
         {{hash=c8814ae6f7ad80fc77407c70c4d982fc}{%
            family={Müller},
@@ -269,12 +388,10 @@
       }
       \strng{namehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{fullhash}{c8814ae6f7ad80fc77407c70c4d982fc}
-      \strng{fullhashraw}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{bibnamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authorbibnamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authornamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authorfullhash}{c8814ae6f7ad80fc77407c70c4d982fc}
-      \strng{authorfullhashraw}{c8814ae6f7ad80fc77407c70c4d982fc}
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -290,7 +407,7 @@
       \verb https://www.wmi.badw.de/fileadmin/WMI/Publications/Mueller_Manuel_Doktorarbeit_2023.pdf
       \endverb
     \endentry
-    \entry{Mueller2019}{thesis}{}{}
+    \entry{Mueller2019}{thesis}{}
       \name{author}{1}{}{%
         {{hash=c8814ae6f7ad80fc77407c70c4d982fc}{%
            family={Müller},
@@ -303,12 +420,10 @@
       }
       \strng{namehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{fullhash}{c8814ae6f7ad80fc77407c70c4d982fc}
-      \strng{fullhashraw}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{bibnamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authorbibnamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authornamehash}{c8814ae6f7ad80fc77407c70c4d982fc}
       \strng{authorfullhash}{c8814ae6f7ad80fc77407c70c4d982fc}
-      \strng{authorfullhashraw}{c8814ae6f7ad80fc77407c70c4d982fc}
       \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -324,7 +439,7 @@
       \verb https://www.wmi.badw.de/fileadmin/WMI/Publications/Mueller_Manuel_Masterarbeit_2019.pdf
       \endverb
     \endentry
-    \entry{obstbaum2014}{thesis}{}{}
+    \entry{obstbaum2014}{thesis}{}
       \name{author}{1}{}{%
         {{hash=32d752f5c5faa2b5468fb96cdf788683}{%
            family={Obstbaum},
@@ -337,12 +452,10 @@
       }
       \strng{namehash}{32d752f5c5faa2b5468fb96cdf788683}
       \strng{fullhash}{32d752f5c5faa2b5468fb96cdf788683}
-      \strng{fullhashraw}{32d752f5c5faa2b5468fb96cdf788683}
       \strng{bibnamehash}{32d752f5c5faa2b5468fb96cdf788683}
       \strng{authorbibnamehash}{32d752f5c5faa2b5468fb96cdf788683}
       \strng{authornamehash}{32d752f5c5faa2b5468fb96cdf788683}
       \strng{authorfullhash}{32d752f5c5faa2b5468fb96cdf788683}
-      \strng{authorfullhashraw}{32d752f5c5faa2b5468fb96cdf788683}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
@@ -357,7 +470,7 @@
       \verb https://epub.uni-regensburg.de/33381/1/Doktorarbeit%20Martin%20Obstbaum.pdf
       \endverb
     \endentry
-    \entry{sciencedirect_photolithography}{misc}{}{}
+    \entry{sciencedirect_photolithography}{misc}{}
       \name{author}{1}{}{%
         {{hash=f78740cb4220393c3860d7ee74089560}{%
            family={{ScienceDirect (Elsevier)}},
@@ -365,12 +478,10 @@
       }
       \strng{namehash}{f78740cb4220393c3860d7ee74089560}
       \strng{fullhash}{f78740cb4220393c3860d7ee74089560}
-      \strng{fullhashraw}{f78740cb4220393c3860d7ee74089560}
       \strng{bibnamehash}{f78740cb4220393c3860d7ee74089560}
       \strng{authorbibnamehash}{f78740cb4220393c3860d7ee74089560}
       \strng{authornamehash}{f78740cb4220393c3860d7ee74089560}
       \strng{authorfullhash}{f78740cb4220393c3860d7ee74089560}
-      \strng{authorfullhashraw}{f78740cb4220393c3860d7ee74089560}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
