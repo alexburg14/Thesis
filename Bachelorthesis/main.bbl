@@ -86,6 +86,86 @@
       \verb https://www.allresist.com/resist-wiki-what-are-photoresists-composed-of-and-how-do-they-work/
       \endverb
     \endentry
+    \entry{Decker_2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d11372184f9f964d9c87ec8a620a92d0}{%
+           family={Decker},
+           familyi={D\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Regensburg}%
+      }
+      \strng{namehash}{d11372184f9f964d9c87ec8a620a92d0}
+      \strng{fullhash}{d11372184f9f964d9c87ec8a620a92d0}
+      \strng{bibnamehash}{d11372184f9f964d9c87ec8a620a92d0}
+      \strng{authorbibnamehash}{d11372184f9f964d9c87ec8a620a92d0}
+      \strng{authornamehash}{d11372184f9f964d9c87ec8a620a92d0}
+      \strng{authorfullhash}{d11372184f9f964d9c87ec8a620a92d0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spin-Orbit Torques in Metallic and Semiconducting Heterostructures}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
+    \entry{Eley_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d6f7e6bc2051a1d167d4bd38462f526d}{%
+           family={Eley},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=154d16aa044efbb212f737a11d403e7d}{%
+           family={Miura},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=44cf7f2783ff0c3c2d34b62ac1053e30}{%
+           family={Maiorov},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5002a1b53952665711b1c0c6643eea7e}{%
+           family={Civale},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{cdf80d82ad9baaa7a69727fc8807dc66}
+      \strng{fullhash}{912fb26cc1a0eafb9adaf42d64877e15}
+      \strng{bibnamehash}{cdf80d82ad9baaa7a69727fc8807dc66}
+      \strng{authorbibnamehash}{cdf80d82ad9baaa7a69727fc8807dc66}
+      \strng{authornamehash}{cdf80d82ad9baaa7a69727fc8807dc66}
+      \strng{authorfullhash}{912fb26cc1a0eafb9adaf42d64877e15}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Materials}
+      \field{month}{3}
+      \field{number}{4}
+      \field{title}{Universal lower limit on vortex creep in superconductors}
+      \field{volume}{16}
+      \field{year}{2017}
+      \field{pages}{409\bibrangedash 413}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nmat4840
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038%2Fnmat4840
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038%2Fnmat4840
+      \endverb
+    \endentry
     \entry{Hunklinger2018}{book}{}
       \name{author}{1}{}{%
         {{hash=c9592bb4af17b965a176b10267d47259}{%
@@ -489,6 +569,32 @@
       \field{howpublished}{\url{https://www.sciencedirect.com/topics/physics-and-astronomy/photolithography}}
       \field{note}{Accessed: 2025-08-16}
       \field{title}{Photolithography — Physics and Astronomy Overview}
+    \endentry
+    \entry{shi2025lorentz}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aabc5c5aec170a25a1153a835dc2350b}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Ruby\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{aabc5c5aec170a25a1153a835dc2350b}
+      \strng{fullhash}{aabc5c5aec170a25a1153a835dc2350b}
+      \strng{bibnamehash}{aabc5c5aec170a25a1153a835dc2350b}
+      \strng{authorbibnamehash}{aabc5c5aec170a25a1153a835dc2350b}
+      \strng{authornamehash}{aabc5c5aec170a25a1153a835dc2350b}
+      \strng{authorfullhash}{aabc5c5aec170a25a1153a835dc2350b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.supr-con}
+      \field{eprinttype}{arXiv}
+      \field{title}{Lorentz force on superconducting vortices near line defects}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2505.13798
+      \endverb
     \endentry
   \enddatalist
   \missing{IRGENDWAS WAS DC-BIAS macht}
