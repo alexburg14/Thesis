@@ -15,10 +15,10 @@
 \contentsline {chapter}{\numberline {3}Experimental Setup}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Sample configuration}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Measurement Setup}{13}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Full Film Magnetic Resonance}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Full Film Magnetic Resonance}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Measurement procedure}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Optimizing the RF signal power}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Optimizing the modulation current}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.2}Optimizing the RF signal power}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Optimizing the modulation field}{17}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Optimizing the Lock-in amplifier settings}{18}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Results and Discussion}{19}{chapter.5}%
 \contentsline {section}{\numberline {5.1}45nm}{20}{section.5.1}%

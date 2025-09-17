@@ -629,6 +629,17 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1606,16 +1617,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -2124,11 +2125,11 @@ INPUT chapters/03_Experimental_Setup.tex
 INPUT ./chapters/03_Experimental_Setup.tex
 INPUT ./chapters/03_Experimental_Setup.tex
 INPUT chapters/03_Experimental_Setup.tex
-INPUT ./chapters/Photos/Experimental_Setup/Sample Composition.png
-INPUT ./chapters/Photos/Experimental_Setup/Sample Composition.png
-INPUT chapters/Photos/Experimental_Setup/Sample Composition.png
-INPUT ./chapters/Photos/Experimental_Setup/Sample Composition.png
-INPUT ./chapters/Photos/Experimental_Setup/Sample Composition.png
+INPUT ./chapters/Photos/Experimental_Setup/single_sample.png
+INPUT ./chapters/Photos/Experimental_Setup/single_sample.png
+INPUT chapters/Photos/Experimental_Setup/single_sample.png
+INPUT ./chapters/Photos/Experimental_Setup/single_sample.png
+INPUT ./chapters/Photos/Experimental_Setup/single_sample.png
 INPUT ./chapters/Photos/Experimental_Setup/Insert setup.png
 INPUT ./chapters/Photos/Experimental_Setup/Insert setup.png
 INPUT chapters/Photos/Experimental_Setup/Insert setup.png
@@ -2143,36 +2144,38 @@ INPUT ./chapters/04_FullFilm_Magnetic_Resonance.tex
 INPUT chapters/04_FullFilm_Magnetic_Resonance.tex
 INPUT ./chapters/04_FullFilm_Magnetic_Resonance.tex
 INPUT chapters/04_FullFilm_Magnetic_Resonance.tex
-INPUT ./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG
-INPUT ./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG
-INPUT chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG
-INPUT ./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG
-INPUT ./chapters/Photos/Methods/signal_6.67K45nm._nurniedrigef.PNG
-INPUT ./chapters/Photos/Methods/Kittel_fit_DltH.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_DltH.png
-INPUT chapters/Photos/Methods/Kittel_fit_DltH.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_DltH.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_DltH.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_Hres.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_Hres.png
-INPUT chapters/Photos/Methods/Kittel_fit_Hres.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_Hres.png
-INPUT ./chapters/Photos/Methods/Kittel_fit_Hres.png
-INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz_modified.png
-INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz_modified.png
-INPUT chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz_modified.png
-INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz_modified.png
-INPUT ./chapters/Photos/Methods/comparison_0dBmto10dBm_7K10Ghz_modified.png
-INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm_cropped.png
-INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm_cropped.png
-INPUT chapters/Photos/Methods/comparison_0.01to0.05Ain30nm_cropped.png
-INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm_cropped.png
-INPUT ./chapters/Photos/Methods/comparison_0.01to0.05Ain30nm_cropped.png
-INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
-INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
-INPUT chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
-INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
-INPUT ./chapters/Photos/Methods/comparison_slow_and_fast_sweep_Cropped.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
+INPUT ./chapters/Photos/Methods/FMRsample_MacOS.png
+INPUT ./chapters/Photos/Methods/FMRsample_MacOS.png
+INPUT chapters/Photos/Methods/FMRsample_MacOS.png
+INPUT ./chapters/Photos/Methods/FMRsample_MacOS.png
+INPUT ./chapters/Photos/Methods/FMRsample_MacOS.png
+INPUT ./chapters/Photos/Methods/Kittellinear_macOS.png
+INPUT ./chapters/Photos/Methods/Kittellinear_macOS.png
+INPUT chapters/Photos/Methods/Kittellinear_macOS.png
+INPUT ./chapters/Photos/Methods/Kittellinear_macOS.png
+INPUT ./chapters/Photos/Methods/Kittellinear_macOS.png
+INPUT ./chapters/Photos/Methods/Kittelresonance_MacOS.png
+INPUT ./chapters/Photos/Methods/Kittelresonance_MacOS.png
+INPUT chapters/Photos/Methods/Kittelresonance_MacOS.png
+INPUT ./chapters/Photos/Methods/Kittelresonance_MacOS.png
+INPUT ./chapters/Photos/Methods/Kittelresonance_MacOS.png
+INPUT ./chapters/Photos/Methods/RFSignalPower_MacOS.png
+INPUT ./chapters/Photos/Methods/RFSignalPower_MacOS.png
+INPUT chapters/Photos/Methods/RFSignalPower_MacOS.png
+INPUT ./chapters/Photos/Methods/RFSignalPower_MacOS.png
+INPUT ./chapters/Photos/Methods/RFSignalPower_MacOS.png
+INPUT ./chapters/Photos/Methods/Modcurrent_macOS.png
+INPUT ./chapters/Photos/Methods/Modcurrent_macOS.png
+INPUT chapters/Photos/Methods/Modcurrent_macOS.png
+INPUT ./chapters/Photos/Methods/Modcurrent_macOS.png
+INPUT ./chapters/Photos/Methods/Modcurrent_macOS.png
+INPUT ./chapters/Photos/Methods/TimeConstant_MacOS.png
+INPUT ./chapters/Photos/Methods/TimeConstant_MacOS.png
+INPUT chapters/Photos/Methods/TimeConstant_MacOS.png
+INPUT ./chapters/Photos/Methods/TimeConstant_MacOS.png
+INPUT ./chapters/Photos/Methods/TimeConstant_MacOS.png
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex

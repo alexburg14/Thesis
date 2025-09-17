@@ -3,32 +3,31 @@
 \section{Sample configuration}
 For the FMR measurements performed during the course of this thesis, samples with a symmetric stack (ERKLÄRE FUNKTION VON MATERIALIEN UND DIE BASE UND SUBSTRAT) of Platinum, Niobium, and Permalloy were used, as shown in figure \ref{Stack_Foto}. The measurements were only done on samples with a Nb layer thickness of $d_\textrm{Nb} = $ 30 nm and 45 nm. The samples were placed with the matallic film directly facing the  CPW, which was then placed into the tip of an insert that got submerged into liquid helium in a cryostat. An picture of this insert is shown at figure \ref{Insert setup}. 
 
-\begin{figure}
+\begin{wrapfigure}{R}{0.5\textwidth}  % 'r' for right placement, adjust width as needed
     \centering
-    \includegraphics[width=0.8\textwidth]{chapters/Photos/Experimental_Setup/Sample Composition.png}
-    \caption{Illustration of the samples used for FMR measurements. In this thesis, only the samples with the 45nm and 30nm Permalloy layer thicknesses were investigated, since the cryostat used could not hold the temperature below the critical temperatures of the thinner samples in a stable manner.}
+    \includegraphics[width=0.5\textwidth]{chapters/Photos/Experimental_Setup/single_sample.png}
+    \caption{Illustration of the samples used for FMR measurements. In this thesis, the samples with the  $\SI{30}{nm}$ and $\SI{45}{nm}$ Nb layer thicknesses were investigated.}
     \label{Stack_Foto}
-\end{figure}
+\end{wrapfigure}
 
 \begin{figure}  % Place (a) above the image
         \centering
         \includegraphics[width=0.8\linewidth]{chapters/Photos/Experimental_Setup/Insert setup.png}
-        \caption{Illustration of the insert setup. The full film sample is placed face down onto the CPW, glued by fixogum. The insert is then submerged into liquid helium in a cryostat.}
+        \caption{Photograph of the insert setup. The full film sample is placed face down onto the CPW, glued by fixogum. The insert is then submerged into liquid helium in a cryostat.}
         \label{Insert setup}
 \end{figure}
 
 \section{Measurement Setup}
 An illustration of the measurement setup is shown in figure \ref{Measurement setup}.
 
-The experimental setup uses a Vector Network Analyzer (VNA) to generate the microwave signal, $\mathbf{h_\textrm{rf}}$. A power-supply-controlled solenoid, integrated within the cryostat, produces the main external magnetic field, $\mathbf{H_\textrm{FMR}}$. The sample is mounted on a coplanar waveguide (CPW), and its microwave absorption is measured by a Schottky diode.
-To improve the signal-to-noise ratio of the weak absorption signal, a lock-in amplifier (LIA) is employed. A LIA generates a small, low-frequency modulation field, $\mathbf{H_\textrm{mod}}$ (at frequency $f_\textrm{mod}$), which is superimposed on the main field. The LIA then measures the corresponding change in the diode's voltage at this specific modulation frequency, effectively detecting the derivative of the absorption curve.
-To acquire an FMR spectrum, the field $\mathbf{H_\textrm{FMR}}$ is swept while the microwave frequency and temperature $T$ are held constant. BRAUCH ICH DAS WENN ICH NACHHER AUC HDAS GLEICHE SAGE? The resulting resonance curves are fitted to a Lorentzian function to extract key parameters like the resonance field, $\mathbf{H_{\textrm{res}}}$, and the linewidth, $\Delta H$.
+The experimental setup uses a Vector Network Analyzer (VNA) to generate the microwave signal, $\mathbf{h_\textrm{rf}}$, which is fed through the coplanar waveguide (CPW). The sample is mounted on a CPW, and its microwave absorption is rectified by a Schottky diode. A solenoid, integrated within the cryostat, produces the main external magnetic field, $\mathbf{H_\textrm{ext}}$. 
+To improve the signal-to-noise ratio of the weak absorption signal, a lock-in amplifier (LIA) is employed. A LIA generates a small, low-frequency modulation field, $\mathbf{H_\textrm{mod}}$ (at frequency $f_\textrm{mod}$), which is superimposed on the main field using a modulation coil. The LIA then measures the corresponding change in the diode's voltage at this specific modulation frequency, effectively detecting the derivative of the absorption curve.
 
 
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{chapters/Photos/Experimental_Setup/Setup2.png}
-    \caption{Illustration of the measurement setup. The VNA is used for frequency generation, while the lock-in amplifier generates an oscillating magnetic field and measures the derivative of the resonance curve. Modified from \cite{Meier2020FMR}. SOLL HIER SOLENOID STATT SPULE HIN?}
+    \caption{Illustration of the measurement setup. The VNA is used for frequency generation, while the lock-in amplifier generates an oscillating magnetic field and measures the derivative of the resonance curve. Modified from \cite{Meier2020FMR}.}
     \label{Measurement setup}
 \end{figure}
 
