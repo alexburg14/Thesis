@@ -1,4 +1,5 @@
 \chapter{Full Film Magnetic Resonance}
+\label{ch:FullFlimMagneticResonance}
 In the following, the methods used to obtain the results presented in the results section as well as the optimization steps taken to ensure accurate measurements are outlined. 
 
 \section{Measurement procedure}
@@ -12,7 +13,7 @@ An exemplary set of FMR resonance curves is shown in figure \ref{Messung_FMR_Bei
 
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/FMRsample_MacOS.png}
+\includegraphics[width=0.6\textwidth]{chapters/Photos/Methods/FMRsample_MacOS.png}
 \caption{Example of FMR resonance curves at a frequency of 6.67 K for various frequencies.}
 \label{Messung_FMR_Beispiel}
 \end{figure}
@@ -52,7 +53,7 @@ In order to obtain accurate measurements, the effect of the RF signal power on t
 \end{figure}
 
 \section{Optimizing the modulation field}
-The modulation field, which is needed for the LIA to extract the FMR signal, was also optimized. Since the modulation field cannot be directly measured, due to the field sensor being located outside of the modulation coil, the effect of the modulation current which generates the modulation field was studied. A small modulation current would result in bad SNR, whereas a large modulation current would lead to increased linewidth broadening. The modulation current was varied from 0.01 A to 0.05 A for a sample with a $d_\textrm{Nb} = \SI{30}{nm}$ at a temperature of 5.6 K (which is near $T_\textrm{C}$) and a frequency of 8 GHz. The initial comparison was done for a sample with $d_\textrm{Nb} = \SI{45}{nm}$, however the data was lost, which is why the test was done again, though the conclusion remained the same. The results are shown in figure \ref{comparison_0.01to0.05Ain30nm}. In the figure, it is visible that an increase in modulation current leads to an increase in linewidth broadening as well as a bigger amplitude and through that, a better SNR. From this comparison, it was concluded that an amplitude of 0.03 A is optimal, as it provides a good SNR while having minimal linewidth broadening.
+The modulation field, which is needed for the LIA to extract the FMR signal, was also optimized. Since the modulation field cannot be directly measured, due to the field sensor being located outside of the modulation coil, the effect of the modulation current which generates the modulation field was studied. A small modulation current would result in bad SNR, whereas a large modulation current would lead to increased linewidth broadening. The modulation current was varied from 0.01 A to 0.05 A for a sample with a $d_\textrm{Nb} = \SI{30}{nm}$ at a temperature of 5.6 K (which is near $T_\textrm{C}$) and a frequency of 8 GHz. The results are shown in figure \ref{comparison_0.01to0.05Ain30nm}. In the figure, it is visible that an increase in modulation current leads to an increase in linewidth broadening as well as a bigger amplitude and through that, a better SNR. From this comparison, it was concluded that an amplitude of 0.03 A is optimal, as it provides a good SNR while having minimal linewidth broadening. This test was done on both samples, though the conclusion remained the same.
 \begin{figure}
 \centering
 \includegraphics[width=0.8\textwidth]{chapters/Photos/Methods/Modcurrent_macOS.png}

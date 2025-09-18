@@ -19,6 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{PhysRevLett.126.087201}{article}{}
+      \name{author}{10}{}{%
+        {{hash=948f7459cdda1c4a1754269a3dca98b0}{%
+           family={Albrecht},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d837ac3995c19bc989570380cd91fa85}{%
+           family={Bühler},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4020dc0f87a0a4ee66b80279ed3cc390}{%
+           family={Körner},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00b05c7fa53da1c0753ed064cd451469}{%
+           family={Förster},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=51a3516c3fe2a07fbb596c4fa86c04a9}{%
+           family={Tomanic},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=734b76d862ea9278008138d9779a99e6}{%
+           family={Scheffler},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=24999ca0895d551e3c8c8c21a44c0312}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c95e181147758dbdd30fdb57d57d2f08}{%
+           family={Huebl},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=abb259df5d702baf70632e0ba92693b2}{%
+           family={Belzig},
+           familyi={B\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d5e57f4eaca9d592c4ea99d44fbe49dd}{%
+           family={Weiler},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e92b64d436ed3b6c3c1df7b395765167}
+      \strng{fullhash}{3370ded5b09412244ede19221bd55fb2}
+      \strng{bibnamehash}{e92b64d436ed3b6c3c1df7b395765167}
+      \strng{authorbibnamehash}{e92b64d436ed3b6c3c1df7b395765167}
+      \strng{authornamehash}{e92b64d436ed3b6c3c1df7b395765167}
+      \strng{authorfullhash}{3370ded5b09412244ede19221bd55fb2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{2}
+      \field{title}{Temperature-Dependent Spin Transport and Current-Induced Torques in Superconductor-Ferromagnet Heterostructures}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{087201}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.126.087201
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.126.087201
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.126.087201
+      \endverb
+    \endentry
     \entry{Allresist_ARN7520}{manual}{}
       \name{author}{1}{}{%
         {{hash=7dee16bd8a3843716a208df873ba3d7e}{%

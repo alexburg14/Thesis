@@ -2256,14 +2256,14 @@ INPUT ./chapters/Photos/Microfabrication/MaN_holes.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT ./chapters/Photos/Microfabrication/Design_Chip.PNG
 INPUT ./chapters/Photos/Microfabrication/Design_Chip.PNG
 INPUT chapters/Photos/Microfabrication/Design_Chip.PNG
 INPUT ./chapters/Photos/Microfabrication/Design_Chip.PNG
 INPUT ./chapters/Photos/Microfabrication/Design_Chip.PNG
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntxsy7.vf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT ./chapters/Photos/Microfabrication/final_sample.png
 INPUT ./chapters/Photos/Microfabrication/final_sample.png
 INPUT chapters/Photos/Microfabrication/final_sample.png

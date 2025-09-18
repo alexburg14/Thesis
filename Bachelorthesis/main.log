@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  18 SEP 2025 01:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  18 SEP 2025 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1920,10 +1920,10 @@ Package pdftex.def Info: chapters/Photos/Experimental_Setup/Insert setup.png  us
 (pdftex.def)             Requested size: 386.95898pt x 301.98119pt.
  [13 <./chapters/Photos/Experimental_Setup/Insert setup.png>]
 Underfull \hbox (badness 1009) in paragraph at lines 23--25
-[][]\T1/ntxtlf/m/n/12 The ex-per-i-men-tal setup uses a Vec-
+[]\T1/ntxtlf/m/n/12 The ex-per-i-men-tal setup uses a Vec-
  []
 
-<chapters/Photos/Experimental_Setup/Setup2.png, id=273, 900.4842pt x 557.4426pt>
+<chapters/Photos/Experimental_Setup/Setup2.png, id=272, 900.4842pt x 557.4426pt>
 File: chapters/Photos/Experimental_Setup/Setup2.png Graphic file (type png)
 <use chapters/Photos/Experimental_Setup/Setup2.png>
 Package pdftex.def Info: chapters/Photos/Experimental_Setup/Setup2.png  used on input line 29.
@@ -1934,60 +1934,65 @@ Chapter 4.
 <chapters/Photos/Methods/FMRsample_MacOS.png, id=284, 424.2249pt x 323.7696pt>
 File: chapters/Photos/Methods/FMRsample_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/FMRsample_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/FMRsample_MacOS.png  used on input line 15.
-(pdftex.def)             Requested size: 386.95898pt x 295.32738pt.
+Package pdftex.def Info: chapters/Photos/Methods/FMRsample_MacOS.png  used on input line 16.
+(pdftex.def)             Requested size: 290.22108pt x 221.49924pt.
 <chapters/Photos/Methods/Kittellinear_macOS.png, id=285, 505.89pt x 361.35pt>
 File: chapters/Photos/Methods/Kittellinear_macOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Kittellinear_macOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Kittellinear_macOS.png  used on input line 25.
+Package pdftex.def Info: chapters/Photos/Methods/Kittellinear_macOS.png  used on input line 26.
 (pdftex.def)             Requested size: 232.17244pt x 165.83705pt.
 <chapters/Photos/Methods/Kittelresonance_MacOS.png, id=286, 505.89pt x 361.35pt>
 File: chapters/Photos/Methods/Kittelresonance_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Kittelresonance_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Kittelresonance_MacOS.png  used on input line 32.
+Package pdftex.def Info: chapters/Photos/Methods/Kittelresonance_MacOS.png  used on input line 33.
 (pdftex.def)             Requested size: 232.17244pt x 165.83705pt.
- [15] [16 <./chapters/Photos/Methods/FMRsample_MacOS.png> <./chapters/Photos/Methods/Kittellinear_macOS.png> <./chapters/Photos/Methods/Kittelresonance_MacOS.png>]
-<chapters/Photos/Methods/RFSignalPower_MacOS.png, id=313, 570.933pt x 432.8973pt>
+ [15 <./chapters/Photos/Methods/FMRsample_MacOS.png>]
+<chapters/Photos/Methods/RFSignalPower_MacOS.png, id=304, 570.933pt x 432.8973pt>
 File: chapters/Photos/Methods/RFSignalPower_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/RFSignalPower_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/RFSignalPower_MacOS.png  used on input line 49.
+Package pdftex.def Info: chapters/Photos/Methods/RFSignalPower_MacOS.png  used on input line 50.
 (pdftex.def)             Requested size: 386.95898pt x 293.41507pt.
-<chapters/Photos/Methods/Modcurrent_macOS.png, id=315, 570.2103pt x 432.8973pt>
+<chapters/Photos/Methods/Modcurrent_macOS.png, id=306, 570.2103pt x 432.8973pt>
 File: chapters/Photos/Methods/Modcurrent_macOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Modcurrent_macOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Modcurrent_macOS.png  used on input line 58.
+Package pdftex.def Info: chapters/Photos/Methods/Modcurrent_macOS.png  used on input line 59.
 (pdftex.def)             Requested size: 386.95898pt x 293.78499pt.
- [17 <./chapters/Photos/Methods/RFSignalPower_MacOS.png>] [18 <./chapters/Photos/Methods/Modcurrent_macOS.png>]
-<chapters/Photos/Methods/TimeConstant_MacOS.png, id=330, 570.2103pt x 432.8973pt>
+ [16 <./chapters/Photos/Methods/Kittellinear_macOS.png> <./chapters/Photos/Methods/Kittelresonance_MacOS.png>] [17 <./chapters/Photos/Methods/RFSignalPower_MacOS.png>]
+<chapters/Photos/Methods/TimeConstant_MacOS.png, id=325, 570.2103pt x 432.8973pt>
 File: chapters/Photos/Methods/TimeConstant_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/TimeConstant_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/TimeConstant_MacOS.png  used on input line 70.
+Package pdftex.def Info: chapters/Photos/Methods/TimeConstant_MacOS.png  used on input line 71.
 (pdftex.def)             Requested size: 386.95898pt x 293.78499pt.
 ) (./chapters/05_Results.tex
 Chapter 5.
-[19 <./chapters/Photos/Methods/TimeConstant_MacOS.png>]
-<chapters/Photos/Results/45nm params.png, id=341, 650.43pt x 433.62pt>
+[18 <./chapters/Photos/Methods/Modcurrent_macOS.png>] [19 <./chapters/Photos/Methods/TimeConstant_MacOS.png>] [20]
+<chapters/Photos/Results/45nm params.png, id=345, 650.43pt x 433.62pt>
 File: chapters/Photos/Results/45nm params.png Graphic file (type png)
 <use chapters/Photos/Results/45nm params.png>
-Package pdftex.def Info: chapters/Photos/Results/45nm params.png  used on input line 19.
+Package pdftex.def Info: chapters/Photos/Results/45nm params.png  used on input line 18.
 (pdftex.def)             Requested size: 386.95898pt x 257.97733pt.
- [20] [21 <./chapters/Photos/Results/45nm params.png>]
+ [21 <./chapters/Photos/Results/45nm params.png>]
 <chapters/Photos/Results/30nm params.png, id=351, 650.43pt x 433.62pt>
 File: chapters/Photos/Results/30nm params.png Graphic file (type png)
 <use chapters/Photos/Results/30nm params.png>
-Package pdftex.def Info: chapters/Photos/Results/30nm params.png  used on input line 38.
+Package pdftex.def Info: chapters/Photos/Results/30nm params.png  used on input line 35.
 (pdftex.def)             Requested size: 386.95898pt x 257.97733pt.
 ) (./chapters/06_Discussion.tex
 Chapter 6.
-[22 <./chapters/Photos/Results/30nm params.png>]) (./chapters/07_Microfabrication.tex
+[22 <./chapters/Photos/Results/30nm params.png>] [23]) (./chapters/07_Microfabrication.tex
 Chapter 7.
 
-LaTeX Warning: Citation 'IRGENDWAS WAS DC-BIAS macht' on page 23 undefined on input line 3.
+LaTeX Warning: Citation 'IRGENDWAS WAS DC-BIAS macht' on page 24 undefined on input line 3.
 
-[23]
+
+Overfull \hbox (58.02895pt too wide) in paragraph at lines 3--4
+\T1/ntxtlf/m/n/12 ap-ply-ing a DC cur-rent through the film, in or-der to mod-u-late the damp-ing [[]].
+ []
+
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 8.
+[24]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 10.
@@ -2000,11 +2005,10 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 10.
- [24]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 16.
-<chapters/Photos/Microfabrication/E-line Dose_corrected.png, id=377, 571.8966pt x 453.3738pt>
+<chapters/Photos/Microfabrication/E-line Dose_corrected.png, id=376, 571.8966pt x 453.3738pt>
 File: chapters/Photos/Microfabrication/E-line Dose_corrected.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/E-line Dose_corrected.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/E-line Dose_corrected.png  used on input line 20.
@@ -2018,43 +2022,44 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 28.
- [25 <./chapters/Photos/Microfabrication/E-line Dose_corrected.png>]
+ [25]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 30.
-<chapters/Photos/Microfabrication/5min_before.png, id=387, 98.5281pt x 75.1608pt>
+<chapters/Photos/Microfabrication/5min_before.png, id=386, 98.5281pt x 75.1608pt>
 File: chapters/Photos/Microfabrication/5min_before.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_before.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_before.png  used on input line 40.
 (pdftex.def)             Requested size: 232.20103pt x 170.72612pt.
-<chapters/Photos/Microfabrication/5min_after.png, id=388, 74.679pt x 98.0463pt>
+<chapters/Photos/Microfabrication/5min_after.png, id=387, 74.679pt x 98.0463pt>
 File: chapters/Photos/Microfabrication/5min_after.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_after.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_after.png  used on input line 48.
 (pdftex.def)             Requested size: 232.193pt x 170.74126pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=390, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=389, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam.png  used on input line 62.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=391, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=390, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png  used on input line 69.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=392, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=391, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png  used on input line 76.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
+ [26 <./chapters/Photos/Microfabrication/E-line Dose_corrected.png>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 85.
- [26 <./chapters/Photos/Microfabrication/5min_before.png> <./chapters/Photos/Microfabrication/5min_after.png>]
+ [27 <./chapters/Photos/Microfabrication/5min_before.png> <./chapters/Photos/Microfabrication/5min_after.png> <./chapters/Photos/Microfabrication/10min_looking_ebeam.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png (PNG copy)>]
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 89.
-<chapters/Photos/Microfabrication/test2.png, id=403, 907.2294pt x 521.3076pt>
+<chapters/Photos/Microfabrication/test2.png, id=408, 907.2294pt x 521.3076pt>
 File: chapters/Photos/Microfabrication/test2.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/test2.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/test2.png  used on input line 93.
@@ -2062,38 +2067,38 @@ Package pdftex.def Info: chapters/Photos/Microfabrication/test2.png  used on inp
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 100.
- [27 <./chapters/Photos/Microfabrication/10min_looking_ebeam.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png (PNG copy)> <./chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png (PNG copy)>] [28 <./chapters/Photos/Microfabrication/test2.png>]
-<chapters/Photos/Microfabrication/MaN_holes.png, id=416, 431.6928pt x 330.9966pt>
+ [28 <./chapters/Photos/Microfabrication/test2.png>]
+<chapters/Photos/Microfabrication/MaN_holes.png, id=417, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/MaN_holes.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/MaN_holes.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/MaN_holes.png  used on input line 113.
 (pdftex.def)             Requested size: 338.58635pt x 259.6056pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 114.
- [29 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)>]
-<chapters/Photos/Microfabrication/Design_Chip.PNG, id=423, 424.58624pt x 293.59688pt>
+ [29]
+<chapters/Photos/Microfabrication/Design_Chip.PNG, id=424, 424.58624pt x 293.59688pt>
 File: chapters/Photos/Microfabrication/Design_Chip.PNG Graphic file (type png)
 <use chapters/Photos/Microfabrication/Design_Chip.PNG>
 Package pdftex.def Info: chapters/Photos/Microfabrication/Design_Chip.PNG  used on input line 128.
 (pdftex.def)             Requested size: 386.95898pt x 267.5902pt.
- [30 <./chapters/Photos/Microfabrication/Design_Chip.PNG>]
+ [30 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)>]
 <chapters/Photos/Microfabrication/final_sample.png, id=431, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/final_sample.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/final_sample.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/final_sample.png  used on input line 140.
 (pdftex.def)             Requested size: 338.58635pt x 259.6056pt.
- [31 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)>]
-<chapters/Photos/Microfabrication/Mounted Device.jpg, id=439, 444.91219pt x 359.84438pt>
+<chapters/Photos/Microfabrication/Mounted Device.jpg, id=433, 444.91219pt x 359.84438pt>
 File: chapters/Photos/Microfabrication/Mounted Device.jpg Graphic file (type jpg)
 <use chapters/Photos/Microfabrication/Mounted Device.jpg>
 Package pdftex.def Info: chapters/Photos/Microfabrication/Mounted Device.jpg  used on input line 152.
 (pdftex.def)             Requested size: 338.58635pt x 273.84695pt.
-<chapters/Photos/Microfabrication/Scratched CPW.jpg, id=441, 315.42844pt x 233.37187pt>
+ [31 <./chapters/Photos/Microfabrication/Design_Chip.PNG>]
+<chapters/Photos/Microfabrication/Scratched CPW.jpg, id=442, 315.42844pt x 233.37187pt>
 File: chapters/Photos/Microfabrication/Scratched CPW.jpg Graphic file (type jpg)
 <use chapters/Photos/Microfabrication/Scratched CPW.jpg>
 Package pdftex.def Info: chapters/Photos/Microfabrication/Scratched CPW.jpg  used on input line 161.
 (pdftex.def)             Requested size: 338.58635pt x 250.52089pt.
- [32 <./chapters/Photos/Microfabrication/Mounted Device.jpg>] [33 <./chapters/Photos/Microfabrication/Scratched CPW.jpg>]) (./chapters/08_Conclusion.tex
+ [32 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)>] [33 <./chapters/Photos/Microfabrication/Mounted Device.jpg> <./chapters/Photos/Microfabrication/Scratched CPW.jpg>]) (./chapters/08_Conclusion.tex
 Chapter 8.
 ) [34]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
@@ -2102,6 +2107,11 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 47.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+Overfull \hbox (5.27045pt too wide) in paragraph at lines 48--48
+\T1/ntxtlf/m/n/12 Superconductor-Ferromagnet Het-erostruc-tures^^Q. In: \T1/ntxtlf/m/it/12 Phys. Rev. Lett. \T1/ntxtlf/m/n/12 126 (8 Feb. 2021), p. 087201.
+ []
+
+
 Overfull \hbox (32.44478pt too wide) in paragraph at lines 48--48
 \T1/pcr/m/n/12 uploads / sites / 2 / 2021 / 02 / Allresist _ Product -[] information -[] E -[] Beamresist -[]
  []
@@ -2121,12 +2131,12 @@ Overfull \hbox (1.64479pt too wide) in paragraph at lines 48--48
 \T1/pcr/m/n/12 de / fileadmin / WMI / Publications / Liensberger % 2CLukas _ Masterarbeit _
  []
 
-
+[35]
 Overfull \hbox (2.01262pt too wide) in paragraph at lines 48--48
 \T1/pcr/m/n/12 information / fg06 _ p1 -[] 2 _ semiconductor _ lithography$[] \T1/ntxtlf/m/n/12 (vis-ited on 07/30/2025). 
  []
 
-[35]
+
 Overfull \hbox (34.44478pt too wide) in paragraph at lines 48--48
 \T1/pcr/m/n/12 www . sciencedirect . com / topics / physics -[] and -[] astronomy / photolithography$[]\T1/ntxtlf/m/n/12 .
  []
@@ -2156,18 +2166,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59462 strings out of 478268
- 1342555 string characters out of 5846346
- 2268347 words of memory out of 5000000
- 76485 multiletter control sequences out of 15000+600000
+ 59469 strings out of 478268
+ 1342799 string characters out of 5846346
+ 2267483 words of memory out of 5000000
+ 76491 multiletter control sequences out of 15000+600000
  628179 words of font info for 211 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  124i,16n,145p,10702b,2916s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (38 pages, 22515781 bytes).
+Output written on main.pdf (38 pages, 22516328 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 599 compressed objects within 6 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 751 PDF objects out of 1000 (max. 8388607)
+ 603 compressed objects within 7 object streams
+ 137 named destinations out of 1000 (max. 500000)
  475 words of extra memory for PDF output out of 10000 (max. 10000000)
 
