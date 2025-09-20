@@ -514,11 +514,11 @@
     \endentry
     \entry{Jeon2019}{article}{}
       \name{author}{11}{}{%
-        {{hash=971ec2487a86e3e05f55172b592b817a}{%
+        {{hash=f0b4aa5806e9116ccd81c8865f079d1b}{%
            family={Jeon},
            familyi={J\bibinitperiod},
-           given={Kun-Rok},
-           giveni={K\bibinithyphendelim R\bibinitperiod}}}%
+           given={K.R.},
+           giveni={K\bibinitperiod}}}%
         {{hash=29b7342ee1e11eb320e90c41ce9c0ae9}{%
            family={Ciccarelli},
            familyi={C\bibinitperiod},
@@ -573,12 +573,12 @@
       \list{publisher}{1}{%
         {American Physical Society}%
       }
-      \strng{namehash}{f5654c6646b37551673b1599aedd99d6}
-      \strng{fullhash}{5678cf1be5d3579365dacd804c6ed637}
-      \strng{bibnamehash}{f5654c6646b37551673b1599aedd99d6}
-      \strng{authorbibnamehash}{f5654c6646b37551673b1599aedd99d6}
-      \strng{authornamehash}{f5654c6646b37551673b1599aedd99d6}
-      \strng{authorfullhash}{5678cf1be5d3579365dacd804c6ed637}
+      \strng{namehash}{6099d5b88ea4bbcacaece7a36fe8c39e}
+      \strng{fullhash}{9eadc7ebaa4bcb205ea48ba9612c0cc2}
+      \strng{bibnamehash}{6099d5b88ea4bbcacaece7a36fe8c39e}
+      \strng{authorbibnamehash}{6099d5b88ea4bbcacaece7a36fe8c39e}
+      \strng{authornamehash}{6099d5b88ea4bbcacaece7a36fe8c39e}
+      \strng{authorfullhash}{9eadc7ebaa4bcb205ea48ba9612c0cc2}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
@@ -786,6 +786,75 @@
       \verb{url}
       \verb https://www.wmi.badw.de/fileadmin/WMI/Publications/Mueller_Manuel_Masterarbeit_2019.pdf
       \endverb
+    \endentry
+    \entry{muller2021temperature}{article}{}
+      \name{author}{9}{}{%
+        {{hash=c8814ae6f7ad80fc77407c70c4d982fc}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3c21576b459830c6237c15ccf2bacebb}{%
+           family={Liensberger},
+           familyi={L\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=1621a1c9ff6514f18a83cfebab98bf19}{%
+           family={Flacke},
+           familyi={F\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a2d779550f7039c09fec9a689b8c7276}{%
+           family={Huebl},
+           familyi={H\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b1b782916e31473410a579c9115a2484}{%
+           family={Kamra},
+           familyi={K\bibinitperiod},
+           given={Akashdeep},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a986ed34d8630c96d4e1ecf2c035566}{%
+           family={Belzig},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=44cf590421bbd4ea70d5e6c528fb6ced}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=458524ed514a71a68da4f77b29f9d701}{%
+           family={Weiler},
+           familyi={W\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=da8418c8a1a9d47422dee4d4cdfffead}{%
+           family={Althammer},
+           familyi={A\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{a434e3b7dd3c730c96148ce4d220cbc0}
+      \strng{fullhash}{10710eefb42415ece0aadbaa9c45e22f}
+      \strng{bibnamehash}{a434e3b7dd3c730c96148ce4d220cbc0}
+      \strng{authorbibnamehash}{a434e3b7dd3c730c96148ce4d220cbc0}
+      \strng{authornamehash}{a434e3b7dd3c730c96148ce4d220cbc0}
+      \strng{authorfullhash}{10710eefb42415ece0aadbaa9c45e22f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{8}
+      \field{title}{Temperature-dependent spin transport and current-induced torques in superconductor-ferromagnet heterostructures}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{087201}
+      \range{pages}{1}
     \endentry
     \entry{obstbaum2014}{thesis}{}
       \name{author}{1}{}{%

@@ -309,7 +309,7 @@ This paper was not previously presented to another examination board and has not
 \graphicspath{{img/}}
 \usepackage{wrapfig}
 \usepackage[backend=biber,style=numeric, pagetracker=true]{biblatex}
-
+\usepackage{fancyhdr}
 \addbibresource{literature.bib}
 \DeclareLanguageMapping{english}{english-apa}
 \pdfimageresolution 300
