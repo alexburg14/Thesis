@@ -2183,33 +2183,26 @@ INPUT chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT ./chapters/05_Results.tex
 INPUT chapters/05_Results.tex
-INPUT ./chapters/Photos/Results/45nm params.png
-INPUT ./chapters/Photos/Results/45nm params.png
-INPUT chapters/Photos/Results/45nm params.png
-INPUT ./chapters/Photos/Results/45nm params.png
-INPUT ./chapters/Photos/Results/45nm params.png
+INPUT ./chapters/Photos/Results/45nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/45nm_params_MacOS.png
+INPUT chapters/Photos/Results/45nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/45nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/45nm_params_MacOS.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
-INPUT ./chapters/Photos/Results/30nm params.png
-INPUT ./chapters/Photos/Results/30nm params.png
-INPUT chapters/Photos/Results/30nm params.png
-INPUT ./chapters/Photos/Results/30nm params.png
-INPUT ./chapters/Photos/Results/30nm params.png
-INPUT ./chapters/06_Discussion.tex
-INPUT ./chapters/06_Discussion.tex
-INPUT ./chapters/06_Discussion.tex
-INPUT chapters/06_Discussion.tex
-INPUT ./chapters/06_Discussion.tex
-INPUT ./chapters/06_Discussion.tex
-INPUT chapters/06_Discussion.tex
-INPUT ./chapters/07_Microfabrication.tex
-INPUT ./chapters/07_Microfabrication.tex
-INPUT ./chapters/07_Microfabrication.tex
-INPUT chapters/07_Microfabrication.tex
-INPUT ./chapters/07_Microfabrication.tex
-INPUT ./chapters/07_Microfabrication.tex
-INPUT chapters/07_Microfabrication.tex
+INPUT ./chapters/Photos/Results/30nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/30nm_params_MacOS.png
+INPUT chapters/Photos/Results/30nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/30nm_params_MacOS.png
+INPUT ./chapters/Photos/Results/30nm_params_MacOS.png
+INPUT ./chapters/06_Microfabrication.tex
+INPUT ./chapters/06_Microfabrication.tex
+INPUT ./chapters/06_Microfabrication.tex
+INPUT chapters/06_Microfabrication.tex
+INPUT ./chapters/06_Microfabrication.tex
+INPUT ./chapters/06_Microfabrication.tex
+INPUT chapters/06_Microfabrication.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT ./chapters/Photos/Microfabrication/E-line Dose_corrected.png
 INPUT ./chapters/Photos/Microfabrication/E-line Dose_corrected.png
@@ -2279,13 +2272,13 @@ INPUT ./chapters/Photos/Microfabrication/Scratched CPW.jpg
 INPUT chapters/Photos/Microfabrication/Scratched CPW.jpg
 INPUT ./chapters/Photos/Microfabrication/Scratched CPW.jpg
 INPUT ./chapters/Photos/Microfabrication/Scratched CPW.jpg
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT ./chapters/08_Conclusion.tex
-INPUT chapters/08_Conclusion.tex
+INPUT ./chapters/07_Conclusion.tex
+INPUT ./chapters/07_Conclusion.tex
+INPUT ./chapters/07_Conclusion.tex
+INPUT chapters/07_Conclusion.tex
+INPUT ./chapters/07_Conclusion.tex
+INPUT ./chapters/07_Conclusion.tex
+INPUT chapters/07_Conclusion.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-sc-t1.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd

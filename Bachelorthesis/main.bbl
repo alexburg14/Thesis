@@ -170,6 +170,190 @@
       \verb https://www.allresist.com/resist-wiki-what-are-photoresists-composed-of-and-how-do-they-work/
       \endverb
     \endentry
+    \entry{Chen2024}{article}{}
+      \name{author}{31}{}{%
+        {{hash=5ecc04ab7cd8350e63b66dc42451fa3e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c67619924cd2ecb1e99e1432d09d6dbd}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a86dd6a6fd650c9f3e508d6514241f49}{%
+           family={Mankovsky},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92a0a923db327f267c51be5e1c525742}{%
+           family={Ebert},
+           familyi={E\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=30dea90e19629b6b7395a1f947eed163}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=23614557ad65643dadc5a983632d5da0}{%
+           family={Fedorov},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=aeb2c13b5084709ca6ef48eb9c856196}{%
+           family={ElGhazaly},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=43c28c986f74cefee7f664522e1772dd}{%
+           family={Cheenikundil},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ba9b54398014c649b78d82d81c291d1e}{%
+           family={Deac},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1548463186b684abf52b98b68a0084a7}{%
+           family={Samardak},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=042278a7ed1f00664a31aea1467e06e4}{%
+           family={Ognev},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4fe22ad29a6ec1a0117a6fa125f60e17}{%
+           family={Radu},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e473990a3f6e748a53324d365ffb1d5}{%
+           family={Valencia},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=855b851a9286a9baa501e665f37c9595}{%
+           family={Wintz},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=272a1f21eb7909b48b5fb35598939f5f}{%
+           family={Lytvynenko},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=290bf45013bd74f9e52f618547e84d82}{%
+           family={Manke},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=1f1b5535c0b022c826a7b0ede00de0b0}{%
+           family={Volkov},
+           familyi={V\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=8b264a87047a5cb074509a572b90c496}{%
+           family={Kronast},
+           familyi={K\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=067e17877ec84b3bf9d382481009af29}{%
+           family={Kákay},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=056c3717237f5c21410bf92dd95021a9}{%
+           family={Wrona},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c7fd7f7943705ccb75de0ef973c425f9}{%
+           family={Gräfe},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b54949eafd43c61438afcf32053a114}{%
+           family={Fassbender},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7c5c3794e0a35951655af6cb55b53264}{%
+           family={Schütz},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b13ce362b928dcbcaae0f9dcbaa91345}{%
+           family={Goering},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=70651010d1488c84f678cbd14cd7f5ab}{%
+           family={Finizio},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=47b3fe2b1c4ddddc606117c53f0e21c9}{%
+           family={Raabe},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=28bec5c53241f47a768fbd89a9b02d4a}{%
+           family={Wessels},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0cf7c87170e7cabe07da10c106b3cc6}{%
+           family={Akemeier},
+           familyi={A\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=63cbb8dfeb745492e033bcc11c97cbdc}{%
+           family={Ksenzov},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f241156e944ce30675a0ece65aecaf67}{%
+           family={Hlaghi},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=443f5ef6209bb13899473927a4e02ee2}{%
+           family={Back},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b82141a6cdd6fa388208fc3caada893}
+      \strng{fullhash}{8a02fcf4bda282d9bf783fe15653a951}
+      \strng{bibnamehash}{2b82141a6cdd6fa388208fc3caada893}
+      \strng{authorbibnamehash}{2b82141a6cdd6fa388208fc3caada893}
+      \strng{authornamehash}{2b82141a6cdd6fa388208fc3caada893}
+      \strng{authorfullhash}{8a02fcf4bda282d9bf783fe15653a951}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Signatures of magnetism control by flow of angular momentum}
+      \field{volume}{633}
+      \field{year}{2024}
+      \field{pages}{548\bibrangedash 553}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-024-07914-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-024-07914-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-024-07914-y
+      \endverb
+    \endentry
     \entry{Decker_2017}{thesis}{}
       \name{author}{1}{}{%
         {{hash=d11372184f9f964d9c87ec8a620a92d0}{%
@@ -681,7 +865,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{IRGENDWAS WAS DC-BIAS macht}
 \endrefsection
 \endinput
 

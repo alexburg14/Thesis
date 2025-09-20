@@ -1,0 +1,176 @@
+\chapter{Microfabrication of On-Chip Coplanar Waveguides}
+\label{ch:Microfabrication}
+For further investigation of spin transfer through the superconducting layer near and below the critical temperature, the next step was to fabricate a device capable of performing FMR on the samples while applying a DC current through the film, in order to modulate the damping \cite{Chen2024}. This required creating an isolation layer between the DC lines and the FMR lines, since the CPW needed to be fabricated directly on top of the sample, in order to achieve a strong signal. This chapter presents the methods investigated for creating an isolation layer via resist cross-linking, along with the final device fabrication process.
+
+\section{Optimizing the cross-linking process}
+The standard method for create such an isolation layer is through atomic layer deposition of a $SiO_2$ layer, however due to the technical difficulty of this process, an easier method was sought to achieve this. Cross-linking a resist was identified as promising. Several cross-linking techniques were investigated to determine the most effective approach for device fabrication, which are detailed in the following. These tests were done on silicon samples, as the substrate material is not expected to have a significant impact on the cross-linking process.
+\subsection{Electron Beam Lithography}
+The first attempts of cross-linking were done using Electron Beam Lithography (EBL). For this, the $\textit{AR-N 1407.17 new}$ (AR-N) resist was spin-coated onto a silicon sample at 4000 rpm with an acceleration of 1000 rpm/s. The expected thickness was 40nm \cite{Allresist_ARN7520}. The sample was then soft-baked at 85 $^\circ$C for one minute and placed into the EBL. The electron beam was set to 20 kV and the aperture set to 20 µm, with a beam current of 112 pA.
+
+To verify the concept, a small square on the sample with the side length of 100 µm was exposed with a dose of 10000 µC/cm$^2$, which was done by exposing the same area to 100 µC/cm$^2$ a hundred times. For reference, the dose recommended by the manufacturer is 30 µC/cm$^2$ \cite{Allresist_ARN7520}. After the overexposure, the sample was developed with the $\textit{AR300-47}$ developer for 50 seconds, and was submerged into deionized water for 30 seconds.
+
+Following the development, a series of stress tests were done to mimic the real fabrication process, which included applying a pressurized stream of acetone onto the sample, submerging the sample into a acetone bath at 60$^\circ$C for 10 minutes. Subsequently, the sample was submerged in the $AZ351B$ developer for two minutes. Finally, the sample was put into an ultrasonic acetone bath at the highest setting (9/9) for one minute. In the actual sample, ultrasonic bath is potentially needed for the process of gold lift-off, where the lowest setting (1/9) is typically used.
+
+The sample withstood the acetone stream well, although changes in color were visible after the acetone bath and the development step. The ultrasonic acetone bath removed only the unsuccessfully exposed regions, indicating that the cross-linking was successful and robust. However, the exposure took around three hours, which is long given the size of the exposed area. Since the target area on the final sample was significantly larger, it was considered critical to reduce the exposure time.
+
+This led to an investigation of the minimal dose required to achieve sufficient cross-linking. Various areas of the sample were exposed to different doses, as shown in Figure \ref{fig:dose-exposure}. The exposure was applied in increments of 100 µC/cm$^2$ per layer.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{chapters/Photos/Microfabrication/E-line Dose_corrected.png}
+    \caption{Sample illustration of the exposure done with the EBL. The first exposed area is a circle for better orientation. The exposure was done in layers of 100 µC/cm$^2$.}
+    \label{fig:dose-exposure}
+\end{figure}
+
+After the exposure, the sample was developed with the $\textit{AR300-47}$ developer for around two minutes, followed by a 30 second submersion in deionized water. The sample then underwent the same stress tests as before.
+Some color changes were visible in the areas exposed with one to 20 layers of 100 µC/cm$^2$ after the acetone pressure stream, and the acetone bath seemed to make the area with 50 layers appear brighter. The $\textit{AZ351B}$ developer seemed to have no effect on the sample, but the ultrasonic fully removed the area exposed only once, as well as corroded the areas with 10 and 20 layers at the edges slightly.
+Each exposed area was inspected with a microscope and the surface-roughness was investigated with an atomic-force microscope (AFM). In the end, it was concluded that a dose of 2000 µC/cm$^2$ (20 layers) was a good compromise between exposure time and durability. The corroded edges were deemed acceptable for the actual sample, as they would not impair the performance of the device in the center of the structure.
+
+With this dose, the exposure on a real sample was estimated to take around 15 hours. However, during the actual attempt, the EBL shut down after seven hours. The exact cause remains unknown, though the most likely explanation is the combination of a large aperture and high beam current. Since the design to be exposed was relatively large, an aperture of 60 µm was chosen, resulting in a beam current of 1113 pA. The long duration may have led to overheating of the cathode.
+
+Given these issues, it was attempted to scan the sample with the EBL without proper exposure of the design. For this, three corners of a sample coated with the AR-N resist were scanned with the EBL for 1, 5, and 10 minutes, respectively (denoted A, B, and C). The sample was then subjected to a stress test using an acetone bath followed by the $\textit{AR300-47}$ developer. Corner A was removed immediately in the acetone bath. Corner B remained visible after the bath, although significant damage was observed under the microscope (Figure \ref{fig:5min}).
+\begin{figure}[htbp] % [htbp] for flexible placement
+    \centering % Center the entire figure
+    \begin{subfigure}[c]{0.48\textwidth} 
+        \subcaption{Before acetone bath} % Place (a) above the image
+        \centering
+        \includegraphics[width=\linewidth,height = 6cm]{chapters/Photos/Microfabrication/5min_before.png}
+        \label{fig:5min_before}
+    \end{subfigure}
+    \hfill % Flexible horizontal space
+    \begin{subfigure}[c]{0.48\textwidth} 
+        \subcaption{After acetone bath} % Place (b) above the image
+        \centering
+
+        \includegraphics[width=\linewidth, height = 6cm]{chapters/Photos/Microfabrication/5min_after.png} 
+        \label{fig:5min_after}
+    \end{subfigure}
+    \hfill % Flexible horizontal space
+    \caption{Microscope images of the corner exposed for five minutes.}
+    \label{fig:5min} % Main label for the entire figure
+\end{figure}
+Corner C was still intact after the acetone bath and the developer, but variances in color were visible, pointing to a thickness variance. The pictures taken under the microscope are shown in figure \ref{fig:10min}. Although the damage was less severe than in Corner B, it was still deemed substantial. Additionally, the high thickness variance would impair the performance of the device. The EBL was therefore deemed unfit for the fabrication of the isolation layer.
+\begin{figure}
+    % I want three pictures in one row
+    \centering
+    \begin{subfigure}[c]{0.32\textwidth} 
+        \subcaption{Before acetone bath} % Place (a) above the image
+        \centering
+        \includegraphics[width=\linewidth]{chapters/Photos/Microfabrication/10min_looking_ebeam.png}
+        \label{fig:10min_before}
+    \end{subfigure}
+    \hfill % Flexible horizontal space
+    \begin{subfigure}[c]{0.32\textwidth} 
+        \subcaption{After acetone bath} % Place (b) above the image
+        \centering
+        \includegraphics[width=\linewidth]{chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png} 
+        \label{fig:10min_after_bath}
+    \end{subfigure}
+    \hfill % Flexible horizontal space
+    \begin{subfigure}[c]{0.32\textwidth} 
+        \subcaption{After acetone bath + developer} % Place (c) above the image
+        \centering
+        \includegraphics[width=\linewidth]{chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png} 
+        \label{fig:10min_after_dev} 
+    \end{subfigure}
+    \hfill % Flexible horizontal space
+    \caption{Image of the corner of the sample that was exposed for 10 minutes. There are certain spots visible that change its color in (c), possibly pointing to a variance in thickness.}
+    \label{fig:10min} % Main label for the entire figure
+\end{figure}
+
+\subsection{Optical Lithography} 
+Instead of EBL, overexposure by photolithography can also be facilitated to cross-link resists. Though the AR-N resist is an e-beam resist, meaning it is best suited for use with an EBL machine, but it is also reactive to deep UV light (248-365 nm) \cite{Allresist_ARN7520}. The resist was spin-coated onto a silicon sample and exposed to various spots with different doses, using a MLA. Doses from 800-2300 µC/cm$^2$ were tested to investigate the optimal exposure conditions.
+After the exposure, the sample underwent the same stress test procedure as the samples exposed with the EBL to investigate its chemical tolerance against the steps that the actual isolation layer will need to withstand. The ultrasonic bath was omitted, however. 
+After the acetone stream, some spots were visible on some dose. The acetone bath seemed to have some effect, especially on the lower doses, but the sample was still intact for the higher doses.
+
+This method showed great durability and seemed to be able to withstand the stress test, even at a dose of 1000 µC/cm$^2$. However, there were multiple stripes visible on the sample at all doses, which pointed to a high variance in thickness. An AFM was used to investigate the thickness of the photoresist, which is shown in figure \ref{AFM_MLA}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{chapters/Photos/Microfabrication/test2.png}
+    \caption{AFM measurement of the photoresist thickness after MLA exposure. The pictures 2a and 2b correspond to the area marked as (1,2) in picture 1. Similarly, the pictures 3a and 3b correspond to the area marked as (3,4) in picture 1.}
+    \label{AFM_MLA}
+\end{figure}
+
+The AFM measurements revealed a significant variance in the thickness of the photoresist across the sample. The sample had an overall thickness of around 140 nm (which can be seen from picture 2b in figure \ref{AFM_MLA}). The real issue, however, was the presence of stripes, which was more than 70nm in height. This could have lead to problems such as a non-even CPW, which would affect the performance of the device. 
+
+After the AFM measurement, it was tried dividing the exposure into multiple steps and rotating the sample between the steps to even out the stripe. This, however, showed no significant improvement. This method was therefore deemed unfit for the isolation layer, as the variance in thickness would lead to an uneven surface. Another researcher at the chair (Sam Fülop CHECK NAME), however, found out after the conclusion of this work that the issue with the stripes can be resolved by applying a significantly higher dose of around 20000(CHECK) µC/cm$^2$, which is the main way isolation layers are now fabricated at the chair.
+\subsection{Microscope}
+Subsequently, it was investigated whether exposing the photoresist with a microscope would be a viable option. For this, the $\textit{MA-N 1407}$ (MA-N) photoresist was used, which was spin-coated onto a silicon sample, followed by a softbake at 100C$^\circ$ for 5 minutes. The sample was then exposed with a microscope for 10min at the LOWEST MAGNIFICATION -> 20X?. After the exposure, the sample was developed with the ENTER DEVELOPER developer and put into deionized water for 30 seconds. Subsequently, an acetone stream was applied onto the sample. Unfortunately, the sample did not withstand the process and the photoresist washed away completely. This method was therefore deemed unfit for the isolation layer.
+
+\subsection{Overbaking}
+Finally, it was investigated whether overbaking the photoresist, as in doing the pre-baking process significantly longer than recommended, would lead to a durable isolation layer.
+For this, samples were spincoated with both the AR-N and the MA-N photoresist onto silicon samples at their respective recommended RPM settings, which are detailed in the sections above. The samples were then put onto a hotplate at 100C$^\circ$ for 20 minutes to overbake them.
+
+Both samples then underwent stress tests which included pressurized acetone streams, submersion in their respective developer, and acetone baths. The overbaked sample with the AR-N photoresist was damaged after the test.
+The sample with the MA-N photoresist, however, withstood the stress test and and stayed in tact after an acetone bath of 10 minutes, although there were some holes visible in the isolation layer, which are shown in figure \ref{holes}.
+
+\begin{figure}
+        \centering
+        \includegraphics[width=0.7\linewidth]{chapters/Photos/Microfabrication/MaN_holes.png}
+        \caption{Picture of the holes seen in the isolation layer of the overbaked sample with the $\textit{MA-N 1407}$ photoresist. The sample was overbaked at 100$^\circ$C for 20 minutes, and then underwent a stress test which included an acetone bath for 10 minutes. The holes were deemed acceptable, as they were not large enough to impair the performance of the device.}
+        \label{holes}
+    \end{figure}
+
+
+
+\section{Fabrication of on-chip waveguides}
+After trying out the above mentioned methods, overbaking the sample after applying the photoresist seemed to be the most durable way of creating an isolation layer via cross-linking. In the following, the entire process is explained by which a device capable of FMR measurements under a DC-bias was successfully fabricated.
+
+\subsection{Device design}
+The full design can be taken from figure \ref{fig:design_sample}. The design at the bottom includes the CPW and the contact pads for electrical connections, as well as the isolation layer between them. The middle design shows the layout of an alternative configuration used for out-of-plane measurements, which were not considered in this thesis. The top design illustrates a smaller CPW.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapters/Photos/Microfabrication/Design_Chip.PNG}
+    \caption{Design of the device for FMR measurements. The design at the bottom includes the CPW and the contact pads for electrical connections, as well as the isolation layer between them. The other two designs show alternative configurations which were not used during the course of this thesis.}
+    \label{fig:design_sample}
+\end{figure}
+
+\subsection{Fabrication}
+Firstly, a full-film sample is spin-coated with the Ma-N photoresist, after which it is soft-baked at WHAT TEMP HOW LONG?. The sample is then placed into the MLA and the contact pads are exposed. After developing, the sample is then hard-baked at WHAT TEMP HOW LONG? and undergoes a pre-sputtering of 30 seconds to remove the film at the non-exposed areas. 
+After the etching, the sample is again spin-coated with the Ma-N photoresist and overbaked at 180$^\circ$C for 30 minutes to create the isolation layer needed.
+Following the cross-linking step, the sample is now spin-coated with the $\textit{AZ 2514 E}$ (AZ) photoresist, which is a positive photoresist, and then soft-baked at WHAT TEMP HOW LONG?. The areas for the CPW are then exposed using the MLA. After exposure, the sample was etched again for 30 seconds followed by vaporization of gold onto the sample for a thickness of around 100 nm. The sample is then put into an ultrasonic acetone bath at the lowest setting (1/9) for 30 seconds to remove the photoresist and lift off the gold from the non-exposed areas. The final sample is shown in figure \ref{final_sample}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{chapters/Photos/Microfabrication/final_sample.png}
+    \caption{Final sample after the fabrication process. The four contacts pads are visible in the corners. It is clearly visible that the lines connecting the contact pads are below the green isolation layer. The CPW flows over the isolation layer, indicating a successful fabrication process.}
+    \label{final_sample}
+\end{figure}
+
+The holes encountered during the initial test were again to be seen after the final fabrication process. Some holes unfortunately were created exactly on the lines of the CPW, which could potentially affect the performance of the device. However, due to the redundant design of the CPW, the impact on the overall functionality was minimal. For initial test measurements, the CPW which was potentially compromised was simply not used.
+
+\subsection{Soldering and bonding}
+In order to mount the device into the insert for measurement, the signal and ground lines of the CPW are wire bonded onto the bond pads on the chip carrier - on which a PMA adapter is soldered - to establish an electrical connection needed for FMR measurements. Additionally, wire bonds are done between the contact pads and other bond pads which are connected to a DC source. An example picture of a mounted device can be seen in figure \ref{fig:mounted_device}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{chapters/Photos/Microfabrication/Mounted Device.jpg}
+    \caption{Example of a device mounted onto the chip carrier. The wire bonds are done between the signal and ground lines of the CPW and the bond pads on the chip carrier, as well as between the contact pads and the bond pads connected to a DC source. All bonds were done twice for redundancy. Courtesy of Max Mangold.}
+    \label{fig:mounted_device}
+\end{figure}
+
+During the mounting process, some devices got damaged and appeared scratched, making some CPWs unusable in the process. One example can be seen in figure \ref{fig:damaged_CPW}. The damage was done during testing of the contacts to ensure that the CPW does not have a shorted circuit somewhere. During the test, some of the signal and ground lines of several devices seemed shorted. This was due to the fact that the CPW design went all the way to the edge of the sample. This caused some gold to flow over to the side during the vaporization process. The gold left from the lift-off process then shorted the signal and ground lines. This issue was resolved by manually scratching the CPW lines with the testing poles close to the edge of the sample. 
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{chapters/Photos/Microfabrication/Scratched CPW.jpg}
+    \caption{Example of a damaged CPW after the mounting process. The scratches to the CPW lines are visible, which completely compromised the functionality of the CPW. The damage was done during testing for shorted contacts.}
+    \label{fig:damaged_CPW}
+\end{figure}
+\subsection{Testing of the device}
+The testing of the fabricated device was carried out by Max Mangold using the FMR measurement setup described in chapter 3. <- CHECK IF CORRECT BEFORE ABGABE
+
+The FMR measurement using the on-chip CPW was succesful without any issues. However, the DC-bias does not seem to have an effect on the measurements on this sample as of now, other than warming up the sample at too high currents. This is somewhat expected though, since symmetric stacks are expected to CANCEL OUT THE DC BIAS?
+
+
+\subsection{Outlook}
+During the course of this thesis, it was verified that cross-linking a photoresist can be done to create an isolation layer for fabricating a device capable of FMR measurements under a DC-bias. The method of overbaking seemed to be the most promising method during the investigation. However, as stated above, Sam Fülop found out that the issues with the stripes in the MLA exposure can be resolved by applying a significantly higher dose. This is now the main method used at the chair for creating isolation layers via cross-linking, as it is significantly faster than overbaking and easier to work with. 
+
+Several issues that were identified during the thesis were implemented after this thesis by Max Mangold, namely shortening the length of the on-chip CPW to ensure the signal and ground lines do not get shorted from the side during the vaporization process, as well as using a thicker layer of photoresist for the last step to ensure better lift-off.
+
+As a next step, fabrication of the same device on asymmetric stacks are planned, to investigate the DC-bias effect on the damping.
+
+
+
