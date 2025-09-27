@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 1758356907 "main.bcf" "main.bbl" "main" 1758619813
-  "main.bcf" 1758619812 110524 3e1ae10700ec8a60a531652380d4d92f "pdflatex"
+["biber main"] 1758356907 "main.bcf" "main.bbl" "main" 1758960216
+  "main.bcf" 1758960215 110524 3e1ae10700ec8a60a531652380d4d92f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1758619802 "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" "main.pdf" "main" 1758619813
+["pdflatex"] 1758960203 "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" "main.pdf" "main" 1758960216
   "/Users/alex/Desktop/Thesis/Bachelorthesis/main.tex" 1758616179 2600 fc1f1f7bb0993e8f62ff283a871090b8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -403,11 +403,11 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1666630176 2826444 7c2d5ce0db579f566d6a09adbf8092c6 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "chapters/00_Abstract.tex" 1758616696 1725 c3299e1579775d29991ca09112a32d84 ""
-  "chapters/01_Introduction.tex" 1758617446 2109 9e888d659839e880d83aa7c00aa38aa4 ""
-  "chapters/02_Theory.tex" 1758618883 20258 990df6cad0c39c6bfabab3a0b557efd9 ""
-  "chapters/03_Experimental_Setup.tex" 1758619427 3092 8fd1419a3d1259aac4304c3f7498febb ""
-  "chapters/04_FullFilm_Magnetic_Resonance.tex" 1758619493 8362 cc152b13d387f95748947f8304a12503 ""
-  "chapters/05_Results.tex" 1758619553 11154 9a6f6b37186e30080afc87a51f4b6309 ""
+  "chapters/01_Introduction.tex" 1758958504 2062 5788a1aa6ab7dab7fae1528594ccd36d ""
+  "chapters/02_Theory.tex" 1758960202 20215 84ef98cdf6406a155c1cb6ff41edf2b3 ""
+  "chapters/03_Experimental_Setup.tex" 1758958207 3092 38e3bb4615aec9f14485e8bfac358c0b ""
+  "chapters/04_FullFilm_Magnetic_Resonance.tex" 1758958229 8362 0ecb382d324052bfe80e0bd1fc9664d1 ""
+  "chapters/05_Results.tex" 1758957861 11155 5a3d30cef0305baa85be7af64c99a819 ""
   "chapters/06_Microfabrication.tex" 1758618864 20077 11474bee1736dfe903a84eda854ec13b ""
   "chapters/07_Conclusion.tex" 1758619801 1612 50788ddc7efa89077f715007128df4d0 ""
   "chapters/Photos/Experimental_Setup/Insert MacOS.png" 1757754746 679215 2d4a9ec5eaac030212a3b9b74572a4d7 ""
@@ -437,12 +437,12 @@
   "chapters/Photos/Theory/Photolithography.jpg" 1755363511 28499 75ec33b18ac9f9852764d68e0a836e40 ""
   "chapters/Photos/Theory/spin pumping.png" 1754335568 58653 6fc6b04b085552a10828a5479be3f7b8 ""
   "chapters/Photos/Theory/vortices.png" 1754335568 34737 53728bc2bf39cc41525d2b4a4dbb0ac6 ""
-  "main.aux" 1758619812 42587 d6b47decbed84bac114da7315e25558e "pdflatex"
+  "main.aux" 1758960215 42658 be8a87c99a6c56fe1a66ca80477fe75c "pdflatex"
   "main.bbl" 1758356911 36360 9b6c5eb0729e36a9a2b935ae99525e28 "biber main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.run.xml" 1758619812 2433 365cd64aea7313589594236a4a2cec3c "pdflatex"
+  "main.run.xml" 1758960215 2433 365cd64aea7313589594236a4a2cec3c "pdflatex"
   "main.tex" 1758616179 2600 fc1f1f7bb0993e8f62ff283a871090b8 ""
-  "main.toc" 1758619812 3403 71456fe7e040c3bcc2e89664ffa4d109 "pdflatex"
+  "main.toc" 1758960215 3404 391df672487e2978b174b35d6496a1bc "pdflatex"
   "tum-base-text.sty" 1754335568 2358 b4663ed270219c7d13a766ea619f51af ""
   "tum-base.sty" 1757923644 3535 2286669d3f0d57485cafadffb2698e43 ""
   "tum-book.cls" 1758357548 9003 889a41076e5ff01eb7bbdeea5058432d ""

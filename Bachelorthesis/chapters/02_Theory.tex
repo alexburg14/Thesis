@@ -1,7 +1,7 @@
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
 
 \chapter{Theory}\label{ch:theory}
-In the following, a fundamental overview of the theoretical background needed to understand the results of this thesis is given. First, the basics of magnetism and ferromagnetic resonance (FMR) are explained, followed by an introduction to spin pumping. After that, a general introduction to superconductivity is provided. Finally, basic concepts of lithography are discussed.
+In the following, a fundamental overview of the theoretical background needed to understand the results of this thesis is given. First, the basics of magnetism and FMR are explained, followed by an introduction to spin pumping. After that, a general introduction to superconductivity is provided. Finally, basic concepts of lithography are discussed.
 
 \section{Fundamentals of Magnetism}
 \subsection{Macrospin Model}
@@ -43,7 +43,7 @@ In a real physical system, however, the precession amplitude declines due to var
 where $M_s$ refers to the saturation magnetization, which is the maximum magnetization a ferromagnetic material can achieve.
 
 \subsection{Ferromagnetic Resonance}
-In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic driving field $\mathbf{h_{\text{rf}}}$ that is perpendicular to $\mathbf{{H_{\text{eff}}}}$. $\mathbf{h_{\text{rf}}}$ can generate a torque that can compensate the damping of the precession when the frequency of the precession of the magnetization and the frequency of the oscillating field match, which can be described by a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
+In order to investigate the resonance condition of this precession, we introduce an oscillating magnetic driving field $\mathbf{h_{\text{rf}}}$ that is perpendicular to $\mathbf{{H_{\text{eff}}}}$. $\mathbf{h_{\text{rf}}}$ can generate a torque that can compensate the damping of the precession when the frequency of the magnetization precession and the frequency of the oscillating field match, which can be described by a driven harmonic oscillator in the classical view \cite{Liensberger2021}.
 The following derivation will closely follow references \cite{Liensberger2017} and \cite{Mueller2019}. We choose our coordinate system so that the external magnetic field $\mathbf{{H_{\text{ext}}}}$ is applied in the $z$-axis and $\mathbf{h_{\text{rf}}}$ rotates in the $xy$-plane. We split $\textbf{H}_\textrm{eff}$ and $\textbf{M}$ into their respective time-independent and time-dependent parts 
 \begin{equation}
     \begin{aligned}
@@ -109,7 +109,7 @@ The response of the magnetization to the oscillating magnetic field $\mathbf{h_{
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/spin pumping.png}
-    \caption{Example illustration of spin pumping from a ferromagnet (FM) to a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\mathbf{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. Taken from \cite{obstbaum2014}.}
+    \caption{Example illustration of spin pumping from a ferromagnet (FM) to a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\mathbf{s(\text{t})}$ are the DC- and AC-parts of the polarization vector, respectively. Taken from \cite{obstbaum2014}.}
     \label{fig:enter-label}
 \end{figure}
 
@@ -123,15 +123,15 @@ where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes th
 \end{align*}
 where $g$ is the Landé-Factor and $d_\textrm{FM}$ the thickness of the ferromagnet. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to examine its effects on the Gilbert-damping. Together with the intrisic damping $\alpha_0$ of the ferromagnet, the total damping is then given by $\alpha = \alpha_0 + \alpha_{\textrm{sp}}$.
 
-The main objective of this bachelor thesis was to investigate how the thickness of the superconductor influences the spin-transport through it. Therefore, the spin pumping effect is of great importance, as it allows us to study the transport of spins through a superconductor.
+The main objective of this bachelor thesis was to investigate how the thickness of the superconductor influences the spin-transport through it. Therefore, the spin pumping effect is of great importance.
 
 \section{Fundamentals of Superconductivity}
 In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter \ref{ch:results}.
 
 Superconductors are materials that exhibit two distinct properties below a critical temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a dipole moment, which in turn attracts another electron. The two electrons have opposite momentum $\mathbf{k}$ and $\mathbf{-k}$ and form so-called Cooper pairs \cite{Hunklinger2018}. 
 
-\subsection{The London Equations}
-In 1935, the London brothers developed the London-equations in an attempt to phenomenologically explain the behavior of superconductors. To derive these equations, one needs to start with the Drude-model and the relation 
+\subsection{The London equations}
+In 1935, the London brothers developed the London equations in an attempt to phenomenologically explain the behavior of superconductors. To derive these equations, one needs to start with the Drude model and the relation 
 \begin{equation}
     m\diff{\textbf{v}}{t} = -q\textbf{E} - m\frac{d\mathbf{v_{\textrm{d}}}}{dt}.
 \end{equation}
@@ -169,22 +169,22 @@ Intuitively, this can be understood as a fight between two opposing effects: Max
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/vortices.png}
-    \caption{Sample illustration of vortices in a type-$\RNum{2}$ superconductor. The field lines of the magnetic flux and the currents are depicted for one vortex. Taken from \cite{Hunklinger2018}}
+    \caption{Sample illustration of vortices in a type-$\RNum{2}$ superconductor. The field lines of the magnetic flux and the currents are depicted for one vortex. Taken from \cite{Hunklinger2018}.}
     \label{fig:vortices}
 \end{figure}
 
 \section{Lithography}
-Photolithography, or optical lithography, refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist and then locally exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. Electron Beam Lithography (EBL), on the other hand, uses high-energy electrons to gain the same effect. In this thesis, optical lithography as well as EBL is used to form structure on the sample and to create an unremovable isolation layer.
+Photolithography, or optical lithography, refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist (or often abbreviated to resist) and then locally exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. Electron Beam Lithography (EBL), on the other hand, uses high-energy electrons to gain the same effect. In this thesis, optical lithography as well as EBL is used to form structures on the sample and to create an unremovable isolation layer.
 
 \subsection{Typical photolithography process}
-Typically, a lithography process involves several steps. These are: Applying the photoresist onto the sample via spin coating, heating it (also called prebake), applying a mask, and exposing the photoresist to UV light. Masks can be omitted by using maskless aligners (MLA), which exposes the photoresist locally by a focused laser. Light exposure changes the solubility of the photoresist: exposed regions of a positive photoresist become more soluble in the developer, while those of a negative photoresist become less soluble \cite{AllresistPhotoresistOnline}. Developing the sample washes the soluble part off, creating a pattern on the sample that can be used to etch away specific parts of the sample or deposit new material, thus fabricating structures. Finally, the remaining photoresist can be washed away with a remover. When a new material is deposited onto the sample, the material which lies on the photoresist gets washed away along with the photoresist, which is known as lift-off. A sample illustration can be seen in figure \ref{fig:photolithography}.
+Typically, a lithography process involves several steps. These are: Applying the photoresist onto the sample via spin coating, heating it (also called prebake), applying a mask, and exposing the photoresist to UV light. Masks can be omitted by using maskless aligners (MLA), which exposes the photoresist locally by a focused laser. Light exposure changes the solubility of the photoresist: Exposed regions of a positive photoresist become more soluble in the developer, while those of a negative photoresist become less soluble \cite{AllresistPhotoresistOnline}. Developing the sample washes the soluble part off, creating a pattern on the sample that can be used to etch away specific parts of the sample or deposit new material, thus fabricating structures. Finally, the remaining photoresist can be washed away with a remover. When a new material is deposited onto the sample, the material which lies on the photoresist gets washed away along with the photoresist, which is known as lift-off. A sample illustration can be seen in figure \ref{fig:photolithography}.
 
 \begin{figure}
     \centering
     \includegraphics[width=0.7\linewidth]{chapters/Photos/Theory/Photolithography.jpg}
-    \caption{Illustration of the photolithography process. (a) A metal layer is deposited onto the substrate. (b) A photoresist is then applied onto the sample via spincoating. (c) The photoresist is exposed to UV light through a mask. (d) The sample is developed, after which the areas not covered by the photoresist are etched away. (e) The remaining photoresist is removed, leaving the metal structure on the substrate (f). Taken from \cite{sciencedirect_photolithography}.}
+    \caption{Illustration of the photolithography process. (a) A metal layer is deposited onto the substrate. (b) A photoresist is then applied onto the sample via spincoating. (c) The photoresist is exposed to UV light through a mask. (d) The sample is developed, after which the areas not covered by the photoresist are etched away. (e) The remaining photoresist is removed, leaving the metal structure on the substrate. (f) The final structure is shown. Taken from \cite{sciencedirect_photolithography}.}
     \label{fig:photolithography}
 \end{figure}
 
 \subsection{Cross-linking}
-Negative photoresists achieve high chemical resistance upon exposure by a process called cross-linking. Cross-linking refers to the reaction where individual polymers chain together to build a single, large polymer, changing the property of the material \cite{AllresistPhotoresistOnline}. In the $\textit{AR-N 1407.17 new}$ (AR-N) negative photoresist, which was used in our experiments, this is done by radical starters that form reactive radicals upon exposure to UV light or high energy electrons, which starts a chain reaction connecting individual polymers together. In this thesis, cross-linking was used to create an isolation layer to prevent electrical contact between the coplanar waveguide (CPW) and the DC-contacts, as further explained in chapter \ref{ch:Microfabrication}.
+Negative photoresists achieve high chemical resistance upon exposure by a process called cross-linking. Cross-linking refers to the reaction where individual polymers chain together to build a single, large polymer, changing the property of the material \cite{AllresistPhotoresistOnline}. In the $\textit{AR-N 1407.17 new}$ (AR-N) negative photoresist, which was used in our experiments, this is done by radical starters that form reactive radicals upon exposure to UV light or high energy electrons, which starts a chain reaction connecting individual polymers together. In this thesis, cross-linking was used to create an isolation layer to prevent electrical contact between the coplanar waveguide (CPW) and the DC contacts, as further explained in chapter \ref{ch:Microfabrication}.
