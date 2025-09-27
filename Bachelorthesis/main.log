@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  20 SEP 2025 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  23 SEP 2025 18:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1546,12 +1546,12 @@ Package biblatex Info: ... and expl3
  (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2022/02/02 v3.17 expl3 case changing code for biblatex
 )))
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
+(Font)              scaled to size 12.0pt on input line 81.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1564,47 +1564,47 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 67.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 67.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 81.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 67.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 81.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 67.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 81.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 67.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 81.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 67.
-Package scrbase Info: activating english \contentsname on input line 67.
-Package scrbase Info: activating english \listfigurename on input line 67.
-Package scrbase Info: activating english \listtablename on input line 67.
+LaTeX Font Info:    ... okay on input line 81.
+Package scrbase Info: activating english \contentsname on input line 81.
+Package scrbase Info: activating english \listfigurename on input line 81.
+Package scrbase Info: activating english \listtablename on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count507
@@ -1626,12 +1626,12 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 67.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 67.
-Package hyperref Info: Link coloring OFF on input line 67.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 81.
+Package hyperref Info: Link coloring OFF on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1641,9 +1641,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count513
 )
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1655,7 +1655,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 67.
+(scrbook)           before \begin{document} on input line 81.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1705,43 +1705,43 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 67.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 81.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 67.
+(Font)              scaled to size 11.39996pt on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 19.70294pt on input line 67.
+(Font)              scaled to size 19.70294pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 67.
+(Font)              scaled to size 19.70294pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 67.
+(Font)              scaled to size 16.41594pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 67.
+(Font)              scaled to size 13.67995pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 67.
+(Font)              scaled to size 13.67995pt on input line 81.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 67.
+(Font)              scaled to size 11.39996pt on input line 81.
 <tum-resources/images/TUM_Uhrenturm.png, id=7, 307.3884pt x 408.5664pt>
 File: tum-resources/images/TUM_Uhrenturm.png Graphic file (type png)
 <use tum-resources/images/TUM_Uhrenturm.png>
-Package pdftex.def Info: tum-resources/images/TUM_Uhrenturm.png  used on input line 67.
+Package pdftex.def Info: tum-resources/images/TUM_Uhrenturm.png  used on input line 81.
 (pdftex.def)             Requested size: 312.9803pt x 416.01527pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 67.
+(Font)              scaled to size 8.54997pt on input line 81.
 
 Overfull \vbox (28.28848pt too high) has occurred while \output is active []
 
 <tum-resources/images/Universitaet_Logo_RGB.pdf, id=9, 54.02504pt x 28.452pt>
 File: tum-resources/images/Universitaet_Logo_RGB.pdf Graphic file (type pdf)
 <use tum-resources/images/Universitaet_Logo_RGB.pdf>
-Package pdftex.def Info: tum-resources/images/Universitaet_Logo_RGB.pdf  used on input line 67.
+Package pdftex.def Info: tum-resources/images/Universitaet_Logo_RGB.pdf  used on input line 81.
 (pdftex.def)             Requested size: 54.02736pt x 28.45274pt.
 
 Overfull \vbox (28.45274pt too high) has occurred while \output is active []
@@ -1798,45 +1798,45 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 67.
-Package biblatex Info: Reference segment=0 on input line 67.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
  (./chapters/00_Abstract.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 3.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 2.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2022/01/20 v1.0 font definition file for OT1/minntx
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 3.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 2.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 3.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 2.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 3.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 2.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 3.
+(Font)              scaled to size 8.8pt on input line 2.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 3.
+(Font)              scaled to size 6.6pt on input line 2.
 
-Overfull \hbox (15.06937pt too wide) in paragraph at lines 3--4
-\T1/ntxtlf/m/n/12 ferromagnetic-superconducting (SC-FM-SC) sym-met-ric stacks, specif-i-cally fo-cus-ing on $[]\LMS/ntxsy/m/n/12 ù[][][][]ù[]$
+Overfull \hbox (1.06537pt too wide) in paragraph at lines 2--3
+\T1/ntxtlf/m/n/12 ferromagnet-superconductor (SC-FM-SC) sym-met-ric stacks, specif-i-cally fo-cus-ing on $[]\LMS/ntxsy/m/n/12 ù[][][][]ù[]$
  []
 
 ) [2] (./main.toc
@@ -1851,76 +1851,72 @@ Chapter 2.
 ) (./chapters/02_Theory.tex
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 4.
+(Font)              scaled to size 17.28pt on input line 6.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 4.
+(Font)              scaled to size 17.28pt on input line 6.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
+(Font)              scaled to size 14.4pt on input line 7.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 5.
+(Font)              scaled to size 14.4pt on input line 7.
 [5] [6] [7]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 84.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 84.
+(Font)              scaled to size 10.0pt on input line 86.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.95pt on input line 84.
+(Font)              scaled to size 10.95pt on input line 86.
 <chapters/Photos/Theory/Landau-Lifschitz Precession.png, id=188, 76.6062pt x 56.1297pt>
 File: chapters/Photos/Theory/Landau-Lifschitz Precession.png Graphic file (type png)
 <use chapters/Photos/Theory/Landau-Lifschitz Precession.png>
-Package pdftex.def Info: chapters/Photos/Theory/Landau-Lifschitz Precession.png  used on input line 86.
+Package pdftex.def Info: chapters/Photos/Theory/Landau-Lifschitz Precession.png  used on input line 88.
 (pdftex.def)             Requested size: 232.20844pt x 170.73022pt.
 <chapters/Photos/Theory/FMR_example.png, id=189, 263.7855pt x 173.2071pt>
 File: chapters/Photos/Theory/FMR_example.png Graphic file (type png)
 <use chapters/Photos/Theory/FMR_example.png>
-Package pdftex.def Info: chapters/Photos/Theory/FMR_example.png  used on input line 93.
+Package pdftex.def Info: chapters/Photos/Theory/FMR_example.png  used on input line 95.
 (pdftex.def)             Requested size: 232.1722pt x 170.71968pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 97.
+(Font)              scaled to size 8.0pt on input line 99.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 97.
+(Font)              scaled to size 6.1pt on input line 99.
 <chapters/Photos/Theory/spin pumping.png, id=191, 121.8954pt x 73.9563pt>
 File: chapters/Photos/Theory/spin pumping.png Graphic file (type png)
 <use chapters/Photos/Theory/spin pumping.png>
-Package pdftex.def Info: chapters/Photos/Theory/spin pumping.png  used on input line 109.
+Package pdftex.def Info: chapters/Photos/Theory/spin pumping.png  used on input line 111.
 (pdftex.def)             Requested size: 241.84845pt x 146.73857pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9 <./chapters/Photos/Theory/Landau-Lifschitz Precession.png> <./chapters/Photos/Theory/FMR_example.png>] [10 <./chapters/Photos/Theory/spin pumping.png>]
+ [8 <./chapters/Photos/Theory/Landau-Lifschitz Precession.png> <./chapters/Photos/Theory/FMR_example.png>] [9 <./chapters/Photos/Theory/spin pumping.png>] [10]
 <chapters/Photos/Theory/vortices.png, id=232, 102.6234pt x 61.6704pt>
 File: chapters/Photos/Theory/vortices.png Graphic file (type png)
 <use chapters/Photos/Theory/vortices.png>
-Package pdftex.def Info: chapters/Photos/Theory/vortices.png  used on input line 169.
+Package pdftex.def Info: chapters/Photos/Theory/vortices.png  used on input line 171.
 (pdftex.def)             Requested size: 241.84845pt x 145.35544pt.
  [11]
 <chapters/Photos/Theory/Photolithography.jpg, id=247, 285.24266pt x 196.98372pt>
 File: chapters/Photos/Theory/Photolithography.jpg Graphic file (type jpg)
 <use chapters/Photos/Theory/Photolithography.jpg>
-Package pdftex.def Info: chapters/Photos/Theory/Photolithography.jpg  used on input line 182.
+Package pdftex.def Info: chapters/Photos/Theory/Photolithography.jpg  used on input line 184.
 (pdftex.def)             Requested size: 338.58635pt x 233.83942pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 188.
+(Font)              scaled to size 12.0pt on input line 190.
 ) (./chapters/03_Experimental_Setup.tex [12 <./chapters/Photos/Theory/vortices.png>]
 Chapter 4.
 [13 <./chapters/Photos/Theory/Photolithography.jpg>]
-<chapters/Photos/Experimental_Setup/single_sample.png, id=269, 79.2561pt x 118.041pt>
+<chapters/Photos/Experimental_Setup/single_sample.png, id=268, 79.2561pt x 118.041pt>
 File: chapters/Photos/Experimental_Setup/single_sample.png Graphic file (type png)
 <use chapters/Photos/Experimental_Setup/single_sample.png>
 Package pdftex.def Info: chapters/Photos/Experimental_Setup/single_sample.png  used on input line 8.
 (pdftex.def)             Requested size: 120.92422pt x 180.1122pt.
-<chapters/Photos/Experimental_Setup/Insert setup.png, id=270, 798.73407pt x 623.32875pt>
-File: chapters/Photos/Experimental_Setup/Insert setup.png Graphic file (type png)
-<use chapters/Photos/Experimental_Setup/Insert setup.png>
-Package pdftex.def Info: chapters/Photos/Experimental_Setup/Insert setup.png  used on input line 15.
-(pdftex.def)             Requested size: 386.95898pt x 301.98119pt.
- [14 <./chapters/Photos/Experimental_Setup/Insert setup.png>]
+<chapters/Photos/Experimental_Setup/Insert MacOS.png, id=269, 172.7253pt x 134.6631pt>
+File: chapters/Photos/Experimental_Setup/Insert MacOS.png Graphic file (type png)
+<use chapters/Photos/Experimental_Setup/Insert MacOS.png>
+Package pdftex.def Info: chapters/Photos/Experimental_Setup/Insert MacOS.png  used on input line 15.
+(pdftex.def)             Requested size: 386.95898pt x 301.6967pt.
+ [14 <./chapters/Photos/Experimental_Setup/Insert MacOS.png>]
 Underfull \hbox (badness 1009) in paragraph at lines 23--25
 []\T1/ntxtlf/m/n/12 The ex-per-i-men-tal setup uses a Vec-
  []
 
-<chapters/Photos/Experimental_Setup/Setup2.png, id=279, 900.4842pt x 557.4426pt>
+<chapters/Photos/Experimental_Setup/Setup2.png, id=278, 900.4842pt x 557.4426pt>
 File: chapters/Photos/Experimental_Setup/Setup2.png Graphic file (type png)
 <use chapters/Photos/Experimental_Setup/Setup2.png>
 Package pdftex.def Info: chapters/Photos/Experimental_Setup/Setup2.png  used on input line 29.
@@ -1928,48 +1924,79 @@ Package pdftex.def Info: chapters/Photos/Experimental_Setup/Setup2.png  used on 
 ) (./chapters/04_FullFilm_Magnetic_Resonance.tex
 Chapter 5.
 [15 <./chapters/Photos/Experimental_Setup/Setup2.png> <./chapters/Photos/Experimental_Setup/single_sample.png>]
-<chapters/Photos/Methods/FMRsample_MacOS.png, id=291, 424.2249pt x 323.7696pt>
+<chapters/Photos/Methods/FMRsample_MacOS.png, id=290, 424.2249pt x 323.7696pt>
 File: chapters/Photos/Methods/FMRsample_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/FMRsample_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/FMRsample_MacOS.png  used on input line 16.
+Package pdftex.def Info: chapters/Photos/Methods/FMRsample_MacOS.png  used on input line 15.
 (pdftex.def)             Requested size: 290.22108pt x 221.49924pt.
-<chapters/Photos/Methods/Kittellinear_macOS.png, id=292, 505.89pt x 361.35pt>
+<chapters/Photos/Methods/Kittellinear_macOS.png, id=291, 505.89pt x 361.35pt>
 File: chapters/Photos/Methods/Kittellinear_macOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Kittellinear_macOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Kittellinear_macOS.png  used on input line 26.
+Package pdftex.def Info: chapters/Photos/Methods/Kittellinear_macOS.png  used on input line 25.
 (pdftex.def)             Requested size: 232.17244pt x 165.83705pt.
-<chapters/Photos/Methods/Kittelresonance_MacOS.png, id=293, 505.89pt x 361.35pt>
+<chapters/Photos/Methods/Kittelresonance_MacOS.png, id=292, 505.89pt x 361.35pt>
 File: chapters/Photos/Methods/Kittelresonance_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Kittelresonance_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Kittelresonance_MacOS.png  used on input line 33.
+Package pdftex.def Info: chapters/Photos/Methods/Kittelresonance_MacOS.png  used on input line 32.
 (pdftex.def)             Requested size: 232.17244pt x 165.83705pt.
  [16 <./chapters/Photos/Methods/FMRsample_MacOS.png>]
-<chapters/Photos/Methods/RFSignalPower_MacOS.png, id=311, 570.933pt x 432.8973pt>
+<chapters/Photos/Methods/RFSignalPower_MacOS.png, id=310, 570.933pt x 432.8973pt>
 File: chapters/Photos/Methods/RFSignalPower_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/RFSignalPower_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/RFSignalPower_MacOS.png  used on input line 50.
+Package pdftex.def Info: chapters/Photos/Methods/RFSignalPower_MacOS.png  used on input line 49.
 (pdftex.def)             Requested size: 386.95898pt x 293.41507pt.
-<chapters/Photos/Methods/Modcurrent_macOS.png, id=313, 570.2103pt x 432.8973pt>
+<chapters/Photos/Methods/Modcurrent_macOS.png, id=312, 570.2103pt x 432.8973pt>
 File: chapters/Photos/Methods/Modcurrent_macOS.png Graphic file (type png)
 <use chapters/Photos/Methods/Modcurrent_macOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/Modcurrent_macOS.png  used on input line 59.
+Package pdftex.def Info: chapters/Photos/Methods/Modcurrent_macOS.png  used on input line 58.
 (pdftex.def)             Requested size: 386.95898pt x 293.78499pt.
  [17 <./chapters/Photos/Methods/Kittellinear_macOS.png> <./chapters/Photos/Methods/Kittelresonance_MacOS.png>] [18 <./chapters/Photos/Methods/RFSignalPower_MacOS.png>]
-<chapters/Photos/Methods/TimeConstant_MacOS.png, id=332, 570.2103pt x 432.8973pt>
+<chapters/Photos/Methods/TimeConstant_MacOS.png, id=331, 570.2103pt x 432.8973pt>
 File: chapters/Photos/Methods/TimeConstant_MacOS.png Graphic file (type png)
 <use chapters/Photos/Methods/TimeConstant_MacOS.png>
-Package pdftex.def Info: chapters/Photos/Methods/TimeConstant_MacOS.png  used on input line 71.
+Package pdftex.def Info: chapters/Photos/Methods/TimeConstant_MacOS.png  used on input line 70.
 (pdftex.def)             Requested size: 386.95898pt x 293.78499pt.
 ) (./chapters/05_Results.tex
 Chapter 6.
-[19 <./chapters/Photos/Methods/Modcurrent_macOS.png>] [20 <./chapters/Photos/Methods/TimeConstant_MacOS.png>] [21]
-<chapters/Photos/Results/45nm_params_MacOS.png, id=352, 642.4803pt x 427.8384pt>
+[19 <./chapters/Photos/Methods/Modcurrent_macOS.png>] [20 <./chapters/Photos/Methods/TimeConstant_MacOS.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.5pt on input line 5.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.4pt on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 5.
+
+[21]
+<chapters/Photos/Results/45nm_params_MacOS.png, id=351, 642.4803pt x 427.8384pt>
 File: chapters/Photos/Results/45nm_params_MacOS.png Graphic file (type png)
 <use chapters/Photos/Results/45nm_params_MacOS.png>
 Package pdftex.def Info: chapters/Photos/Results/45nm_params_MacOS.png  used on input line 18.
 (pdftex.def)             Requested size: 386.95898pt x 257.68425pt.
- [22 <./chapters/Photos/Results/45nm_params_MacOS.png>]
-<chapters/Photos/Results/30nm_params_MacOS.png, id=358, 648.9846pt x 427.8384pt>
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 23.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 23.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 23.
+
+[22 <./chapters/Photos/Results/45nm_params_MacOS.png>]
+<chapters/Photos/Results/30nm_params_MacOS.png, id=357, 648.9846pt x 427.8384pt>
 File: chapters/Photos/Results/30nm_params_MacOS.png Graphic file (type png)
 <use chapters/Photos/Results/30nm_params_MacOS.png>
 Package pdftex.def Info: chapters/Photos/Results/30nm_params_MacOS.png  used on input line 35.
@@ -1995,7 +2022,7 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 16.
-<chapters/Photos/Microfabrication/E-line Dose_corrected.png, id=385, 571.8966pt x 453.3738pt>
+<chapters/Photos/Microfabrication/E-line Dose_corrected.png, id=384, 571.8966pt x 453.3738pt>
 File: chapters/Photos/Microfabrication/E-line Dose_corrected.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/E-line Dose_corrected.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/E-line Dose_corrected.png  used on input line 20.
@@ -2013,27 +2040,27 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 29.
-<chapters/Photos/Microfabrication/5min_before.png, id=394, 98.5281pt x 75.1608pt>
+<chapters/Photos/Microfabrication/5min_before.png, id=393, 98.5281pt x 75.1608pt>
 File: chapters/Photos/Microfabrication/5min_before.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_before.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_before.png  used on input line 37.
 (pdftex.def)             Requested size: 232.20103pt x 170.72612pt.
-<chapters/Photos/Microfabrication/5min_after.png, id=395, 74.679pt x 98.0463pt>
+<chapters/Photos/Microfabrication/5min_after.png, id=394, 74.679pt x 98.0463pt>
 File: chapters/Photos/Microfabrication/5min_after.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/5min_after.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/5min_after.png  used on input line 45.
 (pdftex.def)             Requested size: 232.193pt x 170.74126pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=397, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam.png, id=396, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam.png  used on input line 59.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=398, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png, id=397, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath.png  used on input line 66.
 (pdftex.def)             Requested size: 154.78654pt x 118.67886pt.
-<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=399, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png, id=398, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/10min_looking_ebeam_after_bath_and_dev.png  used on input line 73.
@@ -2046,7 +2073,7 @@ Package textcomp Info: Symbol \textmu not provided by
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 86.
-<chapters/Photos/Microfabrication/test2.png, id=416, 907.2294pt x 521.3076pt>
+<chapters/Photos/Microfabrication/test2.png, id=415, 907.2294pt x 521.3076pt>
 File: chapters/Photos/Microfabrication/test2.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/test2.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/test2.png  used on input line 90.
@@ -2055,7 +2082,7 @@ Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 97.
  [29 <./chapters/Photos/Microfabrication/test2.png>]
-<chapters/Photos/Microfabrication/MaN_holes.png, id=425, 431.6928pt x 330.9966pt>
+<chapters/Photos/Microfabrication/MaN_holes.png, id=424, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/MaN_holes.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/MaN_holes.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/MaN_holes.png  used on input line 110.
@@ -2063,7 +2090,7 @@ Package pdftex.def Info: chapters/Photos/Microfabrication/MaN_holes.png  used on
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 10.95pt on input line 111.
  [30]
-<chapters/Photos/Microfabrication/Design_Chip.PNG, id=433, 423.08063pt x 146.04562pt>
+<chapters/Photos/Microfabrication/Design_Chip.PNG, id=432, 423.08063pt x 146.04562pt>
 File: chapters/Photos/Microfabrication/Design_Chip.PNG Graphic file (type png)
 <use chapters/Photos/Microfabrication/Design_Chip.PNG>
 Package pdftex.def Info: chapters/Photos/Microfabrication/Design_Chip.PNG  used on input line 122.
@@ -2071,13 +2098,14 @@ Package pdftex.def Info: chapters/Photos/Microfabrication/Design_Chip.PNG  used 
 Package textcomp Info: Symbol \textmu not provided by
 (textcomp)             font family ntxtlf in TS1 encoding.
 (textcomp)             Default family used instead on input line 129.
- [31 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)>]
+ [31 <./chapters/Photos/Microfabrication/MaN_holes.png (PNG copy)> <./chapters/Photos/Microfabrication/Design_Chip.PNG>]
 <chapters/Photos/Microfabrication/final_sample.png, id=441, 431.6928pt x 330.9966pt>
 File: chapters/Photos/Microfabrication/final_sample.png Graphic file (type png)
 <use chapters/Photos/Microfabrication/final_sample.png>
 Package pdftex.def Info: chapters/Photos/Microfabrication/final_sample.png  used on input line 134.
 (pdftex.def)             Requested size: 338.58635pt x 259.6056pt.
-<chapters/Photos/Microfabrication/Mounted Device.jpg, id=443, 444.91219pt x 359.84438pt>
+ [32 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)>]
+<chapters/Photos/Microfabrication/Mounted Device.jpg, id=449, 444.91219pt x 359.84438pt>
 File: chapters/Photos/Microfabrication/Mounted Device.jpg Graphic file (type jpg)
 <use chapters/Photos/Microfabrication/Mounted Device.jpg>
 Package pdftex.def Info: chapters/Photos/Microfabrication/Mounted Device.jpg  used on input line 146.
@@ -2088,64 +2116,62 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 147.
- [32 <./chapters/Photos/Microfabrication/Design_Chip.PNG>] [33 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)> <./chapters/Photos/Microfabrication/Mounted Device.jpg>]) (./chapters/07_Conclusion.tex
+ [33 <./chapters/Photos/Microfabrication/Mounted Device.jpg>]) (./chapters/07_Conclusion.tex
 Chapter 8.
-[34]) [35]
+) [34] [35]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 87.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 87.
+(Font)              scaled to size 12.0pt on input line 100.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 100.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (5.27045pt too wide) in paragraph at lines 88--88
+Overfull \hbox (5.27045pt too wide) in paragraph at lines 101--101
 \T1/ntxtlf/m/n/12 Superconductor-Ferromagnet Het-erostruc-tures^^Q. In: \T1/ntxtlf/m/it/12 Phys. Rev. Lett. \T1/ntxtlf/m/n/12 126 (8 Feb. 2021), p. 087201.
  []
 
 
-Overfull \hbox (32.44478pt too wide) in paragraph at lines 88--88
+Overfull \hbox (32.44478pt too wide) in paragraph at lines 101--101
 \T1/pcr/m/n/12 uploads / sites / 2 / 2021 / 02 / Allresist _ Product -[] information -[] E -[] Beamresist -[]
  []
 
 
-Overfull \hbox (6.37068pt too wide) in paragraph at lines 88--88
+Overfull \hbox (6.37068pt too wide) in paragraph at lines 101--101
 \T1/ntxtlf/m/sc/12 url\T1/ntxtlf/m/n/12 : []$\T1/pcr/m/n/12 https : / / www . allresist . com / resist -[] wiki -[] what -[] are -[] photoresists -[]
  []
 
 
-Overfull \hbox (1.64479pt too wide) in paragraph at lines 88--88
+Overfull \hbox (1.64479pt too wide) in paragraph at lines 101--101
 \T1/pcr/m/n/12 fileadmin / WMI / Publications / Liensberger _ Lukas _ Doktorarbeit _ 2021 .
  []
 
 [36]
-Overfull \hbox (1.64479pt too wide) in paragraph at lines 88--88
+Overfull \hbox (1.64479pt too wide) in paragraph at lines 101--101
 \T1/pcr/m/n/12 de / fileadmin / WMI / Publications / Liensberger % 2CLukas _ Masterarbeit _
  []
 
 
-Overfull \hbox (2.01262pt too wide) in paragraph at lines 88--88
+Overfull \hbox (2.01262pt too wide) in paragraph at lines 101--101
 \T1/pcr/m/n/12 information / fg06 _ p1 -[] 2 _ semiconductor _ lithography$[] \T1/ntxtlf/m/n/12 (vis-ited on 07/30/2025). 
  []
 
 
-Overfull \hbox (34.44478pt too wide) in paragraph at lines 88--88
+Overfull \hbox (34.44478pt too wide) in paragraph at lines 101--101
 \T1/pcr/m/n/12 www . sciencedirect . com / topics / physics -[] and -[] astronomy / photolithography$[]\T1/ntxtlf/m/n/12 .
  []
 
-[37] (./chapters/99_Appendix.tex
-Appendix A.
-) [38]
-LaTeX Font Info:    Trying to load font information for T1+times on input line 92.
-LaTeX Font Info:    No file T1times.fd. on input line 92.
+[37]
+LaTeX Font Info:    Trying to load font information for T1+times on input line 102.
+LaTeX Font Info:    No file T1times.fd. on input line 102.
 
 
 LaTeX Font Warning: Font shape `T1/times/m/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 92.
+(Font)              using `T1/cmr/m/n' instead on input line 102.
 
 
 LaTeX Font Warning: Font shape `T1/times/b/n' undefined
-(Font)              using `T1/times/m/n' instead on input line 92.
+(Font)              using `T1/times/m/n' instead on input line 102.
 
-[39] (./main.aux)
+[38] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2156,18 +2182,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59531 strings out of 478268
- 1343828 string characters out of 5846346
- 2268258 words of memory out of 5000000
- 76544 multiletter control sequences out of 15000+600000
- 630157 words of font info for 219 fonts, out of 8000000 for 9000
+ 59566 strings out of 478268
+ 1344358 string characters out of 5846346
+ 2268245 words of memory out of 5000000
+ 76579 multiletter control sequences out of 15000+600000
+ 654208 words of font info for 262 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  124i,16n,145p,10702b,2912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (39 pages, 22512788 bytes).
+Output written on main.pdf (38 pages, 21502671 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
- 139 named destinations out of 1000 (max. 500000)
- 470 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 756 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,16 +19,28 @@ for the Attainment of the Degree\\
   Matriculation Number: 03774320\\
   \vspace{12pt}
   \textbf{Submitted on}\\
-  15.08.2025
+  06.10.2025
 }
+
 % --- START: Final Preamble Modifications (wrapfig fix v2) ---
 
 % Load this package to hook into the title page creation
 \usepackage{etoolbox}
 
+% --- START: Final Preamble Modifications (wrapfig fix v2) ---
+
+% Load this package to hook into the title page creation
+\usepackage{etoolbox}
+
+% ADD THIS CODE BLOCK TO FIX THE INDENTATION
+\makeatletter
+\patchcmd{\ttl@sep}{\par}{\par\noindent}{}{}
+\makeatother
+
 % 1. SETUP FOR HEADERS
 % This section correctly handles the header lines and should be kept.
 \AtBeginEnvironment{titlepage}{\renewcommand{\headrulewidth}{0pt}}
+
 
 \fancypagestyle{fancy}{%
   \fancyhf{}
@@ -64,8 +76,9 @@ for the Attainment of the Degree\\
 \titlespacing{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex} % Replaced \titlespacing*
 
 % --- END: Final Preamble Modifications (wrapfig fix v2) ---
-\begin{document}
 
+
+\begin{document}
 
 \input{chapters/00_Abstract}
 \newpage
@@ -85,9 +98,6 @@ for the Attainment of the Degree\\
 
 \newpage
 \printbibliography
-\newpage
-\appendix
-\input{chapters/99_Appendix}
 
-\printthesisdisclaimer{Munich, 00.00.0000}{Name}
+\printthesisdisclaimer{Munich, 06.10.2025}{Alex Burg}
 \end{document}

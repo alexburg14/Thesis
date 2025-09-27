@@ -1,9 +1,11 @@
-\chapter{Theory}
-\label{ch:theory}
 \newcommand{\RNum}[1]{\uppercase\expandafter{\romannumeral #1\relax}}
+
+\chapter{Theory}\label{ch:theory}
+In the following, a fundamental overview of the theoretical background needed to understand the results of this thesis is given. First, the basics of magnetism and ferromagnetic resonance (FMR) are explained, followed by an introduction to spin pumping. After that, a general introduction to superconductivity is provided. Finally, basic concepts of lithography are discussed.
+
 \section{Fundamentals of Magnetism}
 \subsection{Macrospin Model}
-The magnetic properties of a ferromagnet without without local defects or domains can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\mathbf{M}$, can then be calculated by the sum of all dipole moments $\boldsymbol{\mu}$ of a sample:
+The magnetic properties of a ferromagnet without local defects or domains can be best described by treating the ferromagnet as having one average magnetic dipole. This average dipole, called Magnetization $\mathbf{M}$, can then be calculated by the sum of all dipole moments $\boldsymbol{\mu}$ of a sample:
 \begin{equation}    
 \mathbf{M} = \frac{1}{V}\sum_{i\in V}{\boldsymbol{\mu_\textbf{i}}}
 \end{equation}
@@ -104,7 +106,7 @@ The response of the magnetization to the oscillating magnetic field $\mathbf{h_{
 
 
 \subsection{Spin Pumping}
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/spin pumping.png}
     \caption{Example illustration of spin pumping from a ferromagnet (FM) to a normal metal (NM). The spin current is depicted as gray arrows on the interface, whereas $\textbf{s}$ and $\mathbf{s(\text{t})}$ are the DC- and AC-parts of the polarizations vector, respectively. Taken from \cite{obstbaum2014}.}
@@ -115,16 +117,16 @@ When a ferromagnetic film comes in contact with a normal metal, an increase in d
 \begin{equation}
 \mathbf{J}_{\mathbf{s}}=\frac{\hbar}{4 \pi}\left(\operatorname{Re}\left(G_{\uparrow \downarrow}\right) \mathbf{M} \times \frac{d \mathbf{M}}{d t}-\operatorname{Im}\left(G_{\uparrow \downarrow}\right) \frac{d \mathbf{M}}{d t}\right)
 \end{equation}
-where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes the transport of spins that are not collinear to the magnetization of the sample. WAS GENAU FRAGST DU HIER?The first term corresponds to a damping-like behavior, and the second term gives a field-like contribution. The imaginary part of the spin-mixing conductance is typically negligible ~\cite{obstbaum2014}. The additional contribution in damping is then given by \cite{Mueller2023}
+where $G_{\uparrow \downarrow}$ is the spin-mixing conductance that describes the transport of spins that are not collinear to the magnetization of the sample. The first term corresponds to a damping-like behavior, and the second term gives a field-like contribution. The imaginary part of the spin-mixing conductance is typically negligible ~\cite{obstbaum2014}. The additional contribution in damping is then given by \cite{Mueller2023}
 \begin{align*}
     \alpha_{\textrm{sp}} =& \ \frac{g\mu_0}{4 \pi M_S}\frac{G_{\uparrow \downarrow}}{d_{\text{FM}}}
 \end{align*}
 where $g$ is the Landé-Factor and $d_\textrm{FM}$ the thickness of the ferromagnet. Studying ferromagnet/normal metal samples at different thicknesses of the ferromagnet can be done to examine its effects on the Gilbert-damping. Together with the intrisic damping $\alpha_0$ of the ferromagnet, the total damping is then given by $\alpha = \alpha_0 + \alpha_{\textrm{sp}}$.
 
-The main objective of this bachelor thesis, however, was to investigate how the thickness of the superconductor influences the spin-transport through it, which is why only the thickness of the superconductor was altered between samples.
+The main objective of this bachelor thesis was to investigate how the thickness of the superconductor influences the spin-transport through it. Therefore, the spin pumping effect is of great importance, as it allows us to study the transport of spins through a superconductor.
 
 \section{Fundamentals of Superconductivity}
-In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter 5 and 6. 
+In this section, the fundamental theory behind superconductivity is discussed that is needed for the discussion of the results given in chapter \ref{ch:results}.
 
 Superconductors are materials that exhibit two distinct properties below a critical temperature $T_\textrm{C}$: The vanishing of electrical resistance and the expulsion of the magnetic field inside the material, also called the Meißner effect. In its essence, superconductivity is caused by a positive attraction of two electrons through an exchange of virtual phonons. Intuitively, this can be explained by an electron moving through the crystal, causing a deformation in the lattice that generates a dipole moment, which in turn attracts another electron. The two electrons have opposite momentum $\mathbf{k}$ and $\mathbf{-k}$ and form so-called Cooper pairs \cite{Hunklinger2018}. 
 
@@ -139,7 +141,7 @@ Since there is no electrical resistance during superconductance, the second term
     \label{first London equation}
 \end{equation}
 where $n$ represents the Cooper pair density, $m$ the mass and $q$ the charge of a Cooper pair.
-Inserting \ref{first London equation} into the Maxwell-equation $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ yields
+Inserting (\ref{first London equation}) into the Maxwell-equation $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ yields
 \begin{equation}
     \diff{}{t}(\nabla \times \mathbf{j_s} + \frac{nq^2}{m}\textbf{B}) = 0.
     \label{d/dt of second london equation}
@@ -155,7 +157,7 @@ Solving these equations yields
 \end{align}
 where $\lambda_L$ = $\frac{m}{\mu_0 nq^2}$ is the London penetration depth \cite{Mueller2019}. It measures how deep a magnetic field will penetrate into the superconductor. 
 \subsection{Types of superconductors}
-Not all superconductors (SCs: DEFINIERE IN EINLEITUNG) have the same properties, however. SCs can be divided into type-$\RNum{1}$ and type-$\RNum{2}$ SCs. Type-$\RNum{1}$ SCs exhibit the Meißner effect below their critical field $B_\textrm{C}$. Comparatively, a type-$\RNum{2}$ SC has two critical fields, $B_{\textrm{C1}}$ and $B_{\textrm{C2}}$. Below the critical field $B_{\textrm{C1}}$, a type-$\RNum{2}$ SC displays the same properties as a type-$\RNum{1}$ SC. Between $B_{\textrm{C1}}$  and $B_{\textrm{C2}}$, however, type-$\RNum{2}$ SCs create canals that let flux penetrate into the material. Each canal, also called vortex, allows exactly one quantum flux $\Phi$. The vortices usually arrange themselves in a triangular lattice, called the Abrikosov-lattice \cite{Mueller2019}. An illustration of a type-$\RNum{2}$ SC with vortices can be seen in figure \ref{fig:vortices}.
+Not all superconductors (SCs) have the same properties, however. SCs can be divided into type-$\RNum{1}$ and type-$\RNum{2}$ SCs. Type-$\RNum{1}$ SCs exhibit the Meißner effect below their critical field $B_\textrm{C}$. Comparatively, a type-$\RNum{2}$ SC has two critical fields, $B_{\textrm{C1}}$ and $B_{\textrm{C2}}$. Below the critical field $B_{\textrm{C1}}$, a type-$\RNum{2}$ SC displays the same properties as a type-$\RNum{1}$ SC. Between $B_{\textrm{C1}}$  and $B_{\textrm{C2}}$, however, type-$\RNum{2}$ SCs create canals that let flux penetrate into the material. Each canal, also called vortex, allows exactly one quantum flux $\Phi$. The vortices usually arrange themselves in a triangular lattice, called the Abrikosov-lattice \cite{Mueller2019}. An illustration of a type-$\RNum{2}$ SC with vortices can be seen in figure \ref{fig:vortices}.
 
 The different behavior between type-$\RNum{1}$ and type-$\RNum{2}$ SCs can be understood when considering the Ginzburg-Landau parameter $\kappa$:
 \begin{equation}
@@ -163,7 +165,7 @@ The different behavior between type-$\RNum{1}$ and type-$\RNum{2}$ SCs can be un
 \end{equation}
 
 where $\xi_{GL}$ is the Ginzburg-Landau coherence length, which determines how quickly the Cooper pair density increases near the surface. When $\kappa < \frac{1}{\sqrt{2}}$, the SC behaves like a type-$\RNum{1}$ SC, and if $\kappa > \frac{1}{\sqrt{2}}$, the SC is a type-$\RNum{2}$ SC. 
-Intuitively, this can be understood as a fight between two opposing effects: Maximizing the surface area minimizes the amount of energy needed to expel magnetic flux from going into the material. At the same time, surfaces reduce the gain of condensation energy, since there are less Cooper pairs near the surface. For type-$\RNum{2}$ SCs, it is more favorable to create small vortices and which costs condensation energy from Cooper pairs, but save on the expulsion energy against the magnetic field \cite{Hunklinger2018}. These vortices often are bound to defects in the material. Lorentz force caused by current flowing through the SC can cause the vortices to move, which creates dissipation and ultimately destroys the superconducting state \cite{shi2025lorentz}, which is why type-$\RNum{2}$ SCs are often intentionally created with defects to pin the vortices in place. Even with these defects, vortices can jump from defect to defect given enough thermal energy, a phenomenon known as vortex creeping \cite{Eley_2017}.
+Intuitively, this can be understood as a fight between two opposing effects: Maximizing the surface area minimizes the amount of energy needed to expel magnetic flux from going into the material. At the same time, surfaces reduce the gain of condensation energy, since there are less Cooper pairs near the surface. For type-$\RNum{2}$ SCs, it is more favorable to create small vortices and which costs condensation energy from Cooper pairs, but save on the expulsion energy against the magnetic field \cite{Hunklinger2018}. These vortices often are bound to defects in the material. Lorentz forces caused by current flowing through the SC can cause the vortices to move, which creates dissipation and ultimately destroys the superconducting state \cite{shi2025lorentz}, which is why type-$\RNum{2}$ SCs are often intentionally created with defects to pin the vortices in place. Even with these defects, vortices can jump from defect to defect given enough thermal energy, a phenomenon known as vortex creeping \cite{Eley_2017}.
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{chapters/Photos/Theory/vortices.png}
@@ -172,7 +174,7 @@ Intuitively, this can be understood as a fight between two opposing effects: Max
 \end{figure}
 
 \section{Lithography}
-Photolithography, or optical lithography, refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist and then locally exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. EBL, on the other hand, uses high-energy electrons to gain the same effect. In this thesis, optical lithography as well as EBL is used to form structure on the sample and to create an unremovable isolation layer.
+Photolithography, or optical lithography, refers to the process of creating structures on a sample by applying a photosensitive polymer material called photoresist and then locally exposing it to light, often in the ultraviolet wavelengths \cite{Mack2006LithographyOnline}. Electron Beam Lithography (EBL), on the other hand, uses high-energy electrons to gain the same effect. In this thesis, optical lithography as well as EBL is used to form structure on the sample and to create an unremovable isolation layer.
 
 \subsection{Typical photolithography process}
 Typically, a lithography process involves several steps. These are: Applying the photoresist onto the sample via spin coating, heating it (also called prebake), applying a mask, and exposing the photoresist to UV light. Masks can be omitted by using maskless aligners (MLA), which exposes the photoresist locally by a focused laser. Light exposure changes the solubility of the photoresist: exposed regions of a positive photoresist become more soluble in the developer, while those of a negative photoresist become less soluble \cite{AllresistPhotoresistOnline}. Developing the sample washes the soluble part off, creating a pattern on the sample that can be used to etch away specific parts of the sample or deposit new material, thus fabricating structures. Finally, the remaining photoresist can be washed away with a remover. When a new material is deposited onto the sample, the material which lies on the photoresist gets washed away along with the photoresist, which is known as lift-off. A sample illustration can be seen in figure \ref{fig:photolithography}.

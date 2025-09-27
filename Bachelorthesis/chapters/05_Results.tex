@@ -1,8 +1,8 @@
 \chapter{Results and Discussion}
 \label{ch:results}
 The abovementioned measurement optimizations were implemented and measurements were conducted on two samples with Nb layer thicknesses of $d_\textrm{Nb} = \SI{45}{nm}$ and $d_\textrm{Nb} = \SI{30}{nm}$. Two distinct sets of measurements were performed on each sample:
-One by Max Mangold in November 2024 (Series A) and another by Alex Burg in May 2025 (Series B). The measurements conducted by Max Mangold served as a reference point, while the measurements performed by Alex Burg incorporated the optimizations discussed in chapter \ref{ch:FullFlimMagneticResonance} and focused especially on the area near the critical temperature $T_\textrm{C}$. In the following, the results from both measurement series will be compared and discussed.
-\section{45nm}
+One by Max Mangold in November 2024 (Series A) and another by Alex Burg in May 2025 (Series B). The measurements conducted by Max Mangold served as a reference point, while the measurements performed by Alex Burg incorporated the optimizations discussed in chapter \ref{ch:FullFilmMagneticResonance} and focused especially on the area near the critical temperature $T_\textrm{C}$. In the following, the results from both measurement series will be compared and discussed.
+\section{Results of sample with $d_\textrm{Nb} = \SI{45}{nm}$}
 Figure \ref{fig:45nm_params} shows extracted parameters $\alpha$, $\Delta H_0$,$M_\textrm{eff}$ and $H_{\text{shift}}$ of $d_\textrm{Nb} = \SI{45}{nm}$.
 
 For both series, the Gilbert damping parameter $\alpha$ increases with temperature until around the critical temperature $T_{\textrm{C}}$. This behavior can be explained by the fact that the London penetration depth is dependent on temperature: $\lambda(T) = \lambda(0) / \sqrt{1 - (T/T_C)^4}$. This means that more magnetic moment is able to transfer into the superconductor when the temperature is increased, which results in a stronger damping of the magnetization. Above $T_{\textrm{C}}$, the damping becomes constant since the supercondutor transitions into a normal state. There is a significant spike visible in both series near $T_\textrm{C}$, although the spike seems to be larger for series B.
@@ -20,9 +20,9 @@ The resonance field shift $H_{\text{shift}}$ decreases with increasing temperatu
     \label{fig:45nm_params}
 \end{figure}
 
-\section{30nm}
+\section{Result of sample with $d_\textrm{Nb} = \SI{30}{nm}$}
 
-For $d_\textrm{Nb} = \SI{30}{nm}$, the Gilbert damping parameter $\alpha$ shows a significant downward offset in the measurements done by Alex Burg compared to those done by Max Mangold, even though the underlying trends appear to be similar. It should be noted that the huge spike is only present in the seies B, because the data point near $T_{\textrm{C}}$ in series A was too bad to be fitted properly.
+For $d_\textrm{Nb} = \SI{30}{nm}$, the Gilbert damping parameter $\alpha$ shows a significant downward offset in the measurements done by Alex Burg compared to those done by Max Mangold, even though the underlying trends appear to be similar. It should be noted that the huge spike is only present in the series B, because the data point near $T_{\textrm{C}}$ in series A was too bad to be fitted properly.
 The overall trend seems to be consistent with the measurement done on the 45 nm sample, with an increase in damping below $T_{\text{C}}$, followed by a spike and a constant value above $T_{\text{C}}$.
 
 The resonance line width offset $\Delta H_0$, on the contrary, shows a strong alignment between the two measurements done. The downward spike is also only visible on the data points of series B. Here, the trend also seems to be consistent with the 45 nm sample.
