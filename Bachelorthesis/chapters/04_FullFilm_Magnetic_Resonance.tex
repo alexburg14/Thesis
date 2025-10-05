@@ -1,7 +1,7 @@
 \chapter{Full Film Magnetic Resonance}
 \label{ch:FullFilmMagneticResonance} 
 \FloatBarrier
-In the following, the methods used to obtain the results presented in the results section as well as the optimization steps taken to ensure accurate measurements are outlined.
+In the following, the methods used to obtain the results presented in the chapter \ref{ch:results} as well as the optimization steps taken to ensure accurate measurements are outlined.
 
 \section{Measurement procedure}
 
@@ -40,13 +40,13 @@ An exemplary set of FMR resonance curves is shown in figure \ref{Messung_FMR_Bei
 \end{figure}
 
 
-For a single temperature, the two parameters were then plotted against the frequency of the RF signal. An example of such curves is shown in figure \ref{fig:Kittel_fits}. 
+For a single temperature, $H_\textrm{res}$ and $\Delta H$ were then plotted against the frequency of the RF signal. An example of such curves is shown in figure \ref{fig:Kittel_fits}. 
 The resonance field and linewidth curves were fitted with the Kittel formula (\ref{Kittel equation}) and a linear function (\ref{linewidth equation}), respectively. The resonance field fit is used to extract $H_{\text{shift}}$, which corresponds to the shift of the resonance field from the expected value as explained in chapter \ref{ch:results} \cite{Jeon2019}, as well as $M_{\text{eff}}$, which is the effective magnetization. The linear fit of the linewidth curve is used to extract the Gilbert damping parameter $\alpha$ and the offset of the linewidth $\Delta H_0$.
 
 Finally, these extracted parameters were plotted against the temperature to obtain the temperature dependence. These plots are shown in the results section below in figures \ref{fig:45nm_params} and \ref{fig:30nm_params}.
 
 \section{Optimizing the RF signal power}
-In order to obtain accurate measurements, the effect of the RF signal power on the FMR resonance curves was investigated with respect to the linewidth and the signal-to-noise ratio (SNR). The RF signal power was varied, and the resonance curves were compared to find the optimal power that maximizes SNR while still having no broadening effect of the resonance curve. For this purpose, the RF signal power was varied from 0 dBm to 10 dBm for a sample with $d_\textrm{Nb} = \SI{45}{nm}$ at a frequency of 10 GHz at a temperature of 7 K, which is around the critical temperature $T_\textrm{C}$. The results are shown in figure \ref{comparison_0dBmto10dBm_7K10Ghz}. From this comparison, it was concluded that the 10 dBm measurement provided the best SNR without significant broadening of the resonance curve. Due to the nature of the lock-in amplifier, the linewidth of the original resonance curve is actually shown in the peak-to-peak amplitude of the resonance curve.
+In order to obtain accurate measurements, the effect of the RF signal power on the FMR resonance curves was investigated with respect to the linewidth and the SNR. The RF signal power was varied, and the resonance curves were compared to find the optimal power that maximizes SNR while still having no broadening effect of the resonance curve. For this purpose, the RF signal power was varied from 0 dBm to 10 dBm for a sample with $d_\textrm{Nb} = \SI{45}{nm}$ at a frequency of 10 GHz at a temperature of 7 K, which is around the critical temperature $T_\textrm{C}$. The results are shown in figure \ref{comparison_0dBmto10dBm_7K10Ghz}. From this comparison, it was concluded that the 10 dBm measurement provided the best SNR without significant broadening of the resonance curve. Due to the nature of the lock-in amplifier, the linewidth of the original resonance curve is actually shown in the peak-to-peak amplitude of the resonance curve.
 
 \begin{figure}
 \centering

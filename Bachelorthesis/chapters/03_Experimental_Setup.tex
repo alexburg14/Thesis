@@ -1,12 +1,12 @@
 \chapter{Experimental Setup}
 \label{ch:Experimental Setup}
 \section{Sample configuration}
-For the FMR measurements performed during the course of this thesis, samples with a symmetric stack of Platinum (Pt), Niobium (Nb), and Permalloy on a substrate of Silicon and Silicon Dioxide were used, as shown in figure \ref{Stack_Foto}. The Permalloy is the ferromagnet of interest, which is "sandwiched" by layers of Nb, which is a superconductor. The Pt was placed as a spin sink, which absorbs spin current to test whether spin momentum can be carried through the Nb layer. The measurements were done on samples with a Nb layer thickness of $d_\textrm{Nb} = $ 30 nm and 45 nm. The samples were placed with the metallic film directly facing the CPW on the tip of an insert that got submerged into liquid helium in a cryostat. An picture of this insert is shown at figure \ref{Insert setup}.
+For the FMR measurements performed during the course of this thesis, samples with a symmetric stack of Platinum (Pt), Niobium (Nb), and Permalloy on a substrate of Silicon and Silicon Dioxide were used, as shown in figure \ref{Stack_Foto}. The Permalloy is the ferromagnet of interest, which is "sandwiched" by layers of Nb, which is a superconductor. The Pt was placed as a spin sink, which absorbs spin current to test whether spin momentum can be carried through the Nb layer. The measurements were done on samples with a Nb layer thickness of $d_\textrm{Nb} = $ 45 nm and 30 nm. The samples were placed with the metallic film directly facing the CPW on the tip of an insert that got submerged into liquid helium in a cryostat. An picture of this insert is shown at figure \ref{Insert setup}.
 
 \begin{wrapfigure}{R}{0.5\textwidth}  % 'r' for right placement, adjust width as needed
     \centering
     \includegraphics[width=0.5\textwidth]{chapters/Photos/Experimental_Setup/single_sample.png}
-    \caption{Illustration of the samples used for FMR measurements. In this thesis, the samples with the  $\SI{30}{nm}$ and $\SI{45}{nm}$ Nb layer thicknesses were investigated.}
+    \caption{Illustration of the samples used for FMR measurements. In this thesis, samples with Nb layer thicknesses of  $d_\textrm{Nb} = \SI{45}{nm}$ and $\SI{30}{nm}$  were investigated.}
     \label{Stack_Foto}
 \end{wrapfigure}
 
@@ -21,7 +21,7 @@ For the FMR measurements performed during the course of this thesis, samples wit
 An illustration of the measurement setup is shown in figure \ref{Measurement setup}.
 
 The experimental setup uses a Vector Network Analyzer (VNA) to generate the microwave signal, $\mathbf{h_\textrm{rf}}$, which is fed through the coplanar waveguide (CPW). The sample is mounted on a CPW, and its microwave absorption is rectified by a Schottky diode. A solenoid, integrated within the cryostat, produces the main external magnetic field, $\mathbf{H_\textrm{ext}}$. 
-To improve the signal-to-noise ratio of the weak absorption signal, a lock-in amplifier (LIA) is employed. A LIA generates a small, low-frequency modulation field, $\mathbf{H_\textrm{mod}}$ (at frequency $f_\textrm{mod}$), which is superimposed on the main field using a modulation coil. The LIA then measures the corresponding change in the diode's voltage at this specific modulation frequency, effectively detecting the derivative of the absorption curve.
+To improve the signal-to-noise ratio (SNR) of the weak absorption signal, a lock-in amplifier (LIA) is employed. A LIA generates a small, low-frequency modulation field, $\mathbf{H_\textrm{mod}}$ (at frequency $f_\textrm{mod}$), which is superimposed on the main field using a modulation coil. The LIA then measures the corresponding change in the diode's voltage at this specific modulation frequency, effectively detecting the derivative of the absorption curve.
 
 
 \begin{figure}
