@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  5 OCT 2025 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.24)  5 OCT 2025 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2099,15 +2099,15 @@ Package pdftex.def Info: chapters/Photos/Microfabrication/final_sample.png  used
 <chapters/Photos/Microfabrication/Mounted Device.jpg, id=452, 444.91219pt x 359.84438pt>
 File: chapters/Photos/Microfabrication/Mounted Device.jpg Graphic file (type jpg)
 <use chapters/Photos/Microfabrication/Mounted Device.jpg>
-Package pdftex.def Info: chapters/Photos/Microfabrication/Mounted Device.jpg  used on input line 145.
+Package pdftex.def Info: chapters/Photos/Microfabrication/Mounted Device.jpg  used on input line 143.
 (pdftex.def)             Requested size: 338.58635pt x 273.84695pt.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 146.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 144.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 146.
- [34 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)>]) [35 <./chapters/Photos/Microfabrication/Mounted Device.jpg>] (./chapters/07_Conclusion.tex
+(Font)              scaled to size 10.95pt on input line 144.
+) [34 <./chapters/Photos/Microfabrication/final_sample.png (PNG copy)>] [35 <./chapters/Photos/Microfabrication/Mounted Device.jpg>] (./chapters/07_Conclusion.tex
 Chapter 8.
 ) [36]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
@@ -2175,13 +2175,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  59597 strings out of 478268
  1345002 string characters out of 5846346
- 2267442 words of memory out of 5000000
+ 2267450 words of memory out of 5000000
  76606 multiletter control sequences out of 15000+600000
  654566 words of font info for 262 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 124i,16n,145p,10702b,2912s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 124i,16n,145p,10708b,2912s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (39 pages, 21669800 bytes).
+Output written on main.pdf (39 pages, 21669574 bytes).
 PDF statistics:
  756 PDF objects out of 1000 (max. 8388607)
  608 compressed objects within 7 object streams

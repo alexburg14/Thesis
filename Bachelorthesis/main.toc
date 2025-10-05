@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {7.2}Fabrication of on-chip waveguides}{33}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Fabrication}{33}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}Soldering and bonding}{34}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Testing of the device}{35}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.3}Testing of the device}{34}{subsection.7.2.3}%
 \contentsline {chapter}{\numberline {8}Conclusion}{36}{chapter.8}%
 \contentsline {chapter}{Bibliography}{37}{chapter.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
